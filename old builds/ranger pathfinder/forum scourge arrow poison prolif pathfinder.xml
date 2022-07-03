@@ -1,0 +1,1652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathOfBuilding>
+	<Build level="100" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Ranger" ascendClassName="Pathfinder" mainSocketGroup="1" pantheonMinorGod="Ryslatha" pantheonMajorGod="Lunaris" viewMode="TREE" banditCruel="None">
+		<PlayerStat stat="AverageDamage" value="12148.089699165"/>
+		<PlayerStat stat="Speed" value="8.1084"/>
+		<PlayerStat stat="Speed" value="8.1084"/>
+		<PlayerStat stat="PreEffectiveCritChance" value="7.9"/>
+		<PlayerStat stat="CritChance" value="15.024141"/>
+		<PlayerStat stat="CritMultiplier" value="1"/>
+		<PlayerStat stat="HitChance" value="99"/>
+		<PlayerStat stat="TotalDPS" value="98501.570516708"/>
+		<PlayerStat stat="TotalDot" value="0"/>
+		<PlayerStat stat="IgniteDPS" value="62.017577454606"/>
+		<PlayerStat stat="IgniteDamage" value="406.83530810221"/>
+		<PlayerStat stat="WithIgniteDPS" value="98563.588094162"/>
+		<PlayerStat stat="PoisonDPS" value="91006.992453813"/>
+		<PlayerStat stat="PoisonDamage" value="519135.53956262"/>
+		<PlayerStat stat="WithPoisonDPS" value="4265766.5934164"/>
+		<PlayerStat stat="CombinedDPS" value="4265828.6109938"/>
+		<PlayerStat stat="CombinedAvg" value="98501.570516708"/>
+		<PlayerStat stat="ManaCost" value="0"/>
+		<PlayerStat stat="Str" value="204"/>
+		<PlayerStat stat="ReqStr" value="113"/>
+		<PlayerStat stat="Dex" value="333"/>
+		<PlayerStat stat="ReqDex" value="183"/>
+		<PlayerStat stat="Int" value="203"/>
+		<PlayerStat stat="ReqInt" value="155"/>
+		<PlayerStat stat="Life" value="7318"/>
+		<PlayerStat stat="Spec:LifeInc" value="202"/>
+		<PlayerStat stat="LifeUnreserved" value="7318"/>
+		<PlayerStat stat="LifeUnreservedPercent" value="100"/>
+		<PlayerStat stat="LifeRegen" value="73.18"/>
+		<PlayerStat stat="LifeLeechGainRate" value="1.3537017745709"/>
+		<PlayerStat stat="Mana" value="1142"/>
+		<PlayerStat stat="Spec:ManaInc" value="46"/>
+		<PlayerStat stat="ManaUnreserved" value="270"/>
+		<PlayerStat stat="ManaUnreservedPercent" value="23.642732049037"/>
+		<PlayerStat stat="ManaRegen" value="27.8"/>
+		<PlayerStat stat="ManaLeechGainRate" value="0"/>
+		<PlayerStat stat="TotalDegen" value="214.78952"/>
+		<PlayerStat stat="NetLifeRegen" value="-141.60952"/>
+		<PlayerStat stat="EnergyShield" value="22"/>
+		<PlayerStat stat="Spec:EnergyShieldInc" value="0"/>
+		<PlayerStat stat="EnergyShieldRegen" value="0"/>
+		<PlayerStat stat="EnergyShieldLeechGainRate" value="0"/>
+		<PlayerStat stat="Evasion" value="6779"/>
+		<PlayerStat stat="Spec:EvasionInc" value="160"/>
+		<PlayerStat stat="MeleeEvadeChance" value="66.5"/>
+		<PlayerStat stat="MeleeEvadeChance" value="66.5"/>
+		<PlayerStat stat="ProjectileEvadeChance" value="66.5"/>
+		<PlayerStat stat="Armour" value="107"/>
+		<PlayerStat stat="Spec:ArmourInc" value="48"/>
+		<PlayerStat stat="PhysicalDamageReduction" value="9"/>
+		<PlayerStat stat="EffectiveMovementSpeedMod" value="2.69"/>
+		<PlayerStat stat="BlockChance" value="0"/>
+		<PlayerStat stat="SpellBlockChance" value="0"/>
+		<PlayerStat stat="AttackDodgeChance" value="75"/>
+		<PlayerStat stat="SpellDodgeChance" value="75"/>
+		<PlayerStat stat="FireResist" value="75"/>
+		<PlayerStat stat="ColdResist" value="75"/>
+		<PlayerStat stat="LightningResist" value="75"/>
+		<PlayerStat stat="ChaosResist" value="41"/>
+		<PlayerStat stat="PowerCharges" value="0"/>
+		<PlayerStat stat="PowerChargesMax" value="3"/>
+		<PlayerStat stat="FrenzyCharges" value="3"/>
+		<PlayerStat stat="FrenzyChargesMax" value="3"/>
+		<PlayerStat stat="EnduranceCharges" value="0"/>
+		<PlayerStat stat="EnduranceChargesMax" value="3"/>
+		<PlayerStat stat="ActiveTotemLimit" value="1"/>
+	</Build>
+	<Import/>
+	<Calcs>
+		<Input name="showMinion" boolean="true"/>
+		<Input name="skill_number" number="1"/>
+		<Input name="misc_buffMode" string="EFFECTIVE"/>
+		<Section collapsed="false" id="SkillSelect"/>
+		<Section collapsed="false" id="HitDamage"/>
+		<Section collapsed="true" id="Dot"/>
+		<Section collapsed="false" id="Speed"/>
+		<Section collapsed="true" id="Crit"/>
+		<Section collapsed="false" id="Impale"/>
+		<Section collapsed="false" id="SkillTypeStats"/>
+		<Section collapsed="true" id="HitChance"/>
+		<Section collapsed="false" id="Bleed"/>
+		<Section collapsed="false" id="Poison"/>
+		<Section collapsed="false" id="Ignite"/>
+		<Section collapsed="false" id="Decay"/>
+		<Section collapsed="false" id="LeechGain"/>
+		<Section collapsed="false" id="EleAilments"/>
+		<Section collapsed="false" id="MiscEffects"/>
+		<Section collapsed="false" id="Attributes"/>
+		<Section collapsed="false" id="Life"/>
+		<Section collapsed="true" id="Mana"/>
+		<Section collapsed="false" id="EnergyShield"/>
+		<Section collapsed="true" id="Armour"/>
+		<Section collapsed="true" id="Evasion"/>
+		<Section collapsed="true" id="Resist"/>
+		<Section collapsed="true" id="DamageTaken"/>
+		<Section collapsed="nil" id="Block"/>
+		<Section collapsed="false" id="MiscDefences"/>
+	</Calcs>
+	<Skills defaultGemQuality="20" defaultGemLevel="20" showSupportGemTypes="ALL" sortGemsByDPS="true">
+		<Skill mainActiveSkillCalcs="1" label="Body: Scourge Arrow" enabled="true" slot="Body Armour" mainActiveSkill="1">
+			<Gem enableGlobal2="false" quality="20" level="21" gemId="Metadata/Items/Gems/ScourgeArrow" skillId="ScourgeArrow" skillPart="3" enableGlobal1="true" skillPartCalcs="3" enabled="true" nameSpec="Scourge Arrow" skillMinion="SummonedPhantasm"/>
+			<Gem enableGlobal2="false" quality="0" level="21" gemId="Metadata/Items/Gems/SupportGemAddedChaosDamage" skillId="SupportAddedChaosDamage" enableGlobal1="true" enabled="true" nameSpec="Added Chaos Damage"/>
+			<Gem enableGlobal2="false" quality="20" level="20" gemId="Metadata/Items/Gems/SupportGemUnboundAilments" skillId="SupportAilments" enableGlobal1="true" enabled="true" nameSpec="Unbound Ailments"/>
+			<Gem enableGlobal2="false" quality="20" level="20" gemId="Metadata/Items/Gems/SupportGemDeadlyAilments" skillId="SupportDeadlyAilments" enableGlobal1="true" enabled="true" nameSpec="Deadly Ailments"/>
+			<Gem enableGlobal2="false" quality="20" level="20" gemId="Metadata/Items/Gems/SupportGemStormBarrier" skillId="SupportStormBarrier" enableGlobal1="true" enabled="true" nameSpec="Infused Channelling"/>
+			<Gem enableGlobal2="false" quality="20" level="20" gemId="Metadata/Items/Gems/SupportGemMirageArcher" skillId="SupportGemMirageArcher" enableGlobal1="true" enabled="true" nameSpec="Mirage Archer"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="Weapon: Auras + Movement + BR" enabled="true" slot="Weapon 1" mainActiveSkill="1">
+			<Gem enableGlobal2="false" skillMinionSkillCalcs="1" quality="20" level="20" gemId="Metadata/Items/Gems/HeraldOfAgony" skillId="HeraldOfAgony" skillMinionSkill="1" enableGlobal1="true" enabled="true" nameSpec="Herald of Agony" skillMinion="HeraldOfAgonySpiderPlated"/>
+			<Gem enableGlobal2="false" skillMinionSkillCalcs="1" quality="20" level="20" gemId="Metadata/Items/Gems/SkillGemSummonSkitterbots" skillId="Skitterbots" skillPart="1" skillMinionSkill="1" enableGlobal1="true" enabled="true" nameSpec="Summon Skitterbots" skillMinion="SkitterbotCold"/>
+			<Gem enableGlobal2="false" quality="20" level="20" gemId="Metadata/Items/Gems/SkillGemPrecision" skillId="AccuracyAndCritsAura" enableGlobal1="true" enabled="true" nameSpec="Precision"/>
+			<Gem enableGlobal2="false" skillMinionSkillCalcs="1" quality="20" level="20" gemId="Metadata/Items/Gems/SkillGemBlinkArrow" skillId="BlinkArrow" skillMinionSkill="1" enableGlobal1="true" enabled="true" nameSpec="Blink Arrow" skillMinion="Clone"/>
+			<Gem enableGlobal2="false" quality="20" level="20" gemId="Metadata/Items/Gems/SkillGemBloodRage" skillId="BloodRage" enableGlobal1="true" enabled="true" nameSpec="Blood Rage"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="Helmet: PB + Step + Despair" enabled="true" slot="Helmet" mainActiveSkill="2">
+			<Gem enableGlobal2="false" quality="20" level="20" gemId="Metadata/Items/Gems/SkillGemPlagueBearer" skillId="CorrosiveShroud" enableGlobal1="true" enabled="true" nameSpec="Plague Bearer"/>
+			<Gem enableGlobal2="false" quality="20" level="20" gemId="Metadata/Items/Gems/SkillGemWitheringStep" skillId="Slither" skillPart="1" enableGlobal1="true" enabled="true" nameSpec="Withering Step"/>
+			<Gem enableGlobal2="false" quality="20" level="20" gemId="Metadata/Items/Gems/SupportGemIncreasedAreaOfEffect" skillId="SupportIncreasedAreaOfEffect" enableGlobal1="true" enabled="true" nameSpec="Increased Area of Effect"/>
+			<Gem enableGlobal2="false" quality="20" level="20" gemId="Metadata/Items/Gems/SkillGemVulnerability" skillId="Despair" enableGlobal1="true" enabled="true" nameSpec="Despair"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="Gloves: Wither" enabled="true" slot="Gloves" mainActiveSkill="1">
+			<Gem enableGlobal2="false" quality="20" level="1" gemId="Metadata/Items/Gems/SkillGemWither" skillId="Wither" skillPart="2" enableGlobal1="true" skillPartCalcs="1" enabled="true" nameSpec="Wither" skillMinion="SummonedChaosGolem"/>
+			<Gem enableGlobal2="false" quality="20" level="1" gemId="Metadata/Items/Gems/SupportGemSpellTotem" skillId="SupportSpellTotem" skillPart="1" enableGlobal1="true" enabled="true" nameSpec="Spell Totem" skillMinion="SummonedChaosGolem"/>
+			<Gem enableGlobal2="false" quality="20" level="1" gemId="Metadata/Items/Gems/SupportGemMultiTotem" skillId="SupportMultiTotem" skillPart="1" enableGlobal1="true" enabled="true" nameSpec="Multiple Totems" skillMinion="SummonedChaosGolem"/>
+			<Gem enableGlobal2="false" quality="20" level="20" gemId="Metadata/Items/Gems/SupportGemFasterCast" skillId="SupportFasterCast" skillPart="1" enableGlobal1="true" enabled="true" nameSpec="Faster Casting" skillMinion="SummonedChaosGolem"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="Boots: CWDT + Vaal" enabled="true" slot="Boots" mainActiveSkill="1">
+			<Gem enableGlobal2="false" quality="20" level="20" gemId="Metadata/Items/Gems/SupportGemIncreasedDuration" skillId="SupportIncreasedDuration" skillPart="1" enableGlobal1="true" enabled="true" nameSpec="Increased Duration"/>
+			<Gem enableGlobal2="false" quality="0" level="7" gemId="Metadata/Items/Gems/SupportGemCastOnDamageTaken" skillId="SupportCastOnDamageTaken" skillPart="1" enableGlobal1="true" enabled="true" nameSpec="Cast when Damage Taken" skillMinion="SummonedChaosGolem"/>
+			<Gem enableGlobal2="false" quality="20" level="9" gemId="Metadata/Items/Gems/SkillGemImmortalCall" skillId="ImmortalCall" skillPart="1" enableGlobal1="true" enabled="true" nameSpec="Immortal Call"/>
+			<Gem enableGlobal2="false" quality="20" level="20" gemId="Metadata/Items/Gems/SkillGemVaalGrace" skillId="VaalGrace" enableGlobal1="true" enabled="true" nameSpec="Vaal Grace"/>
+		</Skill>
+		<Skill source="Item:7:The Embalmer, Carnal Mitts" mainActiveSkillCalcs="1" label="" enabled="true" slot="Gloves" mainActiveSkill="1">
+			<Gem enableGlobal2="false" quality="0" level="1" skillId="EnchantmentOfBladesOnHit4" enableGlobal1="true" enabled="true" nameSpec="Commandment of Blades"/>
+		</Skill>
+	</Skills>
+	<Tree activeSpec="2">
+		<Spec title="100 (See dropdown)" ascendClassId="3" nodes="1648,10829,17421,25067,35296,31315,46578,45360,30338,27788,32802,29089,15073,9877,14914,7263,39861,33989,65210,1697,16851,32640,20807,35894,46408,9206,48807,56744,930,18302,23912,53114,2094,25178,40362,6580,26528,41989,65296,64111,32555,25058,19320,35503,37663,51881,9373,12401,42583,19939,62021,9535,25933,22266,32117,34483,36221,61306,16236,58271,5823,40813,13714,65167,25260,2185,28330,28012,20480,1767,19144,48438,41967,63139,36687,19858,60942,55485,58968,31359,46344,42041,50459,51440,49978,5408,61805,12412,65034,34678,60735,8930,8938,11651,36881,39821,18402,47743,39938,54868,11811,13885,64709,12801,46289,11497,64769,45593,40631,23449,54142,21634,38149,3469,16167,6542,54307,12068,59252,14292,1461,94,60803,31683,59606,18707,21835,51212,238,36287,39665,19069,32662" treeVersion="3_10" classId="2">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAIDAAZwKk1EDWHrieB6U7XysTB2gmyMgCJxoTrhJpU6Qhxfm7WExf66BqFB03-AUUeMNrVII_a-p92oA6JHfl1oz3oILmJanaoZtGegpAX_EH8rYeJLeIqvkx_KqSSdMHGmV03j8kUlP2VNVvp9dYazjX3vej9s458Wv59tNZL-j2KsCIluqm1sUAAG50rIvTaj7_ajj09Nku4O2L3mWHp_tQikOcjwwzoVIPFtMHz-Cod27T8i4iLqLYOQEZuNR-K6f5wC1lQuIzY9_MUyAbTRLOn9AbIZnrdbmdN-VIKVBQ2NPycZjtQjLyTndDfUBbUAXu2De8Po1kkTVUvIDADujb-a8Up9f5Y=
+			</URL>
+			<Sockets>
+				<Socket nodeId="16218" itemId="0"/>
+				<Socket nodeId="11150" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="64583" itemId="0"/>
+				<Socket nodeId="22994" itemId="0"/>
+				<Socket nodeId="48679" itemId="0"/>
+				<Socket nodeId="2311" itemId="0"/>
+				<Socket nodeId="9408" itemId="0"/>
+				<Socket nodeId="36634" itemId="0"/>
+				<Socket nodeId="29712" itemId="0"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="33753" itemId="0"/>
+				<Socket nodeId="31683" itemId="1"/>
+				<Socket nodeId="12613" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="13170" itemId="0"/>
+				<Socket nodeId="18436" itemId="0"/>
+				<Socket nodeId="10532" itemId="0"/>
+				<Socket nodeId="46519" itemId="0"/>
+				<Socket nodeId="40400" itemId="0"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="3109" itemId="0"/>
+				<Socket nodeId="24970" itemId="0"/>
+				<Socket nodeId="46393" itemId="0"/>
+				<Socket nodeId="23756" itemId="0"/>
+				<Socket nodeId="59585" itemId="0"/>
+				<Socket nodeId="32763" itemId="0"/>
+				<Socket nodeId="12161" itemId="0"/>
+				<Socket nodeId="28475" itemId="0"/>
+				<Socket nodeId="61305" itemId="0"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="49080" itemId="0"/>
+				<Socket nodeId="61288" itemId="0"/>
+				<Socket nodeId="46882" itemId="0"/>
+				<Socket nodeId="33989" itemId="1"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="17219" itemId="0"/>
+				<Socket nodeId="23984" itemId="0"/>
+				<Socket nodeId="61666" itemId="0"/>
+				<Socket nodeId="44169" itemId="0"/>
+				<Socket nodeId="22748" itemId="0"/>
+				<Socket nodeId="9797" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="14993" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="49684" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="41876" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="34483" itemId="1"/>
+				<Socket nodeId="51198" itemId="0"/>
+				<Socket nodeId="60735" itemId="1"/>
+				<Socket nodeId="36931" itemId="0"/>
+				<Socket nodeId="6910" itemId="0"/>
+				<Socket nodeId="54127" itemId="1"/>
+			</Sockets>
+		</Spec>
+		<Spec title="100 (Cluster jewel)" ascendClassId="3" nodes="1648,39938,17421,25067,35296,31315,46578,65829,45360,32802,15073,41866,14914,7263,39861,33989,22748,65830,1697,16851,32640,20807,9206,48807,56744,18302,18707,53114,2094,65792,25178,33753,26528,60803,65808,64111,66832,32555,16167,19320,35503,65824,37663,51881,9373,12401,42583,19939,36849,62021,9535,64709,65817,66841,34483,36221,61306,16236,32662,36287,18436,54868,65167,94,2185,28330,20480,32763,39665,40631,23449,6797,65826,19858,38149,55485,58968,31359,6910,42041,65811,50459,51440,66835,5408,61805,12412,65034,65796,34678,11811,66820,8938,11651,36881,39821,18402,65794,66818,66816,65834,25933,19144,12801,12068,54142,6580,11497,45593,8930,48438,65296,58271,23334,60735,6542,54307,10829,59606,23912,1461,49978,47743,60942,31683,13714,63139,64769,238,3469,40813,19069,14292" treeVersion="3_10" classId="2">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAIDAAZwnAJEDWHrieB6U7XysTCAIjrho4o6Qhxfm7WExVjcBqFB03-AUUcj9r6n3ahHfkkTz3oILmJag9lnoO2Dfys_J0t4iq-TH8qpJJ0wcaZXTeOP8fJFJT_8xYazjX3vej9sf5aNv0gE1lT-jwBeCIluqlAAf_ua8Z63W5kajU2SlQXYveZYen8a_qQ5yPAVIPFtMHz-Cod2LiMi6i2DkBGbjUfiZU1KyDIBLyTTfhm0LOmyGSLivTb_EOOfWybtPxmO1CMqTejWXWgFtcM6un_uDnvDNZL2o_0BAO4NjZ9tSn031A==
+			</URL>
+			<Sockets>
+				<Socket nodeId="16218" itemId="0"/>
+				<Socket nodeId="11150" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="24970" itemId="0"/>
+				<Socket nodeId="51198" itemId="0"/>
+				<Socket nodeId="48679" itemId="0"/>
+				<Socket nodeId="2311" itemId="0"/>
+				<Socket nodeId="9408" itemId="0"/>
+				<Socket nodeId="36634" itemId="0"/>
+				<Socket nodeId="61305" itemId="0"/>
+				<Socket nodeId="12613" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="33753" itemId="33"/>
+				<Socket nodeId="31683" itemId="1"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="18436" itemId="38"/>
+				<Socket nodeId="32763" itemId="32"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="13170" itemId="0"/>
+				<Socket nodeId="46519" itemId="0"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="22994" itemId="0"/>
+				<Socket nodeId="3109" itemId="0"/>
+				<Socket nodeId="34483" itemId="1"/>
+				<Socket nodeId="46393" itemId="0"/>
+				<Socket nodeId="23756" itemId="0"/>
+				<Socket nodeId="59585" itemId="0"/>
+				<Socket nodeId="14993" itemId="0"/>
+				<Socket nodeId="12161" itemId="0"/>
+				<Socket nodeId="9797" itemId="0"/>
+				<Socket nodeId="29712" itemId="0"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="49080" itemId="0"/>
+				<Socket nodeId="61288" itemId="0"/>
+				<Socket nodeId="28475" itemId="0"/>
+				<Socket nodeId="33989" itemId="1"/>
+				<Socket nodeId="23984" itemId="0"/>
+				<Socket nodeId="17219" itemId="0"/>
+				<Socket nodeId="46882" itemId="0"/>
+				<Socket nodeId="61666" itemId="0"/>
+				<Socket nodeId="44169" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="40400" itemId="0"/>
+				<Socket nodeId="22748" itemId="38"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="49684" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="41876" itemId="0"/>
+				<Socket nodeId="60735" itemId="1"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="54127" itemId="1"/>
+				<Socket nodeId="64583" itemId="0"/>
+				<Socket nodeId="36931" itemId="0"/>
+				<Socket nodeId="6910" itemId="37"/>
+				<Socket nodeId="10532" itemId="0"/>
+			</Sockets>
+		</Spec>
+		<Spec title="100 (Divine Flesh)" ascendClassId="3" nodes="1648,39938,5237,40132,25067,35296,31315,46578,65829,45360,32802,15073,14914,7263,39861,33989,65210,22748,65830,1697,32640,20807,9206,48807,56744,18302,18707,53114,2094,65792,25178,33753,58854,26528,23334,65808,64111,66832,32555,16167,19320,35503,65824,46882,54142,51881,9373,12401,42583,19939,62021,9535,64709,22266,32117,65817,66841,34483,36221,61306,16236,32662,36287,42178,40813,54868,65167,94,2185,28330,20480,32763,39665,40631,23449,6797,63139,19858,60942,55485,58968,31359,6910,42041,65811,50459,66835,5408,61805,12412,65034,65796,34678,31683,66820,8938,11651,36881,39821,18402,65834,65826,66818,12801,66816,18436,25933,58271,49978,11497,19144,48438,14292,37663,38149,6542,54307,60803,65296,30679,1461,11811,6580,45593,59606,23912,60735,64769,238,10829,13714,19069,8930" treeVersion="3_10" classId="2">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAIDAAZwnAIUdZzEYeuJ4HpTtfKxMIAiOuE6Qhxfm7WExf66WNwGoX-AUUcj9r6n3ahHfkkTz3oILmJag9nl5megWyZ_Kz8nS3iKr7ci037KqSSdMHGmV03j8kUlP_zFVvp9dYazjX3vej9sf5aNv6TCn23WVP6PAF4IiW6qUAB_-5rxnrdbmRqN9qNNku4O2L3mWHp_Gv6kORUg8W0wfP4Kh3Z7wyLqLYOQEZuNR-IyAUgEZU3jn8M6LOlKyL02N9STH5UFGY7UI-2D_xB31wW1LiMZtLIZ6NZdaO0__QEA7ipNNZJKfSLi
+			</URL>
+			<Sockets>
+				<Socket nodeId="16218" itemId="0"/>
+				<Socket nodeId="11150" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="64583" itemId="0"/>
+				<Socket nodeId="22994" itemId="0"/>
+				<Socket nodeId="48679" itemId="0"/>
+				<Socket nodeId="2311" itemId="0"/>
+				<Socket nodeId="9408" itemId="0"/>
+				<Socket nodeId="36634" itemId="0"/>
+				<Socket nodeId="29712" itemId="0"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="33753" itemId="33"/>
+				<Socket nodeId="31683" itemId="1"/>
+				<Socket nodeId="60735" itemId="1"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="24970" itemId="0"/>
+				<Socket nodeId="51198" itemId="0"/>
+				<Socket nodeId="18436" itemId="34"/>
+				<Socket nodeId="34483" itemId="1"/>
+				<Socket nodeId="46519" itemId="0"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="40400" itemId="0"/>
+				<Socket nodeId="3109" itemId="0"/>
+				<Socket nodeId="23756" itemId="0"/>
+				<Socket nodeId="46393" itemId="0"/>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="59585" itemId="0"/>
+				<Socket nodeId="32763" itemId="32"/>
+				<Socket nodeId="12161" itemId="0"/>
+				<Socket nodeId="13170" itemId="0"/>
+				<Socket nodeId="28475" itemId="0"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="49080" itemId="0"/>
+				<Socket nodeId="61288" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="33989" itemId="1"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="17219" itemId="0"/>
+				<Socket nodeId="46882" itemId="35"/>
+				<Socket nodeId="22748" itemId="38"/>
+				<Socket nodeId="44169" itemId="0"/>
+				<Socket nodeId="61666" itemId="0"/>
+				<Socket nodeId="9797" itemId="0"/>
+				<Socket nodeId="14993" itemId="0"/>
+				<Socket nodeId="23984" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="49684" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="41876" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="54127" itemId="1"/>
+				<Socket nodeId="12613" itemId="0"/>
+				<Socket nodeId="61305" itemId="0"/>
+				<Socket nodeId="36931" itemId="0"/>
+				<Socket nodeId="6910" itemId="37"/>
+				<Socket nodeId="10532" itemId="0"/>
+			</Sockets>
+		</Spec>
+		<Spec title="90" ascendClassId="3" nodes="22266,32117,1648,10829,17421,25067,34483,36221,46289,25933,16236,32662,46578,19069,40813,14292,54868,45360,8930,25260,2185,30338,28330,65167,32802,51212,11497,28012,29089,20480,9877,39665,14914,61306,45593,19144,60942,48438,31315,7263,65210,1461,63139,15073,59252,38149,54142,36687,1697,19858,16851,32640,5823,55485,39938,35894,31359,46344,9206,58271,36287,50459,51101,25178,48807,56744,5408,930,18302,12068,23912,53114,12412,65034,14156,40362,6580,34678,11811,26528,94,60803,8938,11651,36881,39821,18402,65296,25058,2094,64111,13885,12801,32555,60735,41989,16167,19320,59606,42041,51440,9535,35503,20807,27788,6542,54307,21835,51881,23449,9373,1767,12401,13714,42583,19939,3469,64769,238,62021,46408,47743,64709" treeVersion="3_10" classId="2">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAIDAFb6fXUGcCpNRA1h64azjX200WVNP2x_lrXySn2fbTfU1lSxMCLiYqwIiXaCbqr-j4AiyAws6W1scaFQACaVmvE6Qu96shlKyO4OvTZ6Uxxf_roFtfajOuHndJUF036PTwahTZJB03-AFr_YvZwCjDZ6f7UII_bjn42_x51iWr6n3agVIAOiR34vJF1oz3owfP4KN0ydqhm0h3YuI2egAF7tgyLqLYOQEZuNR-L_EGHiCC42PTIBfyvtP6QFPydLeOjWpDnI8CU_iq9RR2yMGY7UI1VLyqlbmSSdBucwcTWSpldN4w2N_QEA7vJFtUi6f_zF
+			</URL>
+			<Sockets>
+				<Socket nodeId="16218" itemId="0"/>
+				<Socket nodeId="11150" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="64583" itemId="0"/>
+				<Socket nodeId="22994" itemId="0"/>
+				<Socket nodeId="48679" itemId="0"/>
+				<Socket nodeId="2311" itemId="0"/>
+				<Socket nodeId="9408" itemId="0"/>
+				<Socket nodeId="36634" itemId="0"/>
+				<Socket nodeId="29712" itemId="0"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="33753" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="60735" itemId="1"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="24970" itemId="0"/>
+				<Socket nodeId="51198" itemId="0"/>
+				<Socket nodeId="18436" itemId="0"/>
+				<Socket nodeId="34483" itemId="1"/>
+				<Socket nodeId="46519" itemId="0"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="40400" itemId="0"/>
+				<Socket nodeId="3109" itemId="0"/>
+				<Socket nodeId="23756" itemId="0"/>
+				<Socket nodeId="46393" itemId="0"/>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="59585" itemId="0"/>
+				<Socket nodeId="32763" itemId="0"/>
+				<Socket nodeId="12161" itemId="0"/>
+				<Socket nodeId="13170" itemId="0"/>
+				<Socket nodeId="28475" itemId="0"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="49080" itemId="0"/>
+				<Socket nodeId="61288" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="33989" itemId="1"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="17219" itemId="0"/>
+				<Socket nodeId="46882" itemId="0"/>
+				<Socket nodeId="22748" itemId="0"/>
+				<Socket nodeId="44169" itemId="0"/>
+				<Socket nodeId="61666" itemId="0"/>
+				<Socket nodeId="9797" itemId="0"/>
+				<Socket nodeId="14993" itemId="0"/>
+				<Socket nodeId="23984" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="49684" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="41876" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="54127" itemId="1"/>
+				<Socket nodeId="12613" itemId="0"/>
+				<Socket nodeId="61305" itemId="0"/>
+				<Socket nodeId="36931" itemId="0"/>
+				<Socket nodeId="6910" itemId="0"/>
+				<Socket nodeId="10532" itemId="0"/>
+			</Sockets>
+		</Spec>
+		<Spec title="80" ascendClassId="3" nodes="22266,32117,1648,10829,17421,34483,36221,61306,16236,3469,5823,14292,13714,45360,8930,25260,30338,27788,32802,28012,29089,20480,9877,1767,14914,19144,65167,23449,9535,2185,65210,51440,63139,39938,64769,32662,21835,36687,19858,46289,38149,32640,16851,20807,58271,35894,31359,46408,9206,28330,9373,50459,51101,7263,51881,56744,5408,930,54868,54142,23912,53114,2094,65034,14156,40362,1697,34678,12068,26528,11811,36287,41989,8938,11497,39821,18402,65296,55485,12412,64111,13885,60803,12801,16167,32555,25058,19320,25178,59606,46344,39665,60735,42041,46578,6542,54307,45593,59252,94,1461,51420,12401,60942,42583,19939,40813,51212,238,62021,15073,19069,64709" treeVersion="3_10" classId="2">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAIDAFb6fXUGcCpNRA2Gs41973o_bA2NFr831DWSsTAi4mKsdoJsjIAibWxxoVAAJpUG5zpCSsj-j1uZJT8Iif66yPD2o5wC_QF_llVLj09NkrTRlQV_gEHTUUfjn4w2en-1SCP2bqokncedHF_Kqd2oFSADotZU035daM96CC7-CjdMnaoGoYd2LyRnoC4jjb-kBSLqLOmbjUfi_xDYvTB8Nj3tgzIBPyd_K2HiS3hiWujWtQia8e0_pDm18hmO1COyGed0AF4FtcjcMHHuDqZXTeOfbcgMAO7yRTrhSn38xQ==
+			</URL>
+			<Sockets>
+				<Socket nodeId="16218" itemId="0"/>
+				<Socket nodeId="11150" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="64583" itemId="0"/>
+				<Socket nodeId="22994" itemId="0"/>
+				<Socket nodeId="48679" itemId="0"/>
+				<Socket nodeId="2311" itemId="0"/>
+				<Socket nodeId="9408" itemId="0"/>
+				<Socket nodeId="36634" itemId="0"/>
+				<Socket nodeId="29712" itemId="0"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="33753" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="24970" itemId="0"/>
+				<Socket nodeId="51198" itemId="0"/>
+				<Socket nodeId="18436" itemId="0"/>
+				<Socket nodeId="34483" itemId="1"/>
+				<Socket nodeId="46519" itemId="0"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="40400" itemId="0"/>
+				<Socket nodeId="3109" itemId="0"/>
+				<Socket nodeId="23756" itemId="0"/>
+				<Socket nodeId="46393" itemId="0"/>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="59585" itemId="0"/>
+				<Socket nodeId="32763" itemId="0"/>
+				<Socket nodeId="12161" itemId="0"/>
+				<Socket nodeId="13170" itemId="0"/>
+				<Socket nodeId="28475" itemId="0"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="49080" itemId="0"/>
+				<Socket nodeId="61288" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="33989" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="17219" itemId="0"/>
+				<Socket nodeId="46882" itemId="0"/>
+				<Socket nodeId="22748" itemId="0"/>
+				<Socket nodeId="44169" itemId="0"/>
+				<Socket nodeId="61666" itemId="0"/>
+				<Socket nodeId="9797" itemId="0"/>
+				<Socket nodeId="14993" itemId="0"/>
+				<Socket nodeId="23984" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="49684" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="41876" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="12613" itemId="0"/>
+				<Socket nodeId="61305" itemId="0"/>
+				<Socket nodeId="36931" itemId="0"/>
+				<Socket nodeId="6910" itemId="0"/>
+				<Socket nodeId="10532" itemId="0"/>
+			</Sockets>
+		</Spec>
+		<Spec title="70" ascendClassId="3" nodes="22266,32117,1648,10829,17421,34483,36221,61306,16236,58271,46578,40813,54868,45360,8930,94,2185,27788,32802,28012,29089,20480,9877,39665,14914,7263,23449,65210,63139,36687,19858,60942,32640,21835,32662,35894,31359,46408,9206,9535,19144,50459,51440,25260,14156,56744,5408,930,64769,45593,23912,53114,2094,28330,25178,40362,1697,34678,11811,26528,51420,55485,8938,13714,9373,39821,18402,60803,65296,51881,64111,13885,54307,12801,46344,46289,25058,19320,32555,11497,16167,12412,20807,36287,3469,6542,54142,42041,59252,39938,1461,5823,12401,38149,65167,19939,51101,51212,238,59606,30338,19069,64709" treeVersion="3_10" classId="2">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAIDAFb6fXUGcCpNRA2Gs41973o_bOOftfKfbdZUsTAi4gBeCIlsjIAibWxxoVAAJpWa8TpCHF9bmf669qOPT02S7g5_gFVLf5aMNnp_tUgj9iU_SsjI8GKsN0zdqBUgA6L9AbIZXWjPeggubqpiWp2qBqGHdi4jZ6DI3Ni9Iuo1kiSdm41H4u2D_xDKqTY91CMyAbUItNFh4kt4fyss6T8nMHxRR42_DY0ZjtN-pDnndJwCBbUWvzBxlQX-j03jx53IDADu6NZ2gkp9_MU=
+			</URL>
+			<Sockets>
+				<Socket nodeId="16218" itemId="0"/>
+				<Socket nodeId="11150" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="64583" itemId="0"/>
+				<Socket nodeId="22994" itemId="0"/>
+				<Socket nodeId="48679" itemId="0"/>
+				<Socket nodeId="2311" itemId="0"/>
+				<Socket nodeId="9408" itemId="0"/>
+				<Socket nodeId="36634" itemId="0"/>
+				<Socket nodeId="29712" itemId="0"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="33753" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="12613" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="13170" itemId="0"/>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="10532" itemId="0"/>
+				<Socket nodeId="46519" itemId="0"/>
+				<Socket nodeId="40400" itemId="0"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="3109" itemId="0"/>
+				<Socket nodeId="24970" itemId="0"/>
+				<Socket nodeId="46393" itemId="0"/>
+				<Socket nodeId="23756" itemId="0"/>
+				<Socket nodeId="59585" itemId="0"/>
+				<Socket nodeId="32763" itemId="0"/>
+				<Socket nodeId="12161" itemId="0"/>
+				<Socket nodeId="28475" itemId="0"/>
+				<Socket nodeId="34483" itemId="1"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="49080" itemId="0"/>
+				<Socket nodeId="61288" itemId="0"/>
+				<Socket nodeId="46882" itemId="0"/>
+				<Socket nodeId="33989" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="17219" itemId="0"/>
+				<Socket nodeId="23984" itemId="0"/>
+				<Socket nodeId="61666" itemId="0"/>
+				<Socket nodeId="44169" itemId="0"/>
+				<Socket nodeId="22748" itemId="0"/>
+				<Socket nodeId="9797" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="14993" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="49684" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="41876" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="18436" itemId="0"/>
+				<Socket nodeId="51198" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="36931" itemId="0"/>
+				<Socket nodeId="6910" itemId="0"/>
+				<Socket nodeId="61305" itemId="0"/>
+			</Sockets>
+		</Spec>
+		<Spec title="60" ascendClassId="3" nodes="22266,32117,1648,39938,17421,36221,46289,16236,32662,36287,40813,54868,45360,25260,30338,27788,32802,28012,29089,45593,9877,39665,7263,23449,65210,63139,36687,19858,60942,32640,20807,35894,31359,46408,9206,50459,51440,5408,930,23912,59606,12412,14156,40362,34678,11811,26528,8938,13885,39821,19069,60803,5823,32555,11497,64111,51212,12801,65296,94,25058,58271,10829,25178,38149,1461,53114,59252,54142,6542,54307,21835,51881,46344,9373,1697,51101,2094,3469,61306,20480,64769,238,51420,2185,9535,64709" treeVersion="3_10" classId="2">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAIDAFb6fXUGcJwCRA2NfbTRP2x_lo2_n23WVLEwYqx2gmyMgCJtbHGhshkmlZrxHF9bmf669qOPT02S7g5_gFFHjDZ6f7VII_bI8BUgA6JdaOjWMHw3TJ2qh3YuI2egIuo2PZuNSn3tgxa_fyss6cgMMgH_EABeYeLjnypNYlqVBQW1z3rndNN-GY7UI1VLyqm1CCSdBqHHnQguDY3velAA_QEA7sjcCIklP_zF
+			</URL>
+			<Sockets>
+				<Socket nodeId="16218" itemId="0"/>
+				<Socket nodeId="11150" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="64583" itemId="0"/>
+				<Socket nodeId="22994" itemId="0"/>
+				<Socket nodeId="48679" itemId="0"/>
+				<Socket nodeId="2311" itemId="0"/>
+				<Socket nodeId="9408" itemId="0"/>
+				<Socket nodeId="36634" itemId="0"/>
+				<Socket nodeId="29712" itemId="0"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="33753" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="12613" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="13170" itemId="0"/>
+				<Socket nodeId="18436" itemId="0"/>
+				<Socket nodeId="10532" itemId="0"/>
+				<Socket nodeId="46519" itemId="0"/>
+				<Socket nodeId="40400" itemId="0"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="3109" itemId="0"/>
+				<Socket nodeId="24970" itemId="0"/>
+				<Socket nodeId="46393" itemId="0"/>
+				<Socket nodeId="23756" itemId="0"/>
+				<Socket nodeId="59585" itemId="0"/>
+				<Socket nodeId="32763" itemId="0"/>
+				<Socket nodeId="12161" itemId="0"/>
+				<Socket nodeId="28475" itemId="0"/>
+				<Socket nodeId="61305" itemId="0"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="49080" itemId="0"/>
+				<Socket nodeId="61288" itemId="0"/>
+				<Socket nodeId="46882" itemId="0"/>
+				<Socket nodeId="33989" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="17219" itemId="0"/>
+				<Socket nodeId="23984" itemId="0"/>
+				<Socket nodeId="61666" itemId="0"/>
+				<Socket nodeId="44169" itemId="0"/>
+				<Socket nodeId="22748" itemId="0"/>
+				<Socket nodeId="9797" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="14993" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="49684" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="41876" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="51198" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="36931" itemId="0"/>
+				<Socket nodeId="6910" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+			</Sockets>
+		</Spec>
+		<Spec title="50" ascendClassId="0" nodes="22266,32117,50459,39938,64709,19069,2094,23912,59606,12412,3469,16236,40362,36287,34678,11811,26528,54868,45360,5823,94,2185,39821,27788,60803,32802,20807,9535,13885,46289,32555,9877,39665,25058,38149,1648,7263,58271,23449,28012,9373,65210,6542,54142,51420,59252,51881,1461,54307,19858,64769,60942,61306,36221,51212,30338,25178,31359,46408,9206" treeVersion="3_10" classId="2">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAIAAFb6fXWcAvzFSn0ILl1o6NYwfA2NP2ydqo2_h3YuI2eg1lSxMBa_AF4IiZuNbIztg4AiUUclPzY9tNF_KyaVmvFh4pUFBnAcX-OfW5ltbCSd_roZjtN-yNzndMqpBbXUI02S_QHuDu96jX3IDHaCYlp6f7VII_Y=
+			</URL>
+			<Sockets>
+				<Socket nodeId="16218" itemId="0"/>
+				<Socket nodeId="11150" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="64583" itemId="0"/>
+				<Socket nodeId="22994" itemId="0"/>
+				<Socket nodeId="48679" itemId="0"/>
+				<Socket nodeId="2311" itemId="0"/>
+				<Socket nodeId="9408" itemId="0"/>
+				<Socket nodeId="36634" itemId="0"/>
+				<Socket nodeId="29712" itemId="0"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="33753" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="24970" itemId="0"/>
+				<Socket nodeId="51198" itemId="0"/>
+				<Socket nodeId="18436" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="46519" itemId="0"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="40400" itemId="0"/>
+				<Socket nodeId="3109" itemId="0"/>
+				<Socket nodeId="23756" itemId="0"/>
+				<Socket nodeId="46393" itemId="0"/>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="59585" itemId="0"/>
+				<Socket nodeId="32763" itemId="0"/>
+				<Socket nodeId="12161" itemId="0"/>
+				<Socket nodeId="13170" itemId="0"/>
+				<Socket nodeId="28475" itemId="0"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="49080" itemId="0"/>
+				<Socket nodeId="61288" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="33989" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="17219" itemId="0"/>
+				<Socket nodeId="46882" itemId="0"/>
+				<Socket nodeId="22748" itemId="0"/>
+				<Socket nodeId="44169" itemId="0"/>
+				<Socket nodeId="61666" itemId="0"/>
+				<Socket nodeId="9797" itemId="0"/>
+				<Socket nodeId="14993" itemId="0"/>
+				<Socket nodeId="23984" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="49684" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="41876" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="12613" itemId="0"/>
+				<Socket nodeId="61305" itemId="0"/>
+				<Socket nodeId="36931" itemId="0"/>
+				<Socket nodeId="6910" itemId="0"/>
+				<Socket nodeId="10532" itemId="0"/>
+			</Sockets>
+		</Spec>
+		<Spec title="40" ascendClassId="0" nodes="22266,32117,50459,39938,23912,36221,12412,16236,40362,36287,54868,45360,94,30338,39821,27788,60803,32802,13885,32555,39665,64709,46408,2185,7263,54307,23449,25178,51212,65210,6542,54142,51881,59252,61306,1461,60942,19858,2094,38149,9373,28012,64769,20807,59606,51420,9535,9206" treeVersion="3_10" classId="2">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAIAAFb6fXWcAl1ojX0wfD9snaqNv9ZUsTAAXnaCm41sjO2DgCI2PX8rmvH8xbVICIkcX9QjW5liWsgM_roZjtN-yqnndO96BbXuDk2SCC6VBSSdbWz9AVFH6NbI3CU_I_Y=
+			</URL>
+			<Sockets>
+				<Socket nodeId="16218" itemId="0"/>
+				<Socket nodeId="11150" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="64583" itemId="0"/>
+				<Socket nodeId="22994" itemId="0"/>
+				<Socket nodeId="48679" itemId="0"/>
+				<Socket nodeId="2311" itemId="0"/>
+				<Socket nodeId="9408" itemId="0"/>
+				<Socket nodeId="36634" itemId="0"/>
+				<Socket nodeId="29712" itemId="0"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="33753" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="12613" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="13170" itemId="0"/>
+				<Socket nodeId="18436" itemId="0"/>
+				<Socket nodeId="10532" itemId="0"/>
+				<Socket nodeId="46519" itemId="0"/>
+				<Socket nodeId="40400" itemId="0"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="3109" itemId="0"/>
+				<Socket nodeId="24970" itemId="0"/>
+				<Socket nodeId="46393" itemId="0"/>
+				<Socket nodeId="23756" itemId="0"/>
+				<Socket nodeId="59585" itemId="0"/>
+				<Socket nodeId="32763" itemId="0"/>
+				<Socket nodeId="12161" itemId="0"/>
+				<Socket nodeId="28475" itemId="0"/>
+				<Socket nodeId="61305" itemId="0"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="49080" itemId="0"/>
+				<Socket nodeId="61288" itemId="0"/>
+				<Socket nodeId="46882" itemId="0"/>
+				<Socket nodeId="33989" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="17219" itemId="0"/>
+				<Socket nodeId="23984" itemId="0"/>
+				<Socket nodeId="61666" itemId="0"/>
+				<Socket nodeId="44169" itemId="0"/>
+				<Socket nodeId="22748" itemId="0"/>
+				<Socket nodeId="9797" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="14993" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="49684" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="41876" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="51198" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="36931" itemId="0"/>
+				<Socket nodeId="6910" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+			</Sockets>
+		</Spec>
+		<Spec title="30" ascendClassId="0" nodes="22266,32117,50459,23912,59606,12412,25178,36287,94,2185,39821,51420,60803,32802,32555,39665,7263,23449,65210,6542,54307,51881,64709,1461,54142,19858,61306,60942,36221,64769,20807,38149,16236,9373,2094,9206" treeVersion="3_10" classId="2">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAIAAFb6fXVdaOjWMHxiWo2_AF4IiZuNyNztg4Aifyua8RxfW5n-uhmO1CPKqfzFBbXTfk2S73ruDo19_QFRR5UFP2wknQguI_Y=
+			</URL>
+			<Sockets>
+				<Socket nodeId="16218" itemId="0"/>
+				<Socket nodeId="11150" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="64583" itemId="0"/>
+				<Socket nodeId="22994" itemId="0"/>
+				<Socket nodeId="48679" itemId="0"/>
+				<Socket nodeId="2311" itemId="0"/>
+				<Socket nodeId="9408" itemId="0"/>
+				<Socket nodeId="36634" itemId="0"/>
+				<Socket nodeId="29712" itemId="0"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="33753" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="12613" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="13170" itemId="0"/>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="10532" itemId="0"/>
+				<Socket nodeId="46519" itemId="0"/>
+				<Socket nodeId="40400" itemId="0"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="3109" itemId="0"/>
+				<Socket nodeId="24970" itemId="0"/>
+				<Socket nodeId="46393" itemId="0"/>
+				<Socket nodeId="23756" itemId="0"/>
+				<Socket nodeId="59585" itemId="0"/>
+				<Socket nodeId="32763" itemId="0"/>
+				<Socket nodeId="12161" itemId="0"/>
+				<Socket nodeId="28475" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="49080" itemId="0"/>
+				<Socket nodeId="61288" itemId="0"/>
+				<Socket nodeId="46882" itemId="0"/>
+				<Socket nodeId="33989" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="17219" itemId="0"/>
+				<Socket nodeId="23984" itemId="0"/>
+				<Socket nodeId="61666" itemId="0"/>
+				<Socket nodeId="44169" itemId="0"/>
+				<Socket nodeId="22748" itemId="0"/>
+				<Socket nodeId="9797" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="14993" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="49684" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="41876" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="18436" itemId="0"/>
+				<Socket nodeId="51198" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="36931" itemId="0"/>
+				<Socket nodeId="6910" itemId="0"/>
+				<Socket nodeId="61305" itemId="0"/>
+			</Sockets>
+		</Spec>
+		<Spec title="20" ascendClassId="0" nodes="22266,32117,50459,7263,23449,36221,2094,6542,54142,64709,65210,12412,9373,61306,19858,25178,60942,94,64769,39821,16236,60803,32802,32555,9206" treeVersion="3_10" classId="2">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAIAAFb6fXUcX1uZjX0ILhmO0378xf66MHwkne96TZJiWu4OAF79AZuNP2ztg4Aifysj9g==
+			</URL>
+			<Sockets>
+				<Socket nodeId="16218" itemId="0"/>
+				<Socket nodeId="11150" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="64583" itemId="0"/>
+				<Socket nodeId="22994" itemId="0"/>
+				<Socket nodeId="48679" itemId="0"/>
+				<Socket nodeId="2311" itemId="0"/>
+				<Socket nodeId="9408" itemId="0"/>
+				<Socket nodeId="36634" itemId="0"/>
+				<Socket nodeId="29712" itemId="0"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="33753" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="24970" itemId="0"/>
+				<Socket nodeId="51198" itemId="0"/>
+				<Socket nodeId="18436" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="46519" itemId="0"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="40400" itemId="0"/>
+				<Socket nodeId="3109" itemId="0"/>
+				<Socket nodeId="23756" itemId="0"/>
+				<Socket nodeId="46393" itemId="0"/>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="59585" itemId="0"/>
+				<Socket nodeId="32763" itemId="0"/>
+				<Socket nodeId="12161" itemId="0"/>
+				<Socket nodeId="13170" itemId="0"/>
+				<Socket nodeId="28475" itemId="0"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="49080" itemId="0"/>
+				<Socket nodeId="61288" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="33989" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="17219" itemId="0"/>
+				<Socket nodeId="46882" itemId="0"/>
+				<Socket nodeId="22748" itemId="0"/>
+				<Socket nodeId="44169" itemId="0"/>
+				<Socket nodeId="61666" itemId="0"/>
+				<Socket nodeId="9797" itemId="0"/>
+				<Socket nodeId="14993" itemId="0"/>
+				<Socket nodeId="23984" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="49684" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="41876" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="12613" itemId="0"/>
+				<Socket nodeId="61305" itemId="0"/>
+				<Socket nodeId="36931" itemId="0"/>
+				<Socket nodeId="6910" itemId="0"/>
+				<Socket nodeId="10532" itemId="0"/>
+			</Sockets>
+		</Spec>
+		<Spec title="10" ascendClassId="0" nodes="32117,50459,9373,94,54142,39821,2094,60803,65210,6542,25178" treeVersion="3_10" classId="2">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAIAAH11JJ0AXtN-m40ILu2D_roZjmJa
+			</URL>
+			<Sockets>
+				<Socket nodeId="16218" itemId="0"/>
+				<Socket nodeId="11150" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="64583" itemId="0"/>
+				<Socket nodeId="22994" itemId="0"/>
+				<Socket nodeId="48679" itemId="0"/>
+				<Socket nodeId="2311" itemId="0"/>
+				<Socket nodeId="9408" itemId="0"/>
+				<Socket nodeId="36634" itemId="0"/>
+				<Socket nodeId="29712" itemId="0"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="33753" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="24970" itemId="0"/>
+				<Socket nodeId="51198" itemId="0"/>
+				<Socket nodeId="18436" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="46519" itemId="0"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="40400" itemId="0"/>
+				<Socket nodeId="3109" itemId="0"/>
+				<Socket nodeId="23756" itemId="0"/>
+				<Socket nodeId="46393" itemId="0"/>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="59585" itemId="0"/>
+				<Socket nodeId="32763" itemId="0"/>
+				<Socket nodeId="12161" itemId="0"/>
+				<Socket nodeId="13170" itemId="0"/>
+				<Socket nodeId="28475" itemId="0"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="49080" itemId="0"/>
+				<Socket nodeId="61288" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="33989" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="17219" itemId="0"/>
+				<Socket nodeId="46882" itemId="0"/>
+				<Socket nodeId="22748" itemId="0"/>
+				<Socket nodeId="44169" itemId="0"/>
+				<Socket nodeId="61666" itemId="0"/>
+				<Socket nodeId="9797" itemId="0"/>
+				<Socket nodeId="14993" itemId="0"/>
+				<Socket nodeId="23984" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="49684" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="41876" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="12613" itemId="0"/>
+				<Socket nodeId="61305" itemId="0"/>
+				<Socket nodeId="36931" itemId="0"/>
+				<Socket nodeId="6910" itemId="0"/>
+				<Socket nodeId="10532" itemId="0"/>
+			</Sockets>
+		</Spec>
+	</Tree>
+	<Notes>
+		Forum guide:
+https://www.pathofexile.com/forum/view-thread/2551841
+	</Notes>
+	<TreeView searchStr="" zoomY="-206.17470708641" showHeatMap="false" zoomLevel="4" showStatDifferences="true" zoomX="-337.58858869932"/>
+	<Items activeItemSet="3" useSecondWeaponSet="false">
+		<Item id="22">
+			Rarity: RARE
+Delve
+Thicket Bow
+Quality: 20
+Sockets: G-G-G-G-G-G
+LevelReq: 56
+Implicits: 0
+Adds 70 to 123 Chaos Damage
+16% increased Attack Speed
+60% chance for Poisons inflicted with this Weapon to deal 100% more Damage
+{crafted}{range:1}+(36-40)% to Chaos Damage over Time Multiplier
+			<ModRange range="1" id="4"/>
+		</Item>
+		<Item id="13">
+			Rarity: UNIQUE
+Darkscorn
+Assassin Bow
+Item Level: 75
+Quality: 20
+Sockets: B-B-G-G G-G
+LevelReq: 62
+Implicits: 1
+142% increased Physical Damage
+Adds 18 to 30 Physical Damage
+20% increased Attack Speed
+22% increased Global Accuracy Rating
+25% of Physical Damage Converted to Chaos Damage
+25% of Physical Damage from Hits taken as Chaos Damage
+20% chance for Poisons inflicted with this Weapon to deal 300% more Damage
+		</Item>
+		<Item variant="4" id="5">
+			Rarity: UNIQUE
+Lioneye&apos;s Glare
+Imperial Bow
+Variant: Pre 2.0.0
+Variant: Pre 2.6.0
+Variant: Pre 3.0.0
+Variant: Current
+Selected Variant: 4
+Quality: 20
+Sockets: G-G-G-G-G-G
+LevelReq: 66
+Implicits: 2
+{variant:2}{range:0.5}(6-12)% increased Elemental Damage with Attack Skills
+{variant:4,3}{range:0.5}(20-24)% increased Elemental Damage with Attack Skills
+{range:0.5}(150-175)% increased Physical Damage
+{range:0.5}Adds (6-12) to (20-32) Physical Damage
+{range:0.5}(10-20)% increased Attack Speed
+{range:0.5}+(80-100) to maximum Mana
+Hits can&apos;t be Evaded
+{variant:4}Far Shot
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+		</Item>
+		<Item id="31">
+			Rarity: RARE
+Life/Damage/Frenzy
+Broadhead Arrow Quiver
+Quality: 0
+LevelReq: 28
+Implicits: 1
+Adds 6 to 12 Physical Damage to Bow Attacks
+Adds 6 to 10 Physical Damage to Attacks
+13% increased Attack Speed
++99 to maximum Life
+38% increased damage with Ailments
+{range:0.5}5% chance to gain a Frenzy Charge when you Hit a Rare or Unique Enemy
+{crafted}{range:1}Adds (6-8) to (14-18) Chaos Damage to Attacks
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="1" id="7"/>
+		</Item>
+		<Item variant="2" id="16">
+			Rarity: UNIQUE
+Drillneck
+Penetrating Arrow Quiver
+Variant: Pre 3.0.0
+Variant: Current
+Selected Variant: 2
+LevelReq: 36
+Implicits: 2
+{variant:1}10% chance of Arrows Piercing
+Has Variants: 1
+LevelReq: 36
+{variant:2}Arrows Pierce an additional Target
+{range:1}(8-12)% increased Attack Speed
+{range:1}+350 to Evasion Rating
+{range:1}+(40-50) to maximum Life
+{range:1}Adds (10-14) to (19-24) Physical Damage to Attacks with Bows
+{variant:1}{range:0.5}Projectile Damage increased by 50% of Arrow Pierce Chance
+{variant:2}Arrows deal 50% increased Damage with Hits and Ailments to Targets they Pierce
+			<ModRange range="1" id="4"/>
+			<ModRange range="1" id="6"/>
+			<ModRange range="1" id="7"/>
+		</Item>
+		<Item id="17">
+			Rarity: RARE
+Life/Resist/Chaos
+Lion Pelt
+Crafted: true
+Prefix: {range:0.606}IncreasedLife7
+Prefix: {range:0.715}LocalBaseEvasionRatingAndLife3
+Prefix: None
+Suffix: {range:0.45}ChaosResist6
+Suffix: {range:0.5}DelveHelmetEnemyChaosResistanceAura1
+Suffix: None
+Quality: 20
+Sockets: B-G-G-G
+LevelReq: 70
+Implicits: 1
+{crafted}Scourge Arrow creates an additional spore pod at Maximum Stages
++80 to Evasion Rating
++107 to maximum Life
++33% to Chaos Resistance
+Nearby Enemies have -9% to Chaos Resistance
+{crafted}{range:1}+(17-20)% to Fire and Lightning Resistances
+			<ModRange range="1" id="6"/>
+		</Item>
+		<Item id="24">
+			Rarity: RARE
+Life/Mana Cost
+Assassin&apos;s Garb
+Item Level: 84
+Quality: 20
+Sockets: B-B-G-G-G-G
+LevelReq: 53
+Implicits: 1
+3% increased Movement Speed
+Socketed Attacks have -15 to Total Mana Cost
++126 to maximum Life
+{crafted}8% increased maximum Life
+{crafted}6% increased maximum Mana
+		</Item>
+		<Item id="11">
+			Rarity: UNIQUE
+Tabula Rasa
+Simple Robe
+Quality: 20
+Sockets: W-W-W-W-W-W
+Implicits: 0
+		</Item>
+		<Item id="7">
+			Rarity: UNIQUE
+The Embalmer
+Carnal Mitts
+Quality: 20
+Sockets: R-R-B-B
+LevelReq: 50
+Implicits: 1
+{crafted}Trigger Commandment of Blades on Hit
+Socketed Gems are Supported by Level 20 Vile Toxins
+{range:1}Adds (13-17) to (23-29) Chaos Damage
+{range:1}+(50-70) to maximum Life
+{range:0.5}+(17-29)% to Chaos Resistance
+{range:1}(20-25)% increased Poison Duration
+			<ModRange range="1" id="3"/>
+			<ModRange range="1" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="1" id="6"/>
+		</Item>
+		<Item id="28">
+			Rarity: RARE
+Life/Resist/Dodge
+Dragonscale Boots
+Quality: 20
+Sockets: R-R-R-R
+LevelReq: 68
+Implicits: 1
+{crafted}8% chance to Dodge Spell Hits if you&apos;ve taken Spell Damage Recently
++26 to Evasion
++105 to maximum Life
++43% to Lightning Resistance
+30% increased Movement Speed
+6% chance to Dodge Spell Hits
+{crafted}{range:1}+(17-20)% to Cold and Lightning Resistances
+			<ModRange range="1" id="7"/>
+		</Item>
+		<Item id="8">
+			Rarity: UNIQUE
+Atziri&apos;s Step
+Slink Boots
+Quality: 20
+Sockets: G-G-G-G
+LevelReq: 69
+Implicits: 0
+180% increased Evasion Rating
+{range:0.927}+(55-75) to maximum Life
+30% increased Movement Speed
+{range:1}(14-16)% Chance to Dodge Spell Damage
+			<ModRange range="0.927" id="2"/>
+			<ModRange range="1" id="4"/>
+		</Item>
+		<Item id="18">
+			Rarity: RARE
+Life/Resist/Stats/Mana Cost
+Onyx Amulet
+Crafted: true
+Prefix: None
+Prefix: {range:0.556}IncreasedLife8
+Prefix: None
+Suffix: {range:0.334}Intelligence9
+Suffix: None
+Suffix: {range:0.944}ColdResist6
+Quality: 0
+LevelReq: 65
+Implicits: 1
+{range:1}+(10-16) to all Attributes
++52 to Intelligence
++85 to maximum Life
++41% to Cold Resistance
+{crafted}Channelling Skills have -3 to Total Mana Cost
+			<ModRange range="1" id="1"/>
+		</Item>
+		<Item id="27">
+			Rarity: RARE
+Life/Resist/Stats/Chaos
+Onyx Amulet
+Crafted: true
+Prefix: None
+Prefix: {range:0.556}IncreasedLife8
+Prefix: None
+Suffix: {range:0.334}Intelligence9
+Suffix: None
+Suffix: {range:0.944}ColdResist6
+Quality: 0
+LevelReq: 65
+Implicits: 2
+{range:1}+(10-16) to all Attributes
+Allocates Cleansed Thoughts
++52 to Intelligence
++85 to maximum Life
++41% to Cold Resistance
+{crafted}{range:1}+(13-15)% to Fire and Chaos Resistances
+			<ModRange range="1" id="1"/>
+			<ModRange range="1" id="6"/>
+		</Item>
+		<Item id="6">
+			Rarity: RARE
+Life/Resist
+Two-Stone Ring (Fire/Cold)
+Crafted: true
+Prefix: {range:0.042}IncreasedLife7
+Prefix: None
+Prefix: None
+Suffix: {range:0.806}AllResistances5
+Suffix: {range:0.437}FireResist6
+Suffix: None
+Quality: 0
+LevelReq: 48
+Implicits: 1
+{range:1}+(12-16)% to Fire and Cold Resistances
++70 to maximum Life
++16% to all Elemental Resistances
++38% to Fire Resistance
+{crafted}{range:1}+(13-16)% to Cold and Lightning Resistances
+			<ModRange range="1" id="1"/>
+			<ModRange range="1" id="5"/>
+		</Item>
+		<Item id="4">
+			Rarity: UNIQUE
+Circle of Nostalgia
+Amethyst Ring
+LevelReq: 52
+Implicits: 1
+19% increased Mana Regeneration Rate
++11 to all Attributes
+Adds 19 to 30 Chaos Damage
++23% to Chaos Resistance
+Herald of Agony has 100% increased Buff Effect
+55% increased Chaos Damage while affected by Herald of Agony
+		</Item>
+		<Item id="2">
+			Rarity: RARE
+Life/Resist/Stats
+Stygian Vise
+Crafted: true
+Prefix: {range:0.507}IncreasedLife9
+Prefix: None
+Prefix: None
+Suffix: {range:0.254}Strength8
+Suffix: {range:0.718}FireResist6
+Suffix: None
+Quality: 0
+Sockets: A
+LevelReq: 59
+Implicits: 1
+Has 1 Abyssal Socket
++45 to Strength
++95 to maximum Life
++40% to Fire Resistance
+{crafted}{range:1}+(17-20)% to Cold and Lightning Resistances
+			<ModRange range="1" id="5"/>
+		</Item>
+		<Item variant="2" id="26">
+			Rarity: UNIQUE
+Cinderswallow Urn
+Silver Flask
+League: Betrayal
+Variant: Crit Chance
+Variant: Damage Taken is Leeched as Life
+Variant: Item Rarity
+Variant: Reduced Mana Cost
+Variant: Movement Speed/Stun Avoidance
+Variant: Life Regen
+Selected Variant: 2
+Quality: 20
+LevelReq: 22
+Implicits: 0
+Recharges 1 Charge when you consume an Ignited Corpse
+Enemies Ignited by you during Flask Effect take 10% increased Damage
+Recover (1-3)% of Life when you Kill an Enemy during Flask Effect
+Recover (1-3)% of Mana when you Kill an Enemy during Flask Effect
+Recover (1-3)% of Energy Shield when you Kill an Enemy during Flask Effect
+{variant:1}{crafted}{range:0.5}(60-80)% increased Critical Strike Chance during Flask Effect
+{variant:2}{crafted}{range:0.5}15% of Damage Taken from Hits is Leeched as Life during Flask Effect
+{variant:3}{crafted}{range:0.5}(20-30)% increased Rarity of Items found during Flask Effect
+{variant:4}{crafted}{range:0.5}(25-20)% reduced Mana Cost of Skills during Flask Effect
+{variant:5}{crafted}{range:1}(8-12)% increased Movement Speed during Flask effect
+{variant:5}{crafted}{range:0.5}50% Chance to avoid being Stunned during Flask Effect
+{variant:6}{crafted}{range:0.5}3% of Life Regenerated per second during Flask Effect
+			<ModRange range="0.5" id="7"/>
+			<ModRange range="0.5" id="8"/>
+			<ModRange range="0.5" id="9"/>
+			<ModRange range="0.5" id="10"/>
+			<ModRange range="1" id="11"/>
+		</Item>
+		<Item variant="2" id="15">
+			Rarity: UNIQUE
+Atziri&apos;s Promise
+Amethyst Flask
+Variant: Pre 3.0.0
+Variant: Current
+Selected Variant: 2
+Quality: 20
+LevelReq: 68
+Implicits: 0
+2% of Chaos Damage Leeched as Life during Flask effect
+{variant:1}{range:0.5}Gain (22-25)% of Physical Damage as Extra Chaos Damage during effect
+{variant:2}{range:1}Gain (15-20)% of Physical Damage as Extra Chaos Damage during effect
+{variant:1}{range:0.5}Gain (13-15)% of Elemental Damage as Extra Chaos Damage during effect
+{variant:2}{range:0.5}Gain (10-15)% of Elemental Damage as Extra Chaos Damage during effect
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="1" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+		</Item>
+		<Item id="36">
+			Rarity: UNIQUE
+Coralito&apos;s Signature
+Diamond Flask
+Quality: 20
+LevelReq: 27
+Implicits: 0
+Take 30 Chaos Damage per Second during Flask effect
+25% chance to Poison on Hit during Flask effect
+Your Critical Strikes do not deal extra Damage during Flask effect
+{range:1}(50-75)% increased Duration of Poisons you inflict during Flask effect
+Grants Perfect Agony during Flask effect
+			<ModRange range="1" id="5"/>
+		</Item>
+		<Item id="21">
+			Rarity: MAGIC
+Bubbling Divine Life Flask of Staunching
+Crafted: true
+Prefix: {range:0.5}FlaskPartialInstantRecovery1
+Suffix: {range:0.5}FlaskRemovesBleeding1
+Quality: 20
+LevelReq: 60
+Implicits: 0
+50% reduced Amount Recovered
+135% increased Recovery rate
+50% of Recovery applied Instantly
+Immunity to Bleeding during Flask effect
+Removes Bleeding on use
+		</Item>
+		<Item id="14">
+			Rarity: MAGIC
+Enduring Hallowed Hybrid Flask of Staunching
+Crafted: true
+Prefix: {range:0.5}FlaskEffectNotRemovedOnFullMana1
+Suffix: {range:0.5}FlaskRemovesBleeding1
+Quality: 20
+LevelReq: 60
+Implicits: 0
+Immunity to Bleeding during Flask effect
+Removes Bleeding on use
+25% reduced Duration
+Flask Effect is not removed at Full Mana
+		</Item>
+		<Item id="3">
+			Rarity: MAGIC
+Alchemist&apos;s Quicksilver Flask of Adrenaline
+Crafted: true
+Prefix: {range:0.5}FlaskEffectReducedDuration1
+Suffix: {range:0.857}FlaskBuffMovementSpeedWhileHealing
+Quality: 20
+LevelReq: 16
+Implicits: 0
+29% increased Movement Speed during Flask effect
+25% increased effect
+33% reduced Duration
+		</Item>
+		<Item id="23">
+			Rarity: MAGIC
+Chemist&apos;s Quartz Flask of Warding
+Crafted: true
+Prefix: {range:1}FlaskChargesUsed1
+Suffix: {range:0.5}FlaskCurseImmunity1
+Quality: 20
+LevelReq: 27
+Implicits: 0
+25% reduced Charges used
+Immune to Curses during Flask effect
+Removes Curses on use
+		</Item>
+		<Item id="12">
+			Rarity: RARE
+Life/Blind/Fire
+Murderous Eye Jewel
+Crafted: true
+Prefix: {range:0.056}AbyssJewelAddedLife4
+Prefix: None
+Suffix: {range:0.782}AbyssAttacksBlindOnHitChanceJewel2___
+Suffix: {range:0}AbyssAddedFireSuffixJewel1
+Quality: 0
+LevelReq: 65
+Implicits: 0
+Adds 4 to 10 Fire Damage to Attacks
++36 to maximum Life
+6% chance to Blind Enemies on Hit with Attacks
+		</Item>
+		<Item id="20">
+			Rarity: RARE
+Life/DoT/Onslaught
+Murderous Eye Jewel
+Crafted: true
+Prefix: {range:0.056}AbyssJewelAddedLife4
+Prefix: {range:1}AbyssDamageOverTimeWhileWieldingTwoHandedWeaponJewel1
+Suffix: None
+Suffix: {range:0.711}AbyssChanceToGainOnslaughtOnKillJewel1
+Quality: 0
+LevelReq: 65
+Implicits: 0
++36 to maximum Life
+14% increased Damage over Time while wielding a Two Handed Weapon
+4% chance to gain Onslaught for 4 seconds on Kill
+		</Item>
+		<Item id="1">
+			Rarity: RARE
+Life/Int/Damage
+Crimson Jewel
+Crafted: true
+Prefix: {range:1}PercentIncreasedLifeJewel
+Prefix: None
+Suffix: {range:0.81}PoisonDamageForJewel
+Suffix: {range:0.44}IntelligenceJewel
+Quality: 0
+LevelReq: 0
+Implicits: 0
++14 to Intelligence
+7% increased maximum Life
+19% increased Damage with Poison
+		</Item>
+		<Item id="34">
+			Rarity: RARE
+Chaos
+Small Cluster Jewel
+Crafted: true
+Prefix: {range:0.5}AfflictionNotableBornofChaos
+Prefix: {range:0.5}AfflictionJewelSmallPassivesHaveIncreasedEffect
+Suffix: {range:0.5}AfflictionJewelSmallPassivesGrantChaosResSmall3
+Suffix: None
+Cluster Jewel Skill: affliction_chaos_resistance
+Cluster Jewel Node Count: 2
+Quality: 0
+LevelReq: 58
+Implicits: 2
+{crafted}Adds 2 Passive Skills
+{crafted}Added Small Passive Skills grant: +12% to Chaos Resistance
+Added Small Passive Skills also grant: +5% to Chaos Resistance
+Added Small Passive Skills have 25% increased Effect
+1 Added Passive Skill is Born of Chaos
+		</Item>
+		<Item id="32">
+			Rarity: RARE
+Damage
+Large Cluster Jewel
+Crafted: true
+Prefix: {range:0.5}AfflictionNotableTouchofCruelty_
+Prefix: {range:0.5}AfflictionNotableUnwaveringlyEvil
+Suffix: {range:0.5}JewelExpansionJewelNodesLarge2___
+Suffix: {range:0.5}AfflictionNotableUnholyGrace_
+Cluster Jewel Skill: affliction_chaos_damage
+Cluster Jewel Node Count: 8
+Quality: 0
+LevelReq: 60
+Implicits: 2
+{crafted}Adds 8 Passive Skills
+{crafted}Added Small Passive Skills grant: 12% increased Chaos Damage
+1 Added Passive Skill is Touch of Cruelty
+1 Added Passive Skill is Unholy Grace
+1 Added Passive Skill is Unwaveringly Evil
+2 Added Passive Skills are Jewel Sockets
+		</Item>
+		<Item id="33">
+			Rarity: RARE
+Flask
+Medium Cluster Jewel
+Crafted: true
+Prefix: {range:0.5}AfflictionNotableBrewedforPotency
+Prefix: {range:0.5}AfflictionNotablePeakVigour
+Suffix: {range:0.5}JewelExpansionJewelNodesMedium
+Suffix: None
+Cluster Jewel Skill: affliction_flask_duration
+Cluster Jewel Node Count: 4
+Quality: 0
+LevelReq: 0
+Implicits: 2
+{crafted}Adds 4 Passive Skills
+{crafted}Added Small Passive Skills grant: 6% increased Flask Effect Duration
+1 Added Passive Skill is Brewed for Potency
+1 Added Passive Skill is Peak Vigour
+1 Added Passive Skill is a Jewel Socket
+		</Item>
+		<Item id="35">
+			Rarity: UNIQUE
+Glorious Vanity
+Cobalt Jewel
+Item Level: 81
+Radius: Large
+Limited to: 1
+Implicits: 0
+Bathed in the blood of 5694 sacrificed in the name of Xibaqua
+Passives in radius are Conquered by the Vaal
+Historic
++10% to maximum Chaos resistance
+50% of Elemental Damage taken as Chaos Damage
+		</Item>
+		<Item id="38">
+			Rarity: RARE
+Life/Stats
+Small Cluster Jewel
+Crafted: true
+Prefix: {range:0.5}AfflictionNotableSurgingVitality
+Prefix: None
+Suffix: {range:0.5}AfflictionJewelSmallPassivesGrantAttributesSmall5
+Suffix: {range:0.798}AfflictionJewelSmallPassivesGrantStrSmall4_
+Cluster Jewel Skill: affliction_maximum_life
+Cluster Jewel Node Count: 3
+Quality: 0
+LevelReq: 67
+Implicits: 2
+{crafted}Adds 3 Passive Skills
+{crafted}Added Small Passive Skills grant: 4% increased maximum Life
+Added Small Passive Skills also grant: +6 to All Attributes
+Added Small Passive Skills also grant: +11 to Strength
+1 Added Passive Skill is Surging Vitality
+		</Item>
+		<Item id="37">
+			Rarity: RARE
+Poison/Flask
+Medium Cluster Jewel
+Crafted: true
+Prefix: {range:0.5}AfflictionNotableBrewedforPotency
+Prefix: {range:0.5}AfflictionNotableLowTolerance
+Suffix: {range:0.5}JewelExpansionJewelNodesMedium
+Suffix: None
+Cluster Jewel Skill: affliction_chaos_damage_over_time_multiplier
+Cluster Jewel Node Count: 4
+Quality: 0
+LevelReq: 0
+Implicits: 2
+{crafted}Adds 4 Passive Skills
+{crafted}Added Small Passive Skills grant: +5% to Chaos Damage over Time Multiplier
+1 Added Passive Skill is Brewed for Potency
+1 Added Passive Skill is Low Tolerance
+1 Added Passive Skill is a Jewel Socket
+		</Item>
+		<Slot name="Gloves" itemId="7"/>
+		<Slot active="true" name="Flask 3" itemId="21"/>
+		<Slot name="Belt" itemId="2"/>
+		<Slot active="true" name="Flask 4" itemId="3"/>
+		<Slot active="true" name="Flask 1" itemId="26"/>
+		<Slot name="Amulet" itemId="18"/>
+		<Slot name="Boots" itemId="28"/>
+		<Slot name="Belt Abyssal Socket 1" itemId="12"/>
+		<Slot active="true" name="Flask 2" itemId="36"/>
+		<Slot name="Weapon 2" itemId="31"/>
+		<Slot name="Helmet" itemId="17"/>
+		<Slot name="Body Armour" itemId="24"/>
+		<Slot name="Ring 2" itemId="4"/>
+		<Slot active="true" name="Flask 5" itemId="23"/>
+		<Slot name="Ring 1" itemId="6"/>
+		<Slot name="Weapon 1" itemId="22"/>
+		<ItemSet useSecondWeaponSet="false" title="Default" id="3">
+			<Slot name="Gloves" itemId="7"/>
+			<Slot name="Weapon 2Swap Abyssal Socket 2" itemId="0"/>
+			<Slot name="Belt Abyssal Socket 2" itemId="0"/>
+			<Slot active="true" name="Flask 3" itemId="21"/>
+			<Slot name="Weapon 2Swap Abyssal Socket 1" itemId="0"/>
+			<Slot name="Helmet Abyssal Socket 1" itemId="0"/>
+			<Slot name="Helmet Abyssal Socket 2" itemId="0"/>
+			<Slot name="Weapon 1 Abyssal Socket 1" itemId="0"/>
+			<Slot name="Belt" itemId="2"/>
+			<Slot name="Weapon 1 Abyssal Socket 2" itemId="0"/>
+			<Slot name="Weapon 2 Abyssal Socket 2" itemId="0"/>
+			<Slot name="Boots Abyssal Socket 2" itemId="0"/>
+			<Slot active="true" name="Flask 4" itemId="3"/>
+			<Slot name="Gloves Abyssal Socket 1" itemId="0"/>
+			<Slot active="true" name="Flask 1" itemId="26"/>
+			<Slot name="Body Armour Abyssal Socket 2" itemId="0"/>
+			<Slot name="Amulet" itemId="18"/>
+			<Slot name="Boots" itemId="28"/>
+			<Slot name="Weapon 2 Abyssal Socket 1" itemId="0"/>
+			<Slot name="Boots Abyssal Socket 1" itemId="0"/>
+			<Slot name="Belt Abyssal Socket 1" itemId="12"/>
+			<Slot active="true" name="Flask 2" itemId="36"/>
+			<Slot name="Weapon 1Swap Abyssal Socket 2" itemId="0"/>
+			<Slot name="Weapon 1Swap Abyssal Socket 1" itemId="0"/>
+			<Slot name="Weapon 2" itemId="31"/>
+			<Slot name="Helmet" itemId="17"/>
+			<Slot name="Weapon 2 Swap" itemId="0"/>
+			<Slot name="Body Armour" itemId="24"/>
+			<Slot name="Weapon 1 Swap" itemId="0"/>
+			<Slot name="Ring 2" itemId="4"/>
+			<Slot name="Gloves Abyssal Socket 2" itemId="0"/>
+			<Slot name="Body Armour Abyssal Socket 1" itemId="0"/>
+			<Slot active="true" name="Flask 5" itemId="23"/>
+			<Slot name="Ring 1" itemId="6"/>
+			<Slot name="Weapon 1" itemId="22"/>
+		</ItemSet>
+		<ItemSet useSecondWeaponSet="false" title="Divine Flesh" id="1">
+			<Slot name="Gloves" itemId="7"/>
+			<Slot name="Weapon 2Swap Abyssal Socket 2" itemId="0"/>
+			<Slot name="Belt Abyssal Socket 2" itemId="0"/>
+			<Slot active="true" name="Flask 3" itemId="21"/>
+			<Slot name="Weapon 2Swap Abyssal Socket 1" itemId="0"/>
+			<Slot name="Helmet Abyssal Socket 1" itemId="0"/>
+			<Slot name="Helmet Abyssal Socket 2" itemId="0"/>
+			<Slot name="Weapon 1 Abyssal Socket 1" itemId="0"/>
+			<Slot name="Belt" itemId="2"/>
+			<Slot name="Weapon 1 Abyssal Socket 2" itemId="0"/>
+			<Slot name="Weapon 2 Abyssal Socket 2" itemId="0"/>
+			<Slot name="Boots Abyssal Socket 2" itemId="0"/>
+			<Slot active="true" name="Flask 4" itemId="3"/>
+			<Slot name="Gloves Abyssal Socket 1" itemId="0"/>
+			<Slot active="true" name="Flask 1" itemId="26"/>
+			<Slot name="Body Armour Abyssal Socket 2" itemId="0"/>
+			<Slot name="Amulet" itemId="27"/>
+			<Slot name="Boots" itemId="28"/>
+			<Slot name="Weapon 2 Abyssal Socket 1" itemId="0"/>
+			<Slot name="Boots Abyssal Socket 1" itemId="0"/>
+			<Slot name="Belt Abyssal Socket 1" itemId="12"/>
+			<Slot active="true" name="Flask 2" itemId="36"/>
+			<Slot name="Weapon 1Swap Abyssal Socket 2" itemId="0"/>
+			<Slot name="Weapon 1Swap Abyssal Socket 1" itemId="0"/>
+			<Slot name="Weapon 2" itemId="31"/>
+			<Slot name="Helmet" itemId="17"/>
+			<Slot name="Weapon 2 Swap" itemId="0"/>
+			<Slot name="Body Armour" itemId="24"/>
+			<Slot name="Weapon 1 Swap" itemId="0"/>
+			<Slot name="Ring 2" itemId="4"/>
+			<Slot name="Gloves Abyssal Socket 2" itemId="0"/>
+			<Slot name="Body Armour Abyssal Socket 1" itemId="0"/>
+			<Slot active="true" name="Flask 5" itemId="23"/>
+			<Slot name="Ring 1" itemId="6"/>
+			<Slot name="Weapon 1" itemId="13"/>
+		</ItemSet>
+		<ItemSet useSecondWeaponSet="false" title="Starter" id="2">
+			<Slot name="Gloves" itemId="7"/>
+			<Slot name="Weapon 2Swap Abyssal Socket 2" itemId="0"/>
+			<Slot name="Belt Abyssal Socket 2" itemId="0"/>
+			<Slot active="true" name="Flask 3" itemId="14"/>
+			<Slot name="Weapon 2Swap Abyssal Socket 1" itemId="0"/>
+			<Slot name="Helmet Abyssal Socket 1" itemId="0"/>
+			<Slot name="Helmet Abyssal Socket 2" itemId="0"/>
+			<Slot name="Weapon 1 Abyssal Socket 1" itemId="0"/>
+			<Slot name="Belt" itemId="2"/>
+			<Slot name="Weapon 1 Abyssal Socket 2" itemId="0"/>
+			<Slot name="Weapon 2 Abyssal Socket 2" itemId="0"/>
+			<Slot name="Boots Abyssal Socket 2" itemId="0"/>
+			<Slot active="true" name="Flask 4" itemId="3"/>
+			<Slot name="Gloves Abyssal Socket 1" itemId="0"/>
+			<Slot active="true" name="Flask 1" itemId="15"/>
+			<Slot name="Body Armour Abyssal Socket 2" itemId="0"/>
+			<Slot name="Amulet" itemId="18"/>
+			<Slot name="Boots" itemId="8"/>
+			<Slot name="Weapon 2 Abyssal Socket 1" itemId="0"/>
+			<Slot name="Boots Abyssal Socket 1" itemId="0"/>
+			<Slot name="Belt Abyssal Socket 1" itemId="20"/>
+			<Slot active="true" name="Flask 2" itemId="36"/>
+			<Slot name="Weapon 1Swap Abyssal Socket 2" itemId="0"/>
+			<Slot name="Weapon 1Swap Abyssal Socket 1" itemId="0"/>
+			<Slot name="Weapon 2" itemId="16"/>
+			<Slot name="Helmet" itemId="17"/>
+			<Slot name="Weapon 2 Swap" itemId="0"/>
+			<Slot name="Body Armour" itemId="11"/>
+			<Slot name="Weapon 1 Swap" itemId="0"/>
+			<Slot name="Ring 2" itemId="6"/>
+			<Slot name="Gloves Abyssal Socket 2" itemId="0"/>
+			<Slot name="Body Armour Abyssal Socket 1" itemId="0"/>
+			<Slot active="true" name="Flask 5" itemId="23"/>
+			<Slot name="Ring 1" itemId="6"/>
+			<Slot name="Weapon 1" itemId="5"/>
+		</ItemSet>
+	</Items>
+	<Config>
+		<Input name="conditionMoving" boolean="true"/>
+		<Input name="conditionLeechingEnergyShield" boolean="true"/>
+		<Input name="enemyIsBoss" string="SHAPER"/>
+		<Input name="multiplierNearbyEnemies" number="8"/>
+		<Input name="conditionEnemyBlinded" boolean="true"/>
+		<Input name="conditionShockEffect" number="18"/>
+		<Input name="conditionEnemyPoisoned" boolean="true"/>
+		<Input name="minionsConditionFullLife" boolean="true"/>
+		<Input name="buffPhasing" boolean="true"/>
+		<Input name="multiplierPoisonOnEnemy" number="40"/>
+		<Input name="useFrenzyCharges" boolean="true"/>
+		<Input name="conditionEnemyChilled" boolean="true"/>
+		<Input name="conditionEnemyHindered" boolean="true"/>
+		<Input name="aspectOfTheSpiderWebStacks" number="3"/>
+		<Input name="multiplierWitheredStackCount" number="15"/>
+		<Input name="infusedChannellingInfusion" boolean="true"/>
+		<Input name="heraldOfAgonyVirulenceStack" number="40"/>
+		<Input name="conditionLeeching" boolean="true"/>
+		<Input name="bloodSandStance" string="SAND"/>
+		<Input name="witheringTouchWitheredStackCount" number="15"/>
+		<Input name="conditionEnemyIgnited" boolean="true"/>
+		<Input name="buffElusive" boolean="true"/>
+		<Input name="conditionEnemyShocked" boolean="true"/>
+		<Input name="conditionBeenHitRecently" boolean="true"/>
+	</Config>
+</PathOfBuilding>
