@@ -1,29 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Build level="90" targetVersion="3_0" pantheonMajorGod="TheBrineKing" bandit="None" className="Witch" ascendClassName="None" characterLevelAutoMode="false" mainSocketGroup="1" viewMode="TREE" pantheonMinorGod="Garukhan">
-		<PlayerStat stat="AverageHit" value="36371.86505995"/>
-		<PlayerStat stat="AverageBurstDamage" value="36371.86505995"/>
-		<PlayerStat stat="Speed" value="0"/>
-		<PlayerStat stat="HitSpeed" value="1.0449320794148"/>
+	<Build level="90" targetVersion="3_0" pantheonMajorGod="TheBrineKing" bandit="None" className="Witch" ascendClassName="Elementalist" characterLevelAutoMode="false" mainSocketGroup="1" viewMode="TREE" pantheonMinorGod="Garukhan">
+		<PlayerStat stat="AverageHit" value="20585.5021884"/>
+		<PlayerStat stat="AverageBurstDamage" value="20585.5021884"/>
+		<PlayerStat stat="Speed" value="1.6933333333333"/>
 		<PlayerStat stat="PreEffectiveCritChance" value="1.56"/>
 		<PlayerStat stat="CritChance" value="1.56"/>
 		<PlayerStat stat="CritMultiplier" value="1.5"/>
 		<PlayerStat stat="HitChance" value="100"/>
-		<PlayerStat stat="TotalDPS" value="38006.128589289"/>
-		<PlayerStat stat="TotalDot" value="141843.41383724"/>
-		<PlayerStat stat="WithDotDPS" value="179849.54242653"/>
-		<PlayerStat stat="WithBleedDPS" value="38006.128589289"/>
-		<PlayerStat stat="WithIgniteDPS" value="38006.128589289"/>
-		<PlayerStat stat="WithPoisonDPS" value="38006.128589289"/>
-		<PlayerStat stat="TotalDotDPS" value="141843.41383724"/>
+		<PlayerStat stat="TotalDPS" value="34858.117039024"/>
+		<PlayerStat stat="TotalDot" value="139542.56330381"/>
+		<PlayerStat stat="WithDotDPS" value="174400.68034284"/>
+		<PlayerStat stat="WithBleedDPS" value="34858.117039024"/>
+		<PlayerStat stat="WithIgniteDPS" value="34858.117039024"/>
+		<PlayerStat stat="WithPoisonDPS" value="34858.117039024"/>
+		<PlayerStat stat="TotalDotDPS" value="139542.56330381"/>
 		<PlayerStat stat="CullingDPS" value="0"/>
 		<PlayerStat stat="ReservationDPS" value="0"/>
-		<PlayerStat stat="CombinedDPS" value="179849.54242653"/>
-		<PlayerStat stat="Cooldown" value="0.957"/>
-		<PlayerStat stat="AreaOfEffectRadius" value="21"/>
-		<PlayerStat stat="ManaCost" value="69"/>
+		<PlayerStat stat="CombinedDPS" value="174400.68034284"/>
+		<PlayerStat stat="AreaOfEffectRadiusMetres" value="2.2"/>
+		<PlayerStat stat="ManaCost" value="89"/>
 		<PlayerStat stat="ManaPercentCost" value="0"/>
-		<PlayerStat stat="ManaPerSecondCost" value="72.100313479624"/>
+		<PlayerStat stat="ManaPerSecondCost" value="150.70666666667"/>
 		<PlayerStat stat="ManaPercentPerSecondCost" value="0"/>
 		<PlayerStat stat="LifeCost" value="0"/>
 		<PlayerStat stat="LifePercentCost" value="0"/>
@@ -41,12 +39,12 @@
 		<PlayerStat stat="Int" value="102"/>
 		<PlayerStat stat="ReqInt" value="159"/>
 		<PlayerStat stat="Devotion" value="0"/>
-		<PlayerStat stat="TotalEHP" value="16769.70513921"/>
-		<PlayerStat stat="PhysicalMaximumHitTaken" value="5399"/>
-		<PlayerStat stat="LightningMaximumHitTaken" value="14477"/>
-		<PlayerStat stat="FireMaximumHitTaken" value="14477"/>
-		<PlayerStat stat="ColdMaximumHitTaken" value="14477"/>
-		<PlayerStat stat="ChaosMaximumHitTaken" value="5896"/>
+		<PlayerStat stat="TotalEHP" value="14038.190865207"/>
+		<PlayerStat stat="PhysicalMaximumHitTaken" value="4657"/>
+		<PlayerStat stat="LightningMaximumHitTaken" value="12078"/>
+		<PlayerStat stat="FireMaximumHitTaken" value="12078"/>
+		<PlayerStat stat="ColdMaximumHitTaken" value="12078"/>
+		<PlayerStat stat="ChaosMaximumHitTaken" value="4847"/>
 		<PlayerStat stat="Life" value="2430"/>
 		<PlayerStat stat="Spec:LifeInc" value="43"/>
 		<PlayerStat stat="LifeUnreserved" value="2430"/>
@@ -78,7 +76,7 @@
 		<PlayerStat stat="SpellBlockChance" value="0"/>
 		<PlayerStat stat="AttackDodgeChance" value="0"/>
 		<PlayerStat stat="SpellDodgeChance" value="0"/>
-		<PlayerStat stat="SpellSuppressionChance" value="33"/>
+		<PlayerStat stat="EffectiveSpellSuppressionChance" value="33"/>
 		<PlayerStat stat="FireResist" value="75"/>
 		<PlayerStat stat="FireResistOverCap" value="18"/>
 		<PlayerStat stat="ColdResist" value="75"/>
@@ -88,163 +86,85 @@
 		<PlayerStat stat="ChaosResist" value="36"/>
 		<PlayerStat stat="ChaosResistOverCap" value="0"/>
 		<PlayerStat stat="EffectiveMovementSpeedMod" value="1.24"/>
-		<PlayerStat stat="FullDPS" value="661931.86041026"/>
-		<PlayerStat stat="FullDotDPS" value="526770.07186295"/>
-		<FullDPSSkill skillPart="" source="" stat="Full DoT DPS" value="526770.07186295"/>
-		<FullDPSSkill skillPart="" source="" stat="Vaal Cold Snap" value="54160.862326029"/>
-		<FullDPSSkill skillPart="" source="" stat="Vortex" value="38006.128589289"/>
-		<FullDPSSkill skillPart="" source="" stat="Creeping Frost" value="31592.231241793"/>
-		<FullDPSSkill skillPart="" source="" stat="Cold Snap" value="11402.5663902"/>
+		<PlayerStat stat="FullDPS" value="655013.68857116"/>
+		<PlayerStat stat="FullDotDPS" value="523196.25632332"/>
+		<FullDPSSkill skillPart="" source="" stat="Full DoT DPS" value="523196.25632332"/>
+		<FullDPSSkill skillPart="" source="" stat="Vaal Cold Snap" value="54426.557109106"/>
+		<FullDPSSkill skillPart="" source="" stat="Vortex" value="34858.117039024"/>
+		<FullDPSSkill skillPart="" source="" stat="Creeping Frost" value="31074.3258116"/>
+		<FullDPSSkill skillPart="" source="" stat="Cold Snap" value="11458.432288112"/>
 		<PlayerStat stat="PowerCharges" value="0"/>
 		<PlayerStat stat="PowerChargesMax" value="3"/>
 		<PlayerStat stat="FrenzyCharges" value="3"/>
 		<PlayerStat stat="FrenzyChargesMax" value="3"/>
 		<PlayerStat stat="EnduranceCharges" value="0"/>
 		<PlayerStat stat="EnduranceChargesMax" value="3"/>
-		<TimelessData devotionVariant2="1" searchListFallback="" searchList="" devotionVariant1="1"/>
+		<TimelessData devotionVariant2="1" searchListFallback="" searchList="" socketFilterDistance="0" devotionVariant1="1"/>
 	</Build>
-	<Import/>
-	<Calcs>
-		<Input name="misc_buffMode" string="EFFECTIVE"/>
-		<Input name="skill_number" number="4"/>
-		<Section subsection="ViewSkillDetails" collapsed="false" id="SkillSelect"/>
-		<Section subsection="SkillHitDamage" collapsed="false" id="HitDamage"/>
-		<Section subsection="ExertingWarcries" collapsed="false" id="Warcries"/>
-		<Section subsection="SkillDamageoverTime" collapsed="false" id="Dot"/>
-		<Section subsection="AttackCastRate" collapsed="false" id="Speed"/>
-		<Section subsection="Crits" collapsed="false" id="Crit"/>
-		<Section subsection="Impale" collapsed="false" id="Impale"/>
-		<Section subsection="SkilltypespecificStats" collapsed="false" id="SkillTypeStats"/>
-		<Section subsection="Accuracy" collapsed="false" id="HitChance"/>
-		<Section subsection="Bleed" collapsed="false" id="Bleed"/>
-		<Section subsection="Poison" collapsed="false" id="Poison"/>
-		<Section subsection="Ignite" collapsed="false" id="Ignite"/>
-		<Section subsection="Decay" collapsed="false" id="Decay"/>
-		<Section subsection="LeechGainonHit" collapsed="false" id="LeechGain"/>
-		<Section subsection="NonDamagingAilments" collapsed="false" id="EleAilments"/>
-		<Section subsection="OtherEffects" collapsed="false" id="MiscEffects"/>
-		<Section subsection="Attributes" collapsed="false" id="Attributes"/>
-		<Section subsection="Life" collapsed="false" id="Life"/>
-		<Section subsection="Mana" collapsed="false" id="Mana"/>
-		<Section subsection="EnergyShield" collapsed="false" id="EnergyShield"/>
-		<Section subsection="Ward" collapsed="false" id="Ward"/>
-		<Section subsection="Resists" collapsed="false" id="Resist"/>
-		<Section subsection="Armour" collapsed="false" id="Armour"/>
-		<Section subsection="Evasion" collapsed="false" id="Evasion"/>
-		<Section subsection="DamageAvoidance" collapsed="false" id="DamageAvoidance"/>
-		<Section subsection="Block" collapsed="false" id="DamageAvoidance"/>
-		<Section subsection="Dodge" collapsed="false" id="DamageAvoidance"/>
-		<Section subsection="SpellSuppression" collapsed="false" id="DamageAvoidance"/>
-		<Section subsection="Flasks" collapsed="false" id="Flasks"/>
-		<Section subsection="UtilityFlasks" collapsed="true" id="Flasks"/>
-		<Section subsection="LifeFlasks" collapsed="true" id="Flasks"/>
-		<Section subsection="ManaFlasks" collapsed="true" id="Flasks"/>
-		<Section subsection="Rage" collapsed="false" id="Rage"/>
-		<Section subsection="OtherDefences" collapsed="false" id="MiscDefences"/>
-		<Section subsection="StunDuration" collapsed="false" id="MiscDefences"/>
-		<Section subsection="OtherAvoidance" collapsed="true" id="MiscDefences"/>
-		<Section subsection="OtherAilmentDefences" collapsed="true" id="MiscDefences"/>
-		<Section subsection="DamageTaken" collapsed="false" id="DamageTaken"/>
-		<Section subsection="DamagingHits" collapsed="false" id="DamageTaken"/>
-		<Section subsection="EffectiveHealthPool" collapsed="false" id="DamageTaken"/>
-		<Section subsection="MaximumHitTaken" collapsed="false" id="DamageTaken"/>
-		<Section subsection="DotsandDegens" collapsed="false" id="DamageTaken"/>
-		<Section subsection="RecoupandHitTakenOverTime" collapsed="true" id="DamageTaken"/>
-	</Calcs>
-	<Skills sortGemsByDPSField="CombinedDPS" activeSkillSet="1" sortGemsByDPS="true" defaultGemQuality="20" defaultGemLevel="normalMaximum" showSupportGemTypes="ALL" showAltQualityGems="false">
-		<SkillSet title="^2Maps - Lvling gems in Notes" id="1">
-			<Skill mainActiveSkillCalcs="1" includeInFullDPS="true" label="" enabled="true" slot="Body Armour" mainActiveSkill="1">
-				<Gem enableGlobal2="true" level="21" enableGlobal1="true" skillId="FrostBoltNova" qualityId="Default" gemId="Metadata/Items/Gems/SkillGemFrostBoltNova" quality="20" enabled="true" count="1" nameSpec="Vortex"/>
-				<Gem enableGlobal2="true" level="21" enableGlobal1="true" skillId="ArcticBreath" qualityId="Default" gemId="Metadata/Items/Gems/SkillGemArcticBreath" quality="20" enabled="true" count="1" nameSpec="Creeping Frost"/>
-				<Gem enableGlobal2="true" level="20" enableGlobal1="true" skillId="SupportEfficacy" qualityId="Default" gemId="Metadata/Items/Gems/SupportGemEfficacy" quality="20" enabled="true" count="1" nameSpec="Efficacy"/>
-				<Gem enableGlobal2="true" level="20" enableGlobal1="true" skillId="SupportControlledDestruction" qualityId="Default" gemId="Metadata/Items/Gems/SupportGemControlledDestruction" quality="20" enabled="true" count="1" nameSpec="Controlled Destruction"/>
-				<Gem enableGlobal2="true" level="20" enableGlobal1="true" skillId="SupportRapidDecay" qualityId="Default" gemId="Metadata/Items/Gems/SupportGemRapidDecay" quality="20" enabled="true" count="1" nameSpec="Swift Affliction"/>
-				<Gem enableGlobal2="true" level="20" enableGlobal1="true" skillId="SupportDamageAgainstChilled" qualityId="Default" gemId="Metadata/Items/Gems/SupportGemDamageAgainstChilled" quality="20" enabled="true" count="1" nameSpec="Hypothermia"/>
-				<Gem enableGlobal2="true" level="4" enableGlobal1="true" skillId="SupportAdditionalLevel" qualityId="Default" gemId="Metadata/Items/Gems/SupportGemAdditionalLevel" quality="20" enabled="false" count="1" nameSpec="Empower"/>
-			</Skill>
-			<Skill mainActiveSkillCalcs="1" includeInFullDPS="true" label="" enabled="true" slot="Gloves" mainActiveSkill="1">
-				<Gem enableGlobal2="true" level="20" enableGlobal1="true" skillId="VaalColdSnap" qualityId="Default" skillPart="1" gemId="Metadata/Items/Gems/SkillGemVaalColdSnap" quality="20" enabled="true" count="1" nameSpec="Vaal Cold Snap" skillMinion="SummonedPhantasm"/>
-				<Gem enableGlobal2="true" level="20" enableGlobal1="true" skillId="SupportBonechill" qualityId="Default" skillPart="1" gemId="Metadata/Items/Gems/SupportGemBonechill" quality="20" enabled="true" count="1" nameSpec="Bonechill"/>
-				<Gem enableGlobal2="true" level="20" enableGlobal1="true" skillId="SupportRapidDecay" qualityId="Default" gemId="Metadata/Items/Gems/SupportGemRapidDecay" quality="20" enabled="true" count="1" nameSpec="Swift Affliction"/>
-				<Gem enableGlobal2="true" level="20" enableGlobal1="true" skillId="SupportControlledDestruction" qualityId="Default" gemId="Metadata/Items/Gems/SupportGemControlledDestruction" quality="20" enabled="true" count="1" nameSpec="Controlled Destruction"/>
-			</Skill>
-			<Skill mainActiveSkillCalcs="1" includeInFullDPS="false" label="" enabled="true" mainActiveSkill="1">
-				<Gem enableGlobal2="true" level="20" enableGlobal1="true" skillId="DarkRitual" qualityId="Default" gemId="Metadata/Items/Gems/SkillGemDarkRitual" quality="20" enabled="true" count="1" nameSpec="Bane"/>
-				<Gem enableGlobal2="true" level="20" enableGlobal1="true" skillId="Frostbite" qualityId="Default" gemId="Metadata/Items/Gems/SkillGemFrostbite" quality="20" enabled="true" count="1" nameSpec="Frostbite"/>
-				<Gem enableGlobal2="true" level="20" enableGlobal1="true" skillId="ElementalWeakness" qualityId="Default" gemId="Metadata/Items/Gems/SkillGemElementalWeakness" quality="20" enabled="true" count="1" nameSpec="Elemental Weakness"/>
-				<Gem enableGlobal2="true" level="20" enableGlobal1="true" skillId="FrostBomb" qualityId="Default" gemId="Metadata/Items/Gems/SkillGemFrostBomb" quality="20" enabled="true" count="1" nameSpec="Frost Bomb"/>
-			</Skill>
-			<Skill mainActiveSkillCalcs="1" includeInFullDPS="false" label="" enabled="true" slot="Helmet" mainActiveSkill="1">
-				<Gem enableGlobal2="true" level="20" enableGlobal1="true" skillId="Determination" qualityId="Default" gemId="Metadata/Items/Gems/SkillGemDetermination" quality="20" enabled="true" count="1" nameSpec="Determination"/>
-				<Gem enableGlobal2="true" level="20" enableGlobal1="true" skillId="Grace" qualityId="Default" gemId="Metadata/Items/Gems/SkillGemGrace" quality="20" enabled="true" count="1" nameSpec="Grace"/>
-				<Gem enableGlobal2="true" level="6" enableGlobal1="true" skillId="Clarity" qualityId="Default" gemId="Metadata/Items/Gems/SkillGemClarity" quality="20" enabled="true" count="1" nameSpec="Clarity"/>
-				<Gem enableGlobal2="true" level="20" enableGlobal1="true" skillId="DamageOverTimeAura" qualityId="Default" gemId="Metadata/Items/Gems/SkillGemDamageOverTimeAura" quality="20" enabled="true" count="1" nameSpec="Malevolence"/>
-			</Skill>
-			<Skill mainActiveSkillCalcs="1" includeInFullDPS="false" label="" enabled="true" mainActiveSkill="1">
-				<Gem enableGlobal2="true" level="20" enableGlobal1="true" skillId="NewShieldCharge" qualityId="Default" gemId="Metadata/Items/Gems/SkillGemShieldCharge" quality="20" enabled="true" count="1" nameSpec="Shield Charge"/>
-				<Gem enableGlobal2="true" level="20" enableGlobal1="true" skillId="SupportFasterAttack" qualityId="Default" gemId="Metadata/Items/Gems/SupportGemFasterAttack" quality="20" enabled="true" count="1" nameSpec="Faster Attacks"/>
-				<Gem enableGlobal2="true" level="20" enableGlobal1="true" skillId="FlameDash" qualityId="Default" gemId="Metadata/Items/Gems/SkillGemFlameDash" quality="20" enabled="true" count="1" nameSpec="Flame Dash"/>
-			</Skill>
-			<Skill mainActiveSkillCalcs="1" includeInFullDPS="false" label="" enabled="true" mainActiveSkill="1">
-				<Gem enableGlobal2="true" level="1" enableGlobal1="true" skillId="SupportCastOnDamageTaken" qualityId="Default" gemId="Metadata/Items/Gems/SupportGemCastOnDamageTaken" quality="20" enabled="true" count="1" nameSpec="Cast when Damage Taken"/>
-				<Gem enableGlobal2="true" level="10" enableGlobal1="true" skillId="MoltenShell" qualityId="Default" gemId="Metadata/Items/Gems/SkillGemMoltenShell" quality="20" enabled="true" count="1" nameSpec="Molten Shell"/>
-			</Skill>
-		</SkillSet>
-	</Skills>
+	<Import exportParty="false"/>
+	<Party destination="All" ShowAdvanceTools="false" append="false"/>
 	<Tree activeSpec="1">
-		<Spec title="^xFF6600Acts 1-2                                  " ascendClassId="0" masteryEffects="{43818,47642}" nodes="13009,4184,17579,21934,54447,11420,12536,36774,60398,39648,44955,48362,27203,41472,54694,43818,33435,17735,30225,1203,44799,31875,57264,17821,33296,21330,4397,49254" treeVersion="3_21" classId="3">
+		<Spec masteryEffects="{43818,47642}" title="^xFF6600Acts 1-2                                  " ascendClassId="2" nodes="13009,4184,17579,21934,54447,11420,12536,16023,36774,4397,21330,44955,48362,27203,41472,54694,43818,33435,17735,17821,30225,44799,31875,57264,1203,33296,39648,60398,49254" secondaryAscendClassId="nil" treeVersion="3_21" classId="3">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABgMAGzLREFhEq1WuLJww-I-m6-6a4K-bvOpqQ6IA1aarKoKbRUd2EQSzrv98g9-wRZ2CEFNSES3AZgABuhqrKg==
+				https://www.pathofexile.com/passive-skill-tree/AAAABgMCGzLREFhEq1WuLJww-I-mES1TUq-bvOpqQ6IA1aarKoKbRUdFnXYRrv98g9-wBLOCEJrg6-7AZgABuhqrKg==
 			</URL>
 			<Sockets/>
+			<Overrides/>
 		</Spec>
-		<Spec title="^xFF6600Acts 3-4                                  " ascendClassId="2" masteryEffects="{44948,64875},{43818,47642}" nodes="44948,4184,17579,21934,2292,60472,23027,44955,48362,27203,41472,6712,33435,44799,15064,5935,36949,4397,49254,13009,32932,26270,36774,21974,64210,57264,51108,11420,12536,28076,21330,16023,25831,10031,1203,13164,29061,54694,43818,22472,17735,55993,58998,31875,27038,39648,54447,33296,41251,60398,17821" treeVersion="3_21" classId="3">
+		<Spec masteryEffects="{44948,64875},{43818,47642}" title="^xFF6600Acts 3-4                                  " ascendClassId="2" nodes="44948,4184,17579,21934,2292,60472,23027,44955,48362,27203,51108,6712,33435,44799,15064,57264,17821,4397,28076,13009,32932,26270,36774,21974,64210,41251,54447,11420,12536,39648,27038,54694,25831,21330,58998,17735,29061,16023,43818,22472,13164,55993,1203,31875,10031,49254,36949,33296,5935,60398,41472" secondaryAscendClassId="nil" treeVersion="3_21" classId="3">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABgMCMa-UEFhEq1WuCPTsOFnzr5u86mpDogAaOIKbrv862BcvkFURLcBmMtGApGaej6ZV1vrS37DHpCycMPhtrFNSZOcnLwSzM2xxhdWmqypXyEVH2rnmdnyDaZ6a4IIQoSPr7kWdAAL9a6-UuhqrKg==
+				https://www.pathofexile.com/passive-skill-tree/AAAABgMCMa-UEFhEq1WuCPTsOFnzr5u86mpDx6QaOIKbrv862N-wRZ0RLW2sMtGApGaej6ZV1vrSoSMsnDD4muBpntWmZOdTUuZ2RUdxhasqV8gzbNq5BLN8gycvwGaQVYIQFy_r7qIAAAL9a6-UuhqrKg==
 			</URL>
 			<Sockets/>
+			<Overrides/>
 		</Spec>
-		<Spec title="^xFF6600Acts 5-6                                  " ascendClassId="2" masteryEffects="{44948,64875},{43818,47642}" nodes="4184,17579,54447,60472,23027,44955,48362,27203,41472,27659,5935,28076,32932,36774,8948,11420,12536,20546,21575,29061,54694,22472,13164,55993,1203,31875,21835,35894,44948,39648,21934,17821,38900,6712,33435,27929,44799,15064,57264,4397,13009,36949,21974,25058,58998,41251,26270,25831,21330,64210,15711,2292,16023,43818,42686,17735,21075,27038,10031,21301,9877,51108,33296,49254,60398,37671" treeVersion="3_21" classId="3">
+		<Spec masteryEffects="{44948,64875},{43818,47642}" title="^xFF6600Acts 5-6                                  " ascendClassId="2" nodes="4184,17579,54447,60472,23027,44955,48362,27203,51108,27659,5935,49254,32932,9877,8948,11420,12536,20546,21575,29061,54694,22472,13164,55993,1203,15711,21835,35894,44948,39648,21934,17821,26270,6712,33435,27929,44799,15064,57264,4397,13009,36949,21974,64210,41472,42686,38900,25831,10031,25058,31875,58998,16023,43818,41251,17735,21075,27038,21330,21301,36774,28076,33296,2292,60398,37671" secondaryAscendClassId="nil" treeVersion="3_21" classId="3">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABgMCQBBYRKvsOFnzr5u86mpDogBsCxcvbayApI-mIvQsnDD4UEJUR3GF1aZXyDNs2rkEs3yDVUuMNq-UmuBVrkWdl_QaOIKbbRmu_zrY37ARLTLRkFVV1mHi5nahI2aeZOdTUvrSPV8I9Ksqpr5FR1JTaZ4nL1M1JpXHpIIQwGbr7pMnAAL9a6-UuhqrKg==
+				https://www.pathofexile.com/passive-skill-tree/AAAABgMCQBBYRKvsOFnzr5u86mpDx6RsCxcvwGaApCaVIvQsnDD4UEJUR3GF1aZXyDNs2rkEsz1fVUuMNq-UmuBVrkWdZp4aOIKbbRmu_zrY37ARLTLRkFVV1vrSogCmvpf0ZOcnL2HifIPmdqsqoSNFR1JTaZ5TUlM1j6ZtrIIQCPTr7pMnAAL9a6-UuhqrKg==
 			</URL>
 			<Sockets/>
+			<Overrides/>
 		</Spec>
-		<Spec title="^xFF6600Acts 7-8                                  " ascendClassId="2" masteryEffects="{44948,64875},{43818,47642}" nodes="4184,17579,54447,60472,23027,46896,46289,44955,48362,27203,4011,64265,27659,5935,28076,32932,36774,8948,11420,12536,20546,21575,29061,54694,22472,4973,55993,1203,31875,21835,9864,35894,44948,39648,21934,49978,5129,6799,17821,26270,6712,33435,27929,51108,44799,15064,57264,2292,33783,63194,4397,64210,13009,36949,9877,9355,21974,25058,6538,41472,15711,27038,37114,13164,10031,25831,21330,61259,42686,3656,16023,43818,41251,17735,21075,58998,38900,21301,51212,5823,33296,49254,60398,37671" treeVersion="3_21" classId="3">
+		<Spec masteryEffects="{44948,64875},{43818,47642}" title="^xFF6600Acts 7-8                                  " ascendClassId="2" nodes="4184,17579,54447,60472,23027,46896,46289,44955,48362,27203,41472,64265,27659,5935,28076,32932,9877,8948,11420,12536,20546,6538,29061,54694,22472,4973,55993,1203,15711,21835,9864,35894,44948,39648,21934,49978,5129,6799,17821,26270,6712,33435,27929,4011,44799,15064,57264,36774,49254,63194,4397,33783,13009,36949,5823,9355,21974,25058,21575,51108,38900,58998,37114,13164,21330,25831,10031,61259,41251,3656,16023,43818,42686,17735,21075,27038,31875,21301,51212,2292,33296,64210,60398,37671" secondaryAscendClassId="nil" treeVersion="3_21" classId="3">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABgMCUhBYRKvsOFnztzC00a-bvOpqQw-r-wlsCxcvbayApI-mIvQsnDD4UEJUR3GF1aZXyBNt2rkEs3yDVUsmiIw2r5Sa4FWuwzoUCRqPRZ1mnho4gpttGcekrv862N-wCPSD9_baES360jLRkFUmlSSLVdZh4hmKogA9X2mekPozbCcvZOdTUu9Lpr4OSKsqoSNFR1JT5naX9FM1yAwWv4IQwGbr7pMnAAL9a6-UuhqrKg==
+				https://www.pathofexile.com/passive-skill-tree/AAAABgMCUhBYRKvsOFnztzC00a-bvOpqQ6IA-wlsCxcvbayApCaVIvQsnDD4UEIZinGF1aZXyBNt2rkEsz1fVUsmiIw2r5Sa4FWuwzoUCRqPRZ1mnho4gpttGQ-rrv862N-wj6bAZvbaES2D9zLRkFUWvySLVdZh4lRHx6SX9OZ2kPozbFNSZOcnL-9LoSMOSKsqpr5FR1JTaZ58g1M1yAwI9IIQ-tLr7pMnAAL9a6-UuhqrKg==
 			</URL>
 			<Sockets/>
+			<Overrides/>
 		</Spec>
-		<Spec title="^xFF6600Acts 9-10                                " ascendClassId="2" masteryEffects="{44948,64875},{43818,47642}" nodes="4184,17579,28859,54447,60472,23027,46896,33783,44955,48362,27203,4011,57197,64265,61653,27659,5935,19595,28076,32932,9877,8948,11420,12536,20546,12143,6538,29061,54694,22472,13164,55993,1203,15711,21835,9864,35894,44948,39648,21934,49978,60440,41472,38190,5129,36858,49254,6799,1822,5823,38900,42649,6712,33435,4973,27929,21575,31875,44799,15064,57264,51108,58998,63194,4397,55571,13009,36949,64210,9355,21974,25058,4502,36585,17821,42686,37114,3656,41251,25831,21330,61259,20852,10031,16023,43818,46289,17735,21075,27038,36774,21301,51212,26270,33296,2292,60398,37671" treeVersion="3_21" classId="3">
+		<Spec masteryEffects="{44948,64875},{43818,47642}" title="^xFF6600Acts 9-10                                " ascendClassId="2" nodes="4184,17579,28859,54447,60472,23027,46896,33783,44955,48362,27203,51108,57197,64265,61653,27659,5935,19595,28076,32932,9877,8948,11420,12536,20546,12143,21575,29061,54694,22472,4973,55993,1203,31875,21835,9864,35894,44948,39648,21934,49978,60440,4011,38190,5129,36858,5823,6799,1822,2292,38900,33296,6712,33435,26270,27929,13164,15711,44799,15064,57264,36774,27038,63194,4397,64210,13009,36949,25058,9355,21974,55571,46289,36585,17821,10031,37114,20852,41251,25831,21330,61259,3656,42686,16023,43818,4502,17735,21075,58998,41472,21301,51212,49254,42649,6538,60398,37671" secondaryAscendClassId="nil" treeVersion="3_21" classId="3">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABgMCYBBYRKtwu-w4WfO3MIP3r5u86mpDD6vfbfsJ8NVsCxcvTIttrICkJpUi9CycMPhQQi9vGYpxhdWmV8gzbNq5BLM9X1VLJoiMNq-UmuBVrsM67BiiAJUuFAmP-sBmGo8HHha_l_SmmRo4gpsTbW0ZVEd8g67_OtjfsMek5nb22hEt2RMy0ZBV-tIki1XWYeIRlo7pRZ2mvpD6DkihI2TnU1LvS1F0Jy-rKrTRRUdSU2mej6ZTNcgMZp6CEAj06-6TJwAC_WuvlLoaqyo=
+				https://www.pathofexile.com/passive-skill-tree/AAAABgMCYBBYRKtwu-w4WfO3MIP3r5u86mpDx6TfbfsJ8NVsCxcvTIttrICkJpUi9CycMPhQQi9vVEdxhdWmV8gTbdq5BLN8g1VLJoiMNq-UmuBVrsM67BgPq5UuFAmP-ha_Go8HHgj0l_SCEBo4gptmnm0ZM2w9X67_OtjfsI-maZ722hEt-tIy0ZBVYeIki1XW2RO00Y7pRZ0nL5D6UXShI2TnU1LvSw5Ipr6rKhGWRUdSU-Z2ogBTNcgMwGammRmK6-6TJwAC_WuvlLoaqyo=
 			</URL>
 			<Sockets/>
+			<Overrides/>
 		</Spec>
-		<Spec title="^xFF6600Lvl 80                                     " ascendClassId="2" masteryEffects="{44948,64875},{54413,45317},{43818,47642}" nodes="28859,54447,60472,23027,46896,33783,48362,27203,41472,2959,57197,64265,61653,27659,5935,19595,49254,32932,45593,9877,53456,24067,21330,8948,11420,12536,20546,28076,55571,12143,6538,41251,4011,29061,54694,4917,37569,4973,55993,7503,31875,27038,21835,9864,35894,56186,3656,13164,44948,2292,18769,16023,49978,54413,9769,60440,17821,38190,5129,36858,53114,6799,1822,20852,26270,36542,6712,33435,15711,27929,21575,8938,44799,15064,57264,4502,49515,63194,4397,65203,13009,11162,12801,9355,21974,64210,38900,36585,36949,42686,37114,25058,46289,25831,10031,61259,5823,27163,6052,43818,1203,17735,21075,58998,22472,21301,51212,51108,42649,39648,60398,37671" treeVersion="3_21" classId="3">
+		<Spec masteryEffects="{44948,64875},{54413,45317},{43818,47642}" title="^xFF6600Lvl 80                                     " ascendClassId="2" nodes="28859,54447,60472,23027,46896,33783,48362,27203,41472,2959,57197,64265,61653,27659,5935,19595,28076,32932,45593,9877,17821,54413,39648,8948,11420,12536,20546,2292,51108,12143,6538,4011,27038,29061,54694,22472,37569,13164,55993,7503,3656,58998,21835,9864,35894,4917,31875,1203,44948,53456,18769,6052,24067,21330,9769,60440,5823,38190,5129,36858,53114,6799,1822,21575,26270,36542,6712,33435,10031,27929,4502,8938,44799,15064,57264,46289,25058,63194,4397,65203,13009,11162,12801,9355,21974,55571,37114,36585,42686,36949,49515,38900,64210,25831,20852,61259,15711,27163,16023,43818,49254,17735,21075,56186,4973,21301,51212,41251,42649,49978,60398,37671" secondaryAscendClassId="nil" treeVersion="3_21" classId="3">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABgMCbnC77DhZ87cwg_e86mpDogALj99t-wnw1WwLFy9Mi8BmgKSyGSaV0NBeA1NSIvQsnDD4UEJtrNkTL28ZiqEjD6txhdWmEzWSwRNt2rkdT3yDaZ5VSyaIjDbbeg5IM2yvlAj0SVHDOtSNJinsGEWdlS4UCY_6z3oajwceUXRmno6-GjiCmz1fbRlURyLqrv862N-wEZbBa_baES3-szLRK5oyASSLVdb60pf0jumQVaa-kPph4rTRZOcnL-9LFr9qGxekqyoEs0VHUlPmdlfIUzXIDMekppma4OvukycAA_1rr5SxBdSNuhqrKg==
+				https://www.pathofexile.com/passive-skill-tree/AAAABgMCbnC77DhZ87cwg_e86mpDogALj99t-wnw1WwLFy9Mi22sgKSyGSaVRZ3UjZrgIvQsnDD4UEII9MekL28Zig-raZ5xhdWmV8iSwTNs2rkdTw5I5nZVSyaIjDYTNXyDBLOvlNDQSVEXpF4DU1ImKewYFr-VLhQJj_rPehqPBx5UR2aejr4aOIKbJy9tGRGWIuqu_zrY37C00WHi9toRLf6zMtErmjIBJItV1tkTkPqO6aa-kFXBa5f0-tJk51F070s9X2obqyrAZkVHUlPbehNtUzXIDKEjppnDOuvukycAA7EF1I39a6-UuhqrKg==
 			</URL>
 			<Sockets/>
+			<Overrides/>
 		</Spec>
-		<Spec title="^xFF6600Lvl 90                                     " ascendClassId="2" masteryEffects="{44948,64875},{54413,45317},{47197,61097},{43818,47642}" nodes="7388,28859,54447,60472,23027,36634,39648,41472,46289,46896,48362,27203,4011,33783,2959,6250,57197,64265,61653,3656,41251,5935,4917,21330,19595,49254,28076,58998,32932,45593,9877,21075,13164,6538,8948,11420,12536,20546,27038,6052,12143,21575,15711,7503,29061,54694,27659,22472,4973,55993,1203,31875,10031,21835,9864,35894,3359,47197,1822,44948,18865,54413,42686,24067,37114,9769,60440,55247,38190,5129,36858,53114,6799,17821,38900,26270,36542,6712,33435,55571,27929,64210,8938,44799,15064,57264,36949,22535,63194,4397,65203,13009,11162,12801,9355,21974,25058,4502,36585,18769,20852,49515,49978,5823,25831,63799,61259,61320,27163,16023,43818,37569,17735,30767,56186,53456,21301,51212,2292,42649,51108,60398,37671" treeVersion="3_21" classId="3">
+		<Spec masteryEffects="{44948,64875},{54413,45317},{47197,61097},{43818,47642}" title="^xFF6600Lvl 90                                     " ascendClassId="2" nodes="7388,28859,42686,60472,23027,36634,54413,54447,33783,51108,48362,27203,4011,46289,2959,6250,57197,64265,61653,2292,41251,5935,27659,21330,19595,53456,49254,56186,32932,45593,9877,30767,21575,37569,8948,11420,12536,20546,16023,7503,12143,6538,61320,27038,29061,54694,63799,22472,4973,55993,1203,31875,4917,21835,9864,35894,5823,47197,49978,44948,18865,39648,49515,24067,20852,9769,60440,55247,38190,5129,36858,53114,6799,1822,18769,38900,36542,6712,33435,64210,27929,4502,8938,44799,15064,57264,25058,22535,63194,4397,65203,13009,36949,12801,9355,21974,55571,11162,36585,26270,17821,37114,41472,3359,25831,10031,61259,3656,27163,6052,43818,13164,17735,21075,58998,15711,21301,51212,28076,42649,46896,60398,37671" secondaryAscendClassId="nil" treeVersion="3_21" classId="3">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABgMCeRzccLvsOFnzjxqa4KIAtNG3MLzqakMPq4P3C48Yat9t-wnw1Q5IoSMXLxM1U1JMi8BmbazmdoCkshkmlVJTM2wZiiL0LJww-FBCaZ4XpC9vVEc9Xx1PcYXVpmwLV8gTbdq5BLN8gycvVUsmiIw2DR-4XQcer5RJsdSNpr5eA5D6JinsGNfPlS4UCY_6z3oaj0Wdl_Rmno6-GjiCm9kTbRn60iLqrv862N-wkFVYB_baES3-szLRK5oyASSLVdZh4hGWjulJUVF0wWvDOha_ZOf5N-9L74hqG6sqksFFR3gv23rQ0FM1yAwI9KaZx6Tr7pMnAATuqbhd_WuvlLEF1I26Gqsq
+				https://www.pathofexile.com/passive-skill-tree/AAAABgMCeRzccLumvuw4WfOPGtSNg_fHpLzqakMPq7TRC48Yat9t-wnw1Qj0oSMXL2wLU1JMi9DQwGbbeoCkshkmlXgvVEeSwSL0LJww-FBCHU8vbxmK74hpnnGF1ab5N1fIE23auQSzfIMTNVVLJoiMNha_uF3DOq-USbGa4MFrXgNRdCYp7BjXz5UuFAmP-s96Go8HHklRl_SOvho4gpv60m0ZEZYi6q7_OtjfsGHiWAf22hEt_rMy0ZBVMgEki1XW2RMrmo7pZp5FnZD6ogANH2TnJy_vSw5IahsXpKsqM2xFR1JT5nY9X1M1yAxtrKaZtzDr7pMnAASxBdSN7qm4Xf1rr5S6Gqsq
 			</URL>
 			<Sockets>
 				<Socket nodeId="36634" itemId="12"/>
 			</Sockets>
+			<Overrides/>
 		</Spec>
-		<Spec title="^xFF6600Lvl 100                                   " ascendClassId="2" masteryEffects="{44948,64875},{54413,45317},{43818,47642},{41415,34242},{47197,61097},{65528,57074}" nodes="7388,54447,23027,36634,33783,48362,51108,57197,64265,41251,19595,49254,9877,8948,39861,65528,12143,21575,41263,37569,4973,7503,3656,21835,35894,47197,54413,24067,60440,55247,38190,5129,48778,53114,17821,26270,36542,6712,33435,57264,22535,63194,4397,13009,11162,41415,25058,36585,49515,20852,43818,30767,56186,42649,60398,37671,28859,42686,60472,53456,5823,2959,6250,61653,27659,5935,28076,32932,45593,11420,12536,20546,61471,6538,29061,54694,22472,55993,31875,9864,3359,44948,18865,26866,49978,9769,36858,6799,1822,18769,27929,4917,8938,44799,15064,21330,10031,13164,5743,15711,65203,39648,58998,12801,9355,21974,55571,21075,4502,6052,64210,37114,41472,46289,25831,63799,61259,2292,27163,16023,36949,1203,17735,38900,27038,61320,21301,51212,4011,33989,46896,58218,27203" treeVersion="3_21" classId="3">
+		<Spec masteryEffects="{44948,64875},{41415,34242},{65528,57074},{54413,45317},{47197,61097},{43818,47642}" title="^xFF6600Lvl 100                                   " ascendClassId="2" nodes="7388,54447,23027,36634,33783,48362,51108,57197,64265,41251,19595,49254,9877,8948,61320,65528,12143,21575,41263,37569,4973,1203,3656,21835,35894,47197,54413,24067,60440,55247,38190,5129,48778,53114,17821,38900,36542,6712,33435,57264,22535,63194,4397,13009,36949,41415,64210,36585,49515,20852,43818,21075,27038,42649,60398,37671,28859,5743,60472,53456,5823,2959,6250,61653,27659,5935,28076,32932,45593,11420,12536,20546,61471,6538,29061,54694,22472,55993,4917,9864,3359,44948,18865,26866,49978,9769,36858,6799,1822,27203,27929,58218,8938,44799,15064,46896,33989,4011,42686,55571,65203,21330,56186,12801,9355,21974,4502,30767,26270,16023,11162,37114,31875,18769,25831,63799,61259,25058,27163,6052,15711,13164,17735,39648,58998,10031,21301,51212,7503,39861,41472,46289,2292" secondaryAscendClassId="nil" treeVersion="3_21" classId="3">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABgMCgxzcWfOPGoP3vOrHpN9t-wmhI0yLwGYmlSL0m7X_-C9vVEehL5LBE20dTw5IVUuMNrhd1I1eA-wY18-VLhQJvorPekWdZp6Ovho4gpvfsFgH9toRLTLRK5qhx2HijunBa1F0qyp4L9t6ppnr7pMncLumvuw40NAWvwuPGGrw1WwLFy9trICkshksnDD4UELwHxmKcYXVplfI2rl8gyaIDR-vlEmxaPLDOiYpj_oajwceSVFtGRM1Iuqu_zrYU1InLzNsFm89X_6zmuDmdjIBJItV1tkTUlMRlhek-tKQ-qIAtNFk5_k370sI9GobkFUEs0VHl_Rpnu-IUzXIDA-rhMW3MONqakMABt7y__juqbhdsQXUjYXCoce6Gqsq_WuvlA==
+				https://www.pathofexile.com/passive-skill-tree/AAAABgMCgxzcWfOPGoP3vOrHpN9t-wmhI0yLwGYmlSL074j_-C9vVEehL5LBE20Esw5IVUuMNrhd1I1eA-wY18-VLhQJvorPekWdl_SOvho4gpvfsFgH9toRLTLRkFWhx_rSjunBa1F0qypSU2meppnr7pMncLsWb-w40NAWvwuPGGrw1WwLFy9trICkshksnDD4UELwHxmKcYXVplfI2rkTNSaIDR-vlEmxaPLDOiYpj_oajwceakNtGeNqIuqu_zrYtzCExQ-rpr7ZE_6zU1LbejIBJItV1hGWeC9mniuakPp8g0lRZOf5N-9LYeJqGxekPV8zbEVHmuDmdicvUzXIDB1Pm7WiALTRCPQABt7y__juqbhdsQXUjYXCoce6Gqsq_WuvlA==
 			</URL>
 			<Sockets>
+				<Socket nodeId="41263" itemId="12"/>
 				<Socket nodeId="36634" itemId="12"/>
 				<Socket nodeId="33989" itemId="12"/>
-				<Socket nodeId="41263" itemId="12"/>
 			</Sockets>
+			<Overrides/>
 		</Spec>
 	</Tree>
 	<Notes>
@@ -328,7 +248,94 @@
 		&gt; SMALLS: 2 passives, &quot;15% Armour&quot; (for Endurance Charges) or &quot;6% Energy Shield&quot; (for either ES on Kill or high ES total), ilvl 68+
 			&gt; Alt spam for Enduring Composure (Armour), Brush with Death (ES), or Energy from Naught (ES).
 	</Notes>
-	<TreeView searchStr="" zoomY="294.86842921238" showHeatMap="false" zoomLevel="3" showStatDifferences="true" zoomX="-150.08519232968"/>
+	<Skills sortGemsByDPSField="CombinedDPS" activeSkillSet="1" sortGemsByDPS="true" defaultGemQuality="20" defaultGemLevel="normalMaximum" showSupportGemTypes="ALL" showAltQualityGems="false">
+		<SkillSet title="^2Maps - Lvling gems in Notes" id="1">
+			<Skill mainActiveSkillCalcs="1" includeInFullDPS="true" label="" enabled="true" slot="Body Armour" mainActiveSkill="1">
+				<Gem enableGlobal2="true" level="21" gemId="Metadata/Items/Gems/SkillGemFrostBoltNova" variantId="FrostBoltNova" skillId="FrostBoltNova" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Vortex"/>
+				<Gem enableGlobal2="true" level="21" gemId="Metadata/Items/Gems/SkillGemArcticBreath" variantId="ArcticBreath" skillId="ArcticBreath" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Creeping Frost"/>
+				<Gem enableGlobal2="true" level="20" gemId="Metadata/Items/Gems/SupportGemEfficacy" variantId="EfficacySupport" skillId="SupportEfficacy" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Efficacy"/>
+				<Gem enableGlobal2="true" level="20" gemId="Metadata/Items/Gems/SupportGemControlledDestruction" variantId="ControlledDestructionSupport" skillId="SupportControlledDestruction" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Controlled Destruction"/>
+				<Gem enableGlobal2="true" level="20" gemId="Metadata/Items/Gems/SupportGemRapidDecay" variantId="RapidDecaySupport" skillId="SupportRapidDecay" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Swift Affliction"/>
+				<Gem enableGlobal2="true" level="20" gemId="Metadata/Items/Gems/SupportGemDamageAgainstChilled" variantId="DamageAgainstChilledSupport" skillId="SupportDamageAgainstChilled" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Hypothermia"/>
+				<Gem enableGlobal2="true" level="4" gemId="Metadata/Items/Gems/SupportGemAdditionalLevel" variantId="AdditionalLevelSupport" skillId="SupportAdditionalLevel" quality="20" qualityId="Default" enableGlobal1="true" enabled="false" count="1" nameSpec="Empower"/>
+			</Skill>
+			<Skill mainActiveSkillCalcs="1" includeInFullDPS="true" label="" enabled="true" slot="Gloves" mainActiveSkill="1">
+				<Gem enableGlobal2="true" level="20" gemId="Metadata/Items/Gems/SkillGemVaalColdSnap" variantId="VaalColdSnap" skillId="VaalColdSnap" quality="20" skillPart="1" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Vaal Cold Snap" skillMinion="SummonedPhantasm"/>
+				<Gem enableGlobal2="true" level="20" gemId="Metadata/Items/Gems/SupportGemBonechill" variantId="BonechillSupport" skillId="SupportBonechill" quality="20" skillPart="1" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Bonechill"/>
+				<Gem enableGlobal2="true" level="20" gemId="Metadata/Items/Gems/SupportGemRapidDecay" variantId="RapidDecaySupport" skillId="SupportRapidDecay" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Swift Affliction"/>
+				<Gem enableGlobal2="true" level="20" gemId="Metadata/Items/Gems/SupportGemControlledDestruction" variantId="ControlledDestructionSupport" skillId="SupportControlledDestruction" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Controlled Destruction"/>
+			</Skill>
+			<Skill mainActiveSkillCalcs="1" includeInFullDPS="false" label="" enabled="true" mainActiveSkill="1">
+				<Gem enableGlobal2="true" level="20" gemId="Metadata/Items/Gems/SkillGemDarkRitual" variantId="DarkRitual" skillId="DarkRitual" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Bane"/>
+				<Gem enableGlobal2="true" level="20" gemId="Metadata/Items/Gems/SkillGemFrostbite" variantId="Frostbite" skillId="Frostbite" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Frostbite"/>
+				<Gem enableGlobal2="true" level="20" gemId="Metadata/Items/Gems/SkillGemElementalWeakness" variantId="ElementalWeakness" skillId="ElementalWeakness" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Elemental Weakness"/>
+				<Gem enableGlobal2="true" level="20" gemId="Metadata/Items/Gems/SkillGemFrostBomb" variantId="FrostBomb" skillId="FrostBomb" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Frost Bomb"/>
+			</Skill>
+			<Skill mainActiveSkillCalcs="1" includeInFullDPS="false" label="" enabled="true" slot="Helmet" mainActiveSkill="1">
+				<Gem enableGlobal2="true" level="20" gemId="Metadata/Items/Gems/SkillGemDetermination" variantId="Determination" skillId="Determination" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Determination"/>
+				<Gem enableGlobal2="true" level="20" gemId="Metadata/Items/Gems/SkillGemGrace" variantId="Grace" skillId="Grace" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Grace"/>
+				<Gem enableGlobal2="true" level="6" gemId="Metadata/Items/Gems/SkillGemClarity" variantId="Clarity" skillId="Clarity" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Clarity"/>
+				<Gem enableGlobal2="true" level="20" gemId="Metadata/Items/Gems/SkillGemDamageOverTimeAura" variantId="DamageOverTimeAura" skillId="DamageOverTimeAura" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Malevolence"/>
+			</Skill>
+			<Skill mainActiveSkillCalcs="1" includeInFullDPS="false" label="" enabled="true" mainActiveSkill="1">
+				<Gem enableGlobal2="true" level="20" gemId="Metadata/Items/Gems/SkillGemShieldCharge" variantId="ShieldCharge" skillId="NewShieldCharge" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Shield Charge"/>
+				<Gem enableGlobal2="true" level="20" gemId="Metadata/Items/Gems/SupportGemFasterAttack" variantId="FasterAttackSupport" skillId="SupportFasterAttack" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Faster Attacks"/>
+				<Gem enableGlobal2="true" level="20" gemId="Metadata/Items/Gems/SkillGemFlameDash" variantId="FlameDash" skillId="FlameDash" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Flame Dash"/>
+			</Skill>
+			<Skill mainActiveSkillCalcs="1" includeInFullDPS="false" label="" enabled="true" mainActiveSkill="1">
+				<Gem enableGlobal2="true" level="1" gemId="Metadata/Items/Gems/SupportGemCastOnDamageTaken" variantId="CastOnDamageTakenSupport" skillId="SupportCastOnDamageTaken" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Cast when Damage Taken"/>
+				<Gem enableGlobal2="true" level="10" gemId="Metadata/Items/Gems/SkillGemMoltenShell" variantId="MoltenShell" skillId="MoltenShell" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Molten Shell"/>
+			</Skill>
+		</SkillSet>
+	</Skills>
+	<Calcs>
+		<Input name="misc_buffMode" string="EFFECTIVE"/>
+		<Input name="skill_number" number="4"/>
+		<Section subsection="ViewSkillDetails" collapsed="false" id="SkillSelect"/>
+		<Section subsection="SkillHitDamage" collapsed="false" id="HitDamage"/>
+		<Section subsection="ExertingWarcries" collapsed="false" id="Warcries"/>
+		<Section subsection="SkillDamageoverTime" collapsed="false" id="Dot"/>
+		<Section subsection="AttackCastRate" collapsed="false" id="Speed"/>
+		<Section subsection="Crits" collapsed="false" id="Crit"/>
+		<Section subsection="Impale" collapsed="false" id="Impale"/>
+		<Section subsection="SkilltypespecificStats" collapsed="false" id="SkillTypeStats"/>
+		<Section subsection="Accuracy" collapsed="false" id="HitChance"/>
+		<Section subsection="Bleed" collapsed="false" id="Bleed"/>
+		<Section subsection="Poison" collapsed="false" id="Poison"/>
+		<Section subsection="Ignite" collapsed="false" id="Ignite"/>
+		<Section subsection="Decay" collapsed="false" id="Decay"/>
+		<Section subsection="LeechGainonHit" collapsed="false" id="LeechGain"/>
+		<Section subsection="NonDamagingAilments" collapsed="false" id="EleAilments"/>
+		<Section subsection="OtherEffects" collapsed="false" id="MiscEffects"/>
+		<Section subsection="Attributes" collapsed="false" id="Attributes"/>
+		<Section subsection="Life" collapsed="false" id="Life"/>
+		<Section subsection="Mana" collapsed="false" id="Mana"/>
+		<Section subsection="EnergyShield" collapsed="false" id="EnergyShield"/>
+		<Section subsection="Ward" collapsed="false" id="Ward"/>
+		<Section subsection="Resists" collapsed="false" id="Resist"/>
+		<Section subsection="Armour" collapsed="false" id="Armour"/>
+		<Section subsection="Evasion" collapsed="false" id="Evasion"/>
+		<Section subsection="DamageAvoidance" collapsed="false" id="DamageAvoidance"/>
+		<Section subsection="Block" collapsed="false" id="DamageAvoidance"/>
+		<Section subsection="Dodge" collapsed="false" id="DamageAvoidance"/>
+		<Section subsection="SpellSuppression" collapsed="false" id="DamageAvoidance"/>
+		<Section subsection="Flasks" collapsed="false" id="Flasks"/>
+		<Section subsection="UtilityFlasks" collapsed="true" id="Flasks"/>
+		<Section subsection="LifeFlasks" collapsed="true" id="Flasks"/>
+		<Section subsection="ManaFlasks" collapsed="true" id="Flasks"/>
+		<Section subsection="Rage" collapsed="false" id="Rage"/>
+		<Section subsection="OtherDefences" collapsed="false" id="MiscDefences"/>
+		<Section subsection="StunDuration" collapsed="false" id="MiscDefences"/>
+		<Section subsection="OtherAvoidance" collapsed="true" id="MiscDefences"/>
+		<Section subsection="OtherAilmentDefences" collapsed="true" id="MiscDefences"/>
+		<Section subsection="DamageTaken" collapsed="false" id="DamageTaken"/>
+		<Section subsection="DamagingHits" collapsed="false" id="DamageTaken"/>
+		<Section subsection="EffectiveHealthPool" collapsed="false" id="DamageTaken"/>
+		<Section subsection="MaximumHitTaken" collapsed="false" id="DamageTaken"/>
+		<Section subsection="DotsandDegens" collapsed="false" id="DamageTaken"/>
+		<Section subsection="RecoupandHitTakenOverTime" collapsed="true" id="DamageTaken"/>
+	</Calcs>
+	<TreeView searchStr="" zoomY="294.86842921238" zoomLevel="3" showStatDifferences="true" zoomX="-150.08519232968"/>
 	<Items activeItemSet="1" useSecondWeaponSet="false">
 		<Item id="1">
 			Rarity: RARE
@@ -454,7 +461,6 @@ Variant: Mine Laying Speed
 Variant: Focus Spell Trigger
 Variant: Focus Ailment Duration
 Selected Variant: 16
-Necromancer Circlet
 Quality: 20
 Sockets: B-B-B-B
 LevelReq: 54
@@ -471,19 +477,20 @@ Eldritch Battery
 {variant:2,14}{crafted}{range:0.5}+(10-25) to Dexterity
 {variant:15,3}{crafted}{range:0.5}+(10-25) to Intelligence
 {variant:1,2,3,13,14,15}{crafted}{range:0.5}+(7-18)% to Quality
-{variant:16,4}{crafted}{range:0.5}+(8-15)% to Fire and Chaos Resistances
+{variant:4,16}{crafted}{range:0.5}+(8-15)% to Fire and Chaos Resistances
 {variant:5,17}{crafted}{range:0.5}+(8-15)% to Cold and Chaos Resistances
-{variant:18,6}{crafted}{range:0.5}+(8-15)% to Lightning and Chaos Resistances
+{variant:6,18}{crafted}{range:0.5}+(8-15)% to Lightning and Chaos Resistances
 {variant:7,19}{crafted}{range:0.5}+(6-17) to Strength and Dexterity
 {variant:20,8}{crafted}{range:0.5}+(6-17) to Dexterity and Intelligence
-{variant:21,9}{crafted}{range:0.5}+(6-17) to Strength and Intelligence
+{variant:9,21}{crafted}{range:0.5}+(6-17) to Strength and Intelligence
 {variant:10,22}{crafted}{range:0.5}(7-12)% increased Mine Laying Speed
 {variant:11,23}{crafted}Trigger Socketed Spells when you Focus
-{variant:24,12}{crafted}{range:0.5}(81-140)% increased Duration of Ailments you inflict while Focused
+{variant:12,24}{crafted}{range:0.5}(81-140)% increased Duration of Ailments you inflict while Focused
 			<ModRange range="0.5" id="1"/>
 			<ModRange range="0.5" id="2"/>
 			<ModRange range="0.5" id="3"/>
 			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
 			<ModRange range="0.5" id="6"/>
 			<ModRange range="0.5" id="7"/>
 			<ModRange range="0.5" id="8"/>
@@ -576,7 +583,6 @@ League: Ritual
 Variant: Pre 3.17.0
 Variant: Current
 Selected Variant: 2
-Wyrmscale Boots
 Quality: 20
 Sockets: G-G-G-G
 LevelReq: 69
@@ -796,93 +802,91 @@ Instant Recovery
 			<ModRange range="0.5" id="2"/>
 		</Item>
 		<ItemSet useSecondWeaponSet="false" id="1">
-			<Slot itemPbURL="" name="Gloves" itemId="10"/>
 			<Slot itemPbURL="" name="Weapon 1" itemId="1"/>
-			<Slot itemPbURL="" name="Boots Abyssal Socket 5" itemId="0"/>
 			<Slot itemPbURL="" name="Belt Abyssal Socket 2" itemId="0"/>
-			<Slot itemPbURL="" name="Flask 3" itemId="15"/>
-			<Slot itemPbURL="" name="Weapon 1 Swap Abyssal Socket 4" itemId="0"/>
 			<Slot itemPbURL="" name="Weapon 1 Abyssal Socket 5" itemId="0"/>
 			<Slot itemPbURL="" name="Weapon 2 Abyssal Socket 5" itemId="0"/>
 			<Slot itemPbURL="" name="Weapon 1 Swap Abyssal Socket 6" itemId="0"/>
 			<Slot itemPbURL="" name="Weapon 1 Abyssal Socket 6" itemId="0"/>
 			<Slot itemPbURL="" name="Weapon 2 Abyssal Socket 6" itemId="0"/>
-			<Slot itemPbURL="" name="Weapon 2 Swap Abyssal Socket 1" itemId="0"/>
 			<Slot itemPbURL="" name="Boots Abyssal Socket 3" itemId="0"/>
-			<Slot itemPbURL="" name="Weapon 1 Abyssal Socket 2" itemId="0"/>
-			<Slot itemPbURL="" name="Weapon 2 Swap Abyssal Socket 4" itemId="0"/>
 			<Slot itemPbURL="" name="Helmet Abyssal Socket 1" itemId="0"/>
 			<Slot itemPbURL="" name="Belt Abyssal Socket 6" itemId="0"/>
-			<Slot itemPbURL="" name="Helmet Abyssal Socket 2" itemId="0"/>
-			<Slot itemPbURL="" name="Helmet" itemId="4"/>
-			<Slot itemPbURL="" name="Helmet Abyssal Socket 3" itemId="0"/>
 			<Slot itemPbURL="" name="Weapon 2 Swap Abyssal Socket 5" itemId="0"/>
 			<Slot itemPbURL="" name="Weapon 1 Abyssal Socket 1" itemId="0"/>
-			<Slot itemPbURL="" name="Weapon 2 Abyssal Socket 1" itemId="0"/>
 			<Slot itemPbURL="" name="Weapon 1 Abyssal Socket 4" itemId="0"/>
 			<Slot itemPbURL="" name="Belt" itemId="11"/>
 			<Slot itemPbURL="" name="Weapon 1 Swap Abyssal Socket 2" itemId="0"/>
-			<Slot itemPbURL="" name="Boots Abyssal Socket 4" itemId="0"/>
-			<Slot itemPbURL="" name="Weapon 2 Abyssal Socket 2" itemId="0"/>
+			<Slot itemPbURL="" name="Weapon 1 Abyssal Socket 2" itemId="0"/>
 			<Slot itemPbURL="" name="Flask 5" itemId="17"/>
-			<Slot itemPbURL="" name="Weapon 1 Swap Abyssal Socket 3" itemId="0"/>
 			<Slot itemPbURL="" name="Boots Abyssal Socket 2" itemId="0"/>
 			<Slot itemPbURL="" name="Belt Abyssal Socket 3" itemId="0"/>
-			<Slot itemPbURL="" name="Body Armour Abyssal Socket 1" itemId="0"/>
+			<Slot itemPbURL="" name="Flask 4" itemId="16"/>
 			<Slot itemPbURL="" name="Gloves Abyssal Socket 1" itemId="0"/>
-			<Slot itemPbURL="" name="Helmet Abyssal Socket 5" itemId="0"/>
 			<Slot itemPbURL="" name="Helmet Abyssal Socket 6" itemId="0"/>
-			<Slot itemPbURL="" name="Weapon 1 Swap Abyssal Socket 1" itemId="0"/>
-			<Slot itemPbURL="" name="Weapon 2 Swap Abyssal Socket 2" itemId="0"/>
+			<Slot itemPbURL="" name="Helmet" itemId="4"/>
 			<Slot itemPbURL="" name="Flask 1" itemId="13"/>
-			<Slot itemPbURL="" name="Helmet Abyssal Socket 4" itemId="0"/>
 			<Slot itemPbURL="" name="Gloves Abyssal Socket 5" itemId="0"/>
-			<Slot itemPbURL="" name="Body Armour Abyssal Socket 2" itemId="0"/>
 			<Slot itemPbURL="" name="Amulet" itemId="3"/>
 			<Slot itemPbURL="" name="Weapon 1 Abyssal Socket 3" itemId="0"/>
 			<Slot itemPbURL="" name="Weapon 2 Abyssal Socket 3" itemId="0"/>
+			<Slot itemPbURL="" name="Gloves Abyssal Socket 4" itemId="0"/>
+			<Slot itemPbURL="" name="Flask 2" itemId="14"/>
+			<Slot itemPbURL="" name="Ring 2" itemId="6"/>
+			<Slot itemPbURL="" name="Weapon 2 Swap" itemId="0"/>
+			<Slot itemPbURL="" name="Gloves" itemId="10"/>
+			<Slot itemPbURL="" name="Boots Abyssal Socket 5" itemId="0"/>
+			<Slot itemPbURL="" name="Flask 3" itemId="15"/>
+			<Slot itemPbURL="" name="Helmet Abyssal Socket 2" itemId="0"/>
+			<Slot itemPbURL="" name="Helmet Abyssal Socket 3" itemId="0"/>
+			<Slot itemPbURL="" name="Helmet Abyssal Socket 4" itemId="0"/>
+			<Slot itemPbURL="" name="Boots Abyssal Socket 4" itemId="0"/>
+			<Slot itemPbURL="" name="Weapon 1 Swap Abyssal Socket 3" itemId="0"/>
+			<Slot itemPbURL="" name="Body Armour Abyssal Socket 1" itemId="0"/>
+			<Slot itemPbURL="" name="Helmet Abyssal Socket 5" itemId="0"/>
+			<Slot itemPbURL="" name="Weapon 2 Swap Abyssal Socket 1" itemId="0"/>
+			<Slot itemPbURL="" name="Body Armour Abyssal Socket 2" itemId="0"/>
+			<Slot itemPbURL="" name="Boots Abyssal Socket 6" itemId="0"/>
+			<Slot itemPbURL="" name="Boots" itemId="9"/>
+			<Slot itemPbURL="" name="Gloves Abyssal Socket 6" itemId="0"/>
+			<Slot itemPbURL="" name="Body Armour Abyssal Socket 5" itemId="0"/>
+			<Slot itemPbURL="" name="Gloves Abyssal Socket 3" itemId="0"/>
+			<Slot itemPbURL="" name="Ring 1" itemId="5"/>
+			<Slot itemPbURL="" name="Boots Abyssal Socket 1" itemId="0"/>
+			<Slot itemPbURL="" name="Weapon 2 Abyssal Socket 4" itemId="0"/>
+			<Slot itemPbURL="" name="Weapon 1 Swap Abyssal Socket 5" itemId="0"/>
+			<Slot itemPbURL="" name="Body Armour Abyssal Socket 6" itemId="0"/>
 			<Slot itemPbURL="" name="Belt Abyssal Socket 4" itemId="0"/>
+			<Slot itemPbURL="" name="Gloves Abyssal Socket 2" itemId="0"/>
 			<Slot itemPbURL="" name="Belt Abyssal Socket 1" itemId="0"/>
 			<Slot itemPbURL="" name="Body Armour Abyssal Socket 3" itemId="0"/>
-			<Slot itemPbURL="" name="Weapon 2 Swap" itemId="0"/>
-			<Slot itemPbURL="" name="Flask 4" itemId="16"/>
-			<Slot itemPbURL="" name="Flask 2" itemId="14"/>
-			<Slot itemPbURL="" name="Weapon 2" itemId="7"/>
-			<Slot itemPbURL="" name="Belt Abyssal Socket 5" itemId="0"/>
-			<Slot itemPbURL="" name="Boots Abyssal Socket 1" itemId="0"/>
-			<Slot itemPbURL="" name="Body Armour Abyssal Socket 4" itemId="0"/>
-			<Slot itemPbURL="" name="Weapon 2 Swap Abyssal Socket 6" itemId="0"/>
 			<Slot itemPbURL="" name="Weapon 2 Swap Abyssal Socket 3" itemId="0"/>
-			<Slot itemPbURL="" name="Weapon 1 Swap" itemId="0"/>
-			<Slot itemPbURL="" name="Ring 2" itemId="6"/>
-			<Slot itemPbURL="" name="Gloves Abyssal Socket 2" itemId="0"/>
-			<Slot itemPbURL="" name="Body Armour Abyssal Socket 6" itemId="0"/>
-			<Slot itemPbURL="" name="Weapon 1 Swap Abyssal Socket 5" itemId="0"/>
-			<Slot itemPbURL="" name="Weapon 2 Abyssal Socket 4" itemId="0"/>
+			<Slot itemPbURL="" name="Weapon 2 Swap Abyssal Socket 6" itemId="0"/>
+			<Slot itemPbURL="" name="Weapon 2" itemId="7"/>
 			<Slot itemPbURL="" name="Body Armour" itemId="8"/>
-			<Slot itemPbURL="" name="Ring 1" itemId="5"/>
-			<Slot itemPbURL="" name="Gloves Abyssal Socket 3" itemId="0"/>
-			<Slot itemPbURL="" name="Body Armour Abyssal Socket 5" itemId="0"/>
-			<Slot itemPbURL="" name="Gloves Abyssal Socket 4" itemId="0"/>
-			<Slot itemPbURL="" name="Gloves Abyssal Socket 6" itemId="0"/>
-			<Slot itemPbURL="" name="Boots" itemId="9"/>
-			<Slot itemPbURL="" name="Boots Abyssal Socket 6" itemId="0"/>
+			<Slot itemPbURL="" name="Weapon 1 Swap Abyssal Socket 1" itemId="0"/>
+			<Slot itemPbURL="" name="Body Armour Abyssal Socket 4" itemId="0"/>
+			<Slot itemPbURL="" name="Weapon 1 Swap" itemId="0"/>
+			<Slot itemPbURL="" name="Belt Abyssal Socket 5" itemId="0"/>
+			<Slot itemPbURL="" name="Weapon 2 Swap Abyssal Socket 2" itemId="0"/>
+			<Slot itemPbURL="" name="Weapon 2 Abyssal Socket 2" itemId="0"/>
+			<Slot itemPbURL="" name="Weapon 2 Abyssal Socket 1" itemId="0"/>
+			<Slot itemPbURL="" name="Weapon 2 Swap Abyssal Socket 4" itemId="0"/>
+			<Slot itemPbURL="" name="Weapon 1 Swap Abyssal Socket 4" itemId="0"/>
 		</ItemSet>
+		<TradeSearchWeights/>
 	</Items>
 	<Config>
 		<Input name="conditionLeeching" boolean="true"/>
-		<Input name="resourceGainMode" string="AVERAGE"/>
 		<Input name="conditionFullLife" boolean="true"/>
 		<Input name="enemyIsBoss" string="Pinnacle"/>
-		<Input name="customMods" string="(Life Mastery)
-15% increased Maximum Life"/>
 		<Input name="pantheonMajorGod" string="TheBrineKing"/>
-		<Input name="bandit" string="None"/>
-		<Input name="useFrenzyCharges" boolean="true"/>
-		<Input name="enemySizePreset" string="Medium"/>
-		<Input name="pantheonMinorGod" string="Garukhan"/>
 		<Input name="conditionEnemyChilled" boolean="true"/>
 		<Input name="conditionConvergence" boolean="true"/>
+		<Input name="useFrenzyCharges" boolean="true"/>
+		<Input name="customMods" string="(Life Mastery)
+15% increased Maximum Life"/>
+		<Input name="pantheonMinorGod" string="Garukhan"/>
 		<Input name="conditionEnemyShocked" boolean="true"/>
 		<Placeholder name="enemySpeed" number="700"/>
 		<Placeholder name="enemyChaosResist" number="30"/>
@@ -892,16 +896,18 @@ Instant Recovery
 		<Placeholder name="enemyColdDamage" number="2241"/>
 		<Placeholder name="enemyColdPen" number="3"/>
 		<Placeholder name="enemyLevel" number="84"/>
+		<Placeholder name="multiplierWitheredStackCountSelf" number="15"/>
 		<Placeholder name="enemyColdResist" number="50"/>
 		<Placeholder name="enemyLightningPen" number="3"/>
 		<Placeholder name="enemyLightningResist" number="50"/>
 		<Placeholder name="enemyChaosDamage" number="896"/>
+		<Placeholder name="enemyFireDamage" number="2241"/>
 		<Placeholder name="enemyFirePen" number="3"/>
 		<Placeholder name="enemyDamageRollRange" number="70"/>
 		<Placeholder name="enemyArmour" number="24752"/>
-		<Placeholder name="enemyFireDamage" number="2241"/>
+		<Placeholder name="enemyCritDamage" number="30"/>
 		<Placeholder name="enemyPhysicalDamage" number="2241"/>
 		<Placeholder name="enemyEvasion" number="10143"/>
-		<Placeholder name="enemyCritDamage" number="30"/>
+		<Placeholder name="sigilOfPowerStages" number="1"/>
 	</Config>
 </PathOfBuilding>
