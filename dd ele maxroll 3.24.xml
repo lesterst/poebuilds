@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Build level="90" targetVersion="3_0" pantheonMajorGod="TheBrineKing" bandit="None" className="Witch" ascendClassName="Elementalist" characterLevelAutoMode="true" mainSocketGroup="1" viewMode="CALCS" pantheonMinorGod="Abberath">
+	<Build level="89" targetVersion="3_0" pantheonMajorGod="TheBrineKing" bandit="None" className="Witch" ascendClassName="Elementalist" characterLevelAutoMode="true" mainSocketGroup="1" viewMode="CALCS" pantheonMinorGod="Abberath">
+		<Spectre id="Metadata/Monster/KitavaDemon/KitavaDemon"/>
 		<PlayerStat stat="AverageHit" value="37541.151"/>
 		<PlayerStat stat="AverageBurstDamage" value="37541.151"/>
 		<PlayerStat stat="Speed" value="3.9833333333333"/>
-		<PlayerStat stat="PreEffectiveCritChance" value="14.4"/>
-		<PlayerStat stat="CritChance" value="14.4"/>
+		<PlayerStat stat="PreEffectiveCritChance" value="7.2"/>
+		<PlayerStat stat="CritChance" value="7.2"/>
 		<PlayerStat stat="CritMultiplier" value="1"/>
 		<PlayerStat stat="HitChance" value="100"/>
 		<PlayerStat stat="TotalDPS" value="149538.91815"/>
 		<PlayerStat stat="TotalDot" value="0"/>
 		<PlayerStat stat="WithBleedDPS" value="149538.91815"/>
-		<PlayerStat stat="IgniteDPS" value="387744.60978243"/>
-		<PlayerStat stat="BurningGroundDPS" value="96936.152445608"/>
-		<PlayerStat stat="WithIgniteDPS" value="537283.52793243"/>
+		<PlayerStat stat="IgniteDPS" value="326273.60351572"/>
+		<PlayerStat stat="BurningGroundDPS" value="81568.40087893"/>
+		<PlayerStat stat="WithIgniteDPS" value="475812.52166572"/>
 		<PlayerStat stat="WithPoisonDPS" value="149538.91815"/>
-		<PlayerStat stat="TotalDotDPS" value="484680.76222804"/>
+		<PlayerStat stat="TotalDotDPS" value="407842.00439465"/>
 		<PlayerStat stat="CullingDPS" value="0"/>
 		<PlayerStat stat="ReservationDPS" value="0"/>
-		<PlayerStat stat="CombinedDPS" value="634219.68037804"/>
+		<PlayerStat stat="CombinedDPS" value="557380.92254465"/>
 		<PlayerStat stat="AreaOfEffectRadiusMetres" value="2.6"/>
 		<PlayerStat stat="ManaCost" value="79"/>
 		<PlayerStat stat="ManaPercentCost" value="0"/>
@@ -37,30 +38,30 @@
 		<PlayerStat stat="ReqStr" value="155"/>
 		<PlayerStat stat="Dex" value="184"/>
 		<PlayerStat stat="ReqDex" value="155"/>
-		<PlayerStat stat="Int" value="252"/>
+		<PlayerStat stat="Int" value="242"/>
 		<PlayerStat stat="ReqInt" value="188"/>
 		<PlayerStat stat="Devotion" value="0"/>
-		<PlayerStat stat="TotalEHP" value="85814.409438851"/>
-		<PlayerStat stat="PhysicalMaximumHitTaken" value="15123"/>
-		<PlayerStat stat="LightningMaximumHitTaken" value="32684"/>
-		<PlayerStat stat="FireMaximumHitTaken" value="32684"/>
-		<PlayerStat stat="ColdMaximumHitTaken" value="32684"/>
-		<PlayerStat stat="ChaosMaximumHitTaken" value="10189"/>
-		<PlayerStat stat="Life" value="4541"/>
+		<PlayerStat stat="TotalEHP" value="85523.722925826"/>
+		<PlayerStat stat="PhysicalMaximumHitTaken" value="15073"/>
+		<PlayerStat stat="LightningMaximumHitTaken" value="32574"/>
+		<PlayerStat stat="FireMaximumHitTaken" value="32574"/>
+		<PlayerStat stat="ColdMaximumHitTaken" value="32574"/>
+		<PlayerStat stat="ChaosMaximumHitTaken" value="10143"/>
+		<PlayerStat stat="Life" value="4510"/>
 		<PlayerStat stat="Spec:LifeInc" value="157"/>
-		<PlayerStat stat="LifeUnreserved" value="4541"/>
-		<PlayerStat stat="LifeRecoverable" value="4541"/>
+		<PlayerStat stat="LifeUnreserved" value="4510"/>
+		<PlayerStat stat="LifeRecoverable" value="4510"/>
 		<PlayerStat stat="LifeUnreservedPercent" value="100"/>
-		<PlayerStat stat="LifeRegenRecovery" value="90.8"/>
+		<PlayerStat stat="LifeRegenRecovery" value="90.2"/>
 		<PlayerStat stat="LifeLeechGainRate" value="0"/>
-		<PlayerStat stat="Mana" value="883"/>
+		<PlayerStat stat="Mana" value="870"/>
 		<PlayerStat stat="Spec:ManaInc" value="20"/>
 		<PlayerStat stat="ManaUnreserved" value="6"/>
-		<PlayerStat stat="ManaUnreservedPercent" value="0.67950169875425"/>
-		<PlayerStat stat="ManaRegenRecovery" value="24.3"/>
+		<PlayerStat stat="ManaUnreservedPercent" value="0.68965517241379"/>
+		<PlayerStat stat="ManaRegenRecovery" value="23.9"/>
 		<PlayerStat stat="ManaLeechGainRate" value="0"/>
-		<PlayerStat stat="EnergyShield" value="602"/>
-		<PlayerStat stat="EnergyShieldRecoveryCap" value="602"/>
+		<PlayerStat stat="EnergyShield" value="596"/>
+		<PlayerStat stat="EnergyShieldRecoveryCap" value="596"/>
 		<PlayerStat stat="Spec:EnergyShieldInc" value="52"/>
 		<PlayerStat stat="EnergyShieldRegenRecovery" value="150"/>
 		<PlayerStat stat="EnergyShieldLeechGainRate" value="0"/>
@@ -100,74 +101,86 @@
 	<Import exportParty="false"/>
 	<Party destination="All" ShowAdvanceTools="false" append="false"/>
 	<Tree activeSpec="8">
-		<Spec masteryEffects="" title="Level 1-12" ascendClassId="2" nodes="27203,4184,16023,21934,11128,54447,11420,17579,57264,34661,33296,36774,8135,48362" secondaryAscendClassId="nil" treeVersion="3_23" classId="3">
+		<Spec masteryEffects="" title="Level 1-12" ascendClassId="2" nodes="27203,4184,16023,21934,11128,54447,11420,17579,57264,34661,33296,36774,8135,48362" secondaryAscendClassId="nil" treeVersion="3_24" classId="3">
 			<URL>
 				https://www.pathofexile.com/passive-skill-tree/AAAABgMCDGpDEFhVrit4LJxEq9-wh2WCEI-mH8e86gAA
 			</URL>
 			<Sockets/>
 			<Overrides/>
 		</Spec>
-		<Spec masteryEffects="{34927,6216}" title="Level 12-22" ascendClassId="2" nodes="4184,17579,21934,21958,54447,11420,18715,60501,36774,44184,48362,27203,44983,16023,14936,11128,33755,14040,34661,10893,1031,57264,12852,33296,34927,8135,61804" secondaryAscendClassId="nil" treeVersion="3_23" classId="3">
+		<Spec masteryEffects="{34927,6216}" title="Level 12-22" ascendClassId="2" nodes="4184,17579,21934,21958,54447,11420,18715,44983,61804,44184,48362,27203,36774,16023,33755,11128,14936,12852,34661,1031,10893,57264,14040,33296,60501,8135,34927" secondaryAscendClassId="nil" treeVersion="3_24" classId="3">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABgMCGRBYRKtVrlXGLJxJG-xVj6asmLzqakOvtzpYK3iD2zbYh2UqjQQH37AyNIIQiG8fx_FsAAEYSIhv
+				https://www.pathofexile.com/passive-skill-tree/AAAABgMCGRBYRKtVrlXGLJxJG6-38WysmLzqakOPpoPbK3g6WDI0h2UEByqN37A22IIQ7FUfx4hvAAEYSIhv
 			</URL>
 			<Sockets/>
 			<Overrides/>
 		</Spec>
-		<Spec masteryEffects="{34927,6216},{12125,47642}" title="Level 22-33 (Lab)" ascendClassId="2" nodes="4184,17579,21934,29049,54447,61804,55332,44184,48362,27203,11128,33755,42760,57264,8135,53123,36678,14021,21958,58218,34927,5916,11420,18715,64210,7938,14936,34661,60501,16023,14040,12125,4713,10893,36774,44983,1031,22088,12852,33296,12738,5743,7444" secondaryAscendClassId="nil" treeVersion="3_23" classId="3">
+		<Spec masteryEffects="{34927,6216},{12125,47642}" title="Level 22-33 (Lab)" ascendClassId="2" nodes="4184,17579,21934,29049,54447,61804,55332,44184,48362,27203,11128,33755,42760,57264,12125,53123,36678,14021,21958,58218,34927,5916,11420,18715,7444,12738,5743,34661,64210,16023,12852,8135,1031,44983,36774,10893,4713,22088,14040,33296,14936,7938,60501" secondaryAscendClassId="nil" treeVersion="3_24" classId="3">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABgMCKRBYRKtVrnF58WzYJKyYvOpqQyt4g9unCN-wH8fPg49GNsVVxuNqiG8XHCycSRv60h8COliHZexVNtgvXRJpKo2Ppq-3BAdWSDI0ghAxwhZvHRQAAhhIiG-6Gi9d
+				https://www.pathofexile.com/passive-skill-tree/AAAABgMCKRBYRKtVrnF58WzYJKyYvOpqQyt4g9unCN-wL13Pg49GNsVVxuNqiG8XHCycSRsdFDHCFm-HZfrSMjQfxwQHr7ePpiqNEmlWSDbYghA6WB8C7FUAAroaL10YSIhv
 			</URL>
 			<Sockets/>
 			<Overrides/>
 		</Spec>
-		<Spec masteryEffects="{34927,6216},{12125,47642}" title="Level 33-45" ascendClassId="2" nodes="4184,17579,21934,7444,54447,60472,61804,23027,7938,1031,44184,48362,27203,41472,6712,33435,11128,33755,29049,42760,44799,15064,57264,12125,14040,53123,8135,49254,14021,36949,36678,36774,21958,4713,34927,5916,11420,12536,14936,18715,41251,26270,10031,12738,34661,29061,16023,60501,5743,13164,55993,1203,64210,58218,22088,12852,33296,55332,44983,10893" secondaryAscendClassId="nil" treeVersion="3_23" classId="3">
+		<Spec masteryEffects="{34927,6216},{12125,47642}" title="Level 33-45" ascendClassId="2" nodes="4184,17579,21934,7444,54447,60472,61804,23027,10893,55332,44184,48362,27203,41472,6712,33435,11128,33755,44983,42760,44799,15064,57264,12125,12852,53123,8135,49254,4713,36949,36678,36774,21958,58218,34927,5916,11420,12536,64210,18715,41251,26270,10031,34661,12738,29061,16023,5743,60501,13164,55993,1203,14936,14021,22088,14040,33296,29049,1031,7938" secondaryAscendClassId="nil" treeVersion="3_24" classId="3">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABgMCOhBYRKtVrh0U7DjxbFnzHwIEB6yYvOpqQ6IAGjiCmyt4g9txeacIrv862N-wL1022M-DH8fAZjbFkFWPRo-mVcYSaYhvFxwsnDD4OlhJG6EjZp4nLzHCh2VxhexVFm8zbNq5BLP60uNqVkgyNIIQ2CSvtyqNAAK6Gi9dGEiIbw==
+				https://www.pathofexile.com/passive-skill-tree/AAAABgMCOhBYRKtVrh0U7DjxbFnzKo3YJKyYvOpqQ6IAGjiCmyt4g9uvt6cIrv862N-wL10yNM-DH8fAZhJpkFWPRo-mVcbjaohvFxwsnDD4-tJJG6EjZp4nL4dlMcJxhRZv7FUzbNq5BLM6WDbFVkg22IIQcXkEBx8CAAK6Gi9dGEiIbw==
 			</URL>
 			<Sockets/>
 			<Overrides/>
 		</Spec>
-		<Spec masteryEffects="{47197,28638},{34927,6216},{12125,47642}" title="Level 45-55 (2nd Lab)" ascendClassId="2" nodes="10893,17579,29049,5743,60472,61804,23027,48362,27203,41472,42760,41251,5935,8135,49254,32932,36774,21958,11420,12536,29061,13164,55993,1203,22088,14040,44529,7938,21934,44983,55332,44184,26270,6712,33435,11128,33755,44799,15064,57264,36949,36678,1031,21974,58218,34927,5916,5456,14936,37114,18715,4184,25831,10031,61259,34661,53123,16023,14021,64210,54447,47197,12738,6237,4713,12125,12852,33296,60501,56029,7444" secondaryAscendClassId="nil" treeVersion="3_23" classId="3">
+		<Spec masteryEffects="{34927,6216},{12125,47642},{47197,28638}" title="Level 45-55 (2nd Lab)" ascendClassId="2" nodes="4184,17579,7444,5743,60472,61804,23027,48362,27203,41472,42760,41251,5935,8135,53123,32932,36774,21958,11420,12536,29061,13164,55993,1203,22088,14040,47197,7938,6237,5456,55332,44184,26270,6712,33435,11128,33755,44799,15064,57264,36949,36678,21934,21974,64210,34927,5916,29049,44983,37114,18715,12125,25831,10031,61259,12738,10893,16023,49254,4713,54447,44529,34661,14936,58218,14021,12852,33296,1031,56029,60501" secondaryAscendClassId="nil" treeVersion="3_24" classId="3">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABgMCRSqNRKtxeRZv7DjxbFnzvOpqQ6IApwihIxcvH8fAZoCkj6ZVxiycMPhxhTNs2rkEs1ZINtit8R8CVa6vt9gkrJhmnho4gpsreIPbrv862N-wkFWPRgQHVdbjaohvFxwVUDpYkPpJGxBYZOcnL-9Lh2XPgzbF-tK4XTHCGF0SaS9dMjSCEOxV2t0dFAADGEiIb2_euF26Gi9d
+				https://www.pathofexile.com/passive-skill-tree/AAAABgMCRRBYRKsdFBZv7DjxbFnzvOpqQ6IApwihIxcvH8fPg4Ckj6ZVxiycMPhxhTNs2rkEs1ZINti4XR8CGF0VUNgkrJhmnho4gpsreIPbrv862N-wkFWPRlWuVdb60ohvFxxxea-3kPpJGy9dZOcnL-9LMcIqjcBmEmmt8YdlOljjajbFMjSCEAQH2t3sVQADb964XRhIiG-6Gi9d
 			</URL>
 			<Sockets/>
 			<Overrides/>
 		</Spec>
-		<Spec masteryEffects="{54413,45317},{34927,6216},{12125,47642},{47197,28638}" title="Level 55-68 (3rd Lab)" ascendClassId="2" nodes="4184,17579,7444,5743,60472,61804,23027,48362,27203,41472,57197,61653,33310,27659,5935,19595,8135,49254,32932,14021,21958,8948,11420,12536,61320,29061,13164,55993,1203,22088,14040,47197,2292,18865,54413,21934,24067,41251,5456,1031,55247,55332,60501,1822,12125,38190,44184,32710,26270,9769,6712,33435,11128,27929,42760,7938,44799,15064,57264,10893,44529,58218,12738,4713,63799,36949,36678,27415,21974,64210,34927,5916,4502,49515,37114,18715,29049,25831,10031,61259,34661,54447,16023,18769,6237,56075,44983,49605,14936,53123,36774,12852,33296,33755,56029,37671" secondaryAscendClassId="nil" treeVersion="3_23" classId="3">
+		<Spec masteryEffects="{34927,6216},{54413,45317},{47197,28638},{12125,47642}" title="Level 55-68 (3rd Lab)" ascendClassId="2" nodes="10893,17579,7444,2292,60472,61804,23027,48362,27203,41472,57197,42760,33310,41251,5935,19595,8135,49254,32932,14021,21958,8948,11420,12536,61320,29061,13164,55993,1203,22088,14040,47197,4184,18865,7938,21934,24067,61653,9769,49605,55247,55332,12125,53123,36774,60501,44184,32710,26270,14936,6712,33435,11128,33755,27929,44983,44799,56075,57264,15064,6237,18769,34661,64210,10031,36949,36678,4713,21974,27415,34927,5916,29049,37114,49515,18715,4502,25831,63799,61259,12738,58218,16023,54447,44529,5743,54413,27659,5456,38190,1031,12852,33296,1822,56029,37671" secondaryAscendClassId="nil" treeVersion="3_24" classId="3">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABgMCXhBYRKsdFBZv7DjxbFnzvOpqQ6IA323w1YIebAsXL0yLH8fAZoCkNsVVxiL0LJww-O-IcYUzbNq5BLNWSDbYuF0I9Emx1I1Vrl4DoSMVUAQH18_YJOxVBx4vXZUurJh_xmaeJikaOIKbK3htGacIHwKu_zrY37Aqja3x42oxwhJp-TeQVY9GaxdV1vrSiG8XHBGWwWuQ-kkbcXlk5ycv70uHZUlRGF3bC6-3wcU6WM-Dj6YyNIIQg9va3ZMnAARv3rhdsQXUjboaL10YSIhv
+				https://www.pathofexile.com/passive-skill-tree/AAAABgMCXiqNRKsdFAj07DjxbFnzvOpqQ6IA322nCIIeoSMXL0yLH8fAZoCkNsVVxiL0LJww-O-IcYUzbNq5BLNWSDbYuF0QWEmxHwJVrl4D8NUmKcHF18_YJC9dz4OPpuxVrJh_xmaeOlgaOIKbK3iD220Zr7eu_9sL37A62BhdSVGHZfrSJy-QVY9GEmlV1msXiG8XHHF5kPrBa0kbEZZk5_k370sxwuNqrfEWb9SNbAsVUJUuBAcyNIIQBx7a3ZMnAARv3rhduhovXRhIiG-xBdSN
 			</URL>
 			<Sockets/>
 			<Overrides/>
 		</Spec>
-		<Spec masteryEffects="{47197,28638},{12125,47642},{54413,45317},{32241,34242}" title="DD Respec (Check Notes)" ascendClassId="2" nodes="4184,29049,28859,54447,60472,61804,23027,57226,48362,27203,41472,57197,42760,33310,41251,5935,19595,12125,53123,32932,14021,21958,8948,11420,12536,61320,12143,44184,29061,38789,49605,9769,13164,55993,1203,18769,7444,36371,7938,2292,49254,47197,11200,54413,18865,13559,6237,24067,8135,5456,21678,55247,55332,1031,48778,38190,27929,1822,32710,26270,12738,6712,33435,11128,14936,11924,20852,44799,56075,6785,10031,4713,37114,64210,25439,55571,36949,36678,27415,21974,58218,5743,5916,4502,44983,49515,44529,15064,25831,63799,61259,34661,33755,16023,32241,37175,60440,22088,32210,27659,61653,41263,12852,42649,8624,56029,37671" secondaryAscendClassId="nil" treeVersion="3_23" classId="3">
+		<Spec masteryEffects="{54413,45317},{47197,28638},{12125,47642},{32241,34242}" title="DD Respec (Check Notes)" ascendClassId="2" nodes="4184,29049,28859,54447,60472,61804,23027,57226,48362,27203,41472,57197,42760,33310,41251,5935,19595,8135,49605,32932,14021,21958,8948,11420,12536,61320,12143,44184,29061,38789,27659,55332,13164,55993,1203,12125,53123,22088,7938,2292,61653,47197,54413,9769,18865,18769,6237,24067,36371,5456,21678,55247,38190,37175,48778,1031,33755,1822,32710,26270,34661,6712,33435,11128,27929,44799,63799,11924,56075,25831,15064,44529,49515,44983,25439,58218,36949,36678,4502,21974,27415,5743,5916,55571,64210,37114,4713,10031,6785,20852,61259,12738,14936,16023,32241,7444,49254,60440,32210,11200,41263,13559,12852,42649,8624,56029,37671" secondaryAscendClassId="nil" treeVersion="3_24" classId="3">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABgMCaRBYcXlwu-w48WxZ89-KvOpqQ6IA322nCIIeoSMXL0yLL13Pg4CkNsVVxiL0LJww-O-IL2-smHGFl4XBxSYpM2zauQSzSVEdFI4THwII9MBmuF0rwNSNSbE09xhdXgMfxxVQVK7Xz9gkBAe-ipUubRkHHn_GZp4xwho4gpsreDpYLpRRdK7_2wsagScvEmmQ-vrSY1_ZE5BVj0ZrF1XW42oWbxccEZavt8FrrfE62GTn-TfvS4dlg9t98ZE37BhWSH3SbAvw1aEvMjSmmSGw2t2TJwAEuhovXW_euF2xBdSNhcJ98Q==
+				https://www.pathofexile.com/passive-skill-tree/AAAABgMCaRBYcXlwu-w48WxZ89-KvOpqQ6IA322nCIIeoSMXL0yLH8fBxYCkNsVVxiL0LJww-O-IL2-smHGFl4VsC9gkM2zauQSzL13Pg1ZIHwII9PDVuF3UjSYpSbFJURhdXgOOExVQVK7Xz5UukTe-igQHg9sHHn_GZp6HZRo4gpsreG0Zrv_5Ny6U2wtk5zrYrfHBa6-3Y1_japBVj0YRllXWaxcWbxcc2RP60pD6EmknLxqBUXTvSzHCOlh98R0UwGbsGH3SK8ChLzT3MjSmmSGw2t2TJwAEuhovXW_euF2xBdSNhcJ98Q==
 			</URL>
 			<Sockets>
 				<Socket nodeId="41263" itemId="2"/>
 			</Sockets>
 			<Overrides/>
 		</Spec>
-		<Spec masteryEffects="{54413,45317},{32241,34242},{55491,61097},{47197,28638},{12125,47642}" title="Mid Game" ascendClassId="2" nodes="39841,7444,28859,42686,60472,61804,23027,29049,54413,57226,11200,27203,5823,34423,25970,6250,57197,41251,61653,33310,27659,5935,4367,2292,19595,8135,49605,11659,32932,19501,9877,21958,29061,30767,8948,53123,12536,38849,22088,12125,12143,21575,6052,20546,41263,38789,41472,54447,13164,55993,1203,4917,63799,21835,25831,35894,61320,47197,55491,5296,18865,18769,6237,24067,37114,9769,21678,55247,55332,4713,48778,44184,55571,1822,32710,26270,4502,6712,33435,25058,14936,27415,11924,44799,15064,13559,36949,22535,60440,36371,25439,58218,27709,36678,56075,21974,64210,27929,5916,10031,38190,49515,37175,3359,6785,20852,61259,12738,42760,16023,32241,63447,49254,28887,32210,48118,21301,5743,49651,42649,8624,44529,37671" secondaryAscendClassId="nil" treeVersion="3_23" classId="3">
+		<Spec masteryEffects="{54413,45317},{32241,34242},{55491,61097},{47197,28638},{12125,47642}" title="Mid Game" ascendClassId="2" nodes="39841,7444,28859,5743,60472,61804,23027,47197,57226,11200,27203,41472,34423,25970,6250,57197,49605,42760,33310,63447,5935,2292,42649,19595,8135,49254,11659,32932,27659,37175,21958,48118,63799,8948,16023,12536,20546,41263,9877,12143,21575,22088,58869,29061,38789,61320,61653,13164,55993,1203,4917,3359,21835,54447,35894,20852,44529,6785,5296,18865,54413,6237,24067,42686,55491,21678,55247,55332,38190,48778,49515,4502,1822,32710,26270,44184,6712,33435,44799,14936,27929,27415,11924,15064,56075,13559,22535,60440,36371,25439,58218,36949,36678,39986,21974,64210,32075,5916,25058,55571,37114,4713,9769,25831,10031,61259,12738,29049,6052,32241,12125,53123,30767,32210,41251,21301,18769,19501,4367,8624,5823,37671" secondaryAscendClassId="nil" treeVersion="3_24" classId="3">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABgMCeZuhHRRwu6a-7DjxbFnzcXnUjd-KK8BqQxa_hndlchhq322hI_DVgh5sCxcvEQ8I9EyLH8fBxS2LgKRMLSaVVcZxhXgvIvTPgzD4l8FWSC9dL29URxekUEKhL5eFogAzbNq5BLMTNfk3VUtk54w274i4XdjDFLBJsUlRGF1eA5D6JilUrtfP2CQSab6KrJjZEwcef8ZmnhGWGjiCm2HiOlhrFy6Urv862DT3kFVYB-wYjhNjX-NqbD2PRtsLVdb60m0ZFxwnL5UuwWuRNw0fGoFRdO9LMcKnCH3x99fAZnDXfdK79lM1Fm_B86aZIbCt8ZMnAAWxBdSNuhovXW_euF3uqdjDhcJ98Q==
+				https://www.pathofexile.com/passive-skill-tree/AAAABgMCeJuhHRRwuxZv7DjxbFnzuF3fiivAakOiAIZ3ZXIYat9twcWnCIIe99cXLwj0pplMix_HwGYti4CkbAuRN1XGu_b5NyL0MPhQQqEvJpUvb1RHVkjl9XGFl4XviPDVM2zauQSzEzUNH1VLjDZRdK3xGoEUsEmx1I0YXV4Dpr7Yw1Su18_YJJUuvorBaxGWBx5_xmaerJgaOIKbrv86WG0ZaxculDrY2ws091gH7BiOE2Nf42qQVY9GnDJV1vrSfUsXHGHi2ROQ-hJpJilk5ycv70sxwnF5F6R98S9dz4N4L33SoSNTNUlRTC0RDyGwFr-TJwAFb964XbEF1I3uqdjDhcJ98boaL10=
 			</URL>
 			<Sockets>
 				<Socket nodeId="41263" itemId="2"/>
 			</Sockets>
 			<Overrides/>
 		</Spec>
-		<Spec masteryEffects="{32241,34242},{55491,61097},{38207,19495},{37641,65504},{30393,16215},{12125,47642},{47197,28638}" title="End Game" ascendClassId="2" nodes="39841,2292,61804,23027,57197,34171,41251,19595,49254,9877,8948,61320,12143,21575,61419,41263,13164,1203,21835,35894,44529,18769,24067,55491,21678,55247,38190,48778,32710,26270,6712,33435,11924,22535,36949,36678,39986,64210,5916,49515,20852,44202,32241,30393,30767,32210,42649,37671,40483,7444,28859,5743,60472,27137,57226,11200,27203,5823,6250,61653,27659,5935,8135,53123,32932,37175,21958,19501,12536,20546,38207,21929,58869,29061,38789,55993,4917,35958,3359,5296,18865,13559,37641,53290,9769,46897,1822,38836,14936,41472,4713,44799,32075,26196,63447,4367,16023,54447,25439,47197,49605,15117,4502,21974,55571,56075,25831,58218,62849,37114,25058,15064,6785,63799,61259,12738,27929,6052,44184,29049,27415,60440,6237,42686,21301,36371,12125,10031,8624,11659,33310" secondaryAscendClassId="nil" treeVersion="3_23" classId="3">
+		<Spec masteryEffects="{11505,24180},{38207,19495},{32241,34242},{55491,61097},{30393,65504},{12125,47642},{47197,28638}" title="End Game" ascendClassId="2" nodes="39841,2292,61804,23027,4105,57197,127,34171,41251,19595,49254,9877,8948,61320,12143,21575,61419,41263,13164,1203,36371,35894,47197,18769,24067,55491,21678,55247,38190,48778,32710,26270,11505,6712,33435,11924,22535,36949,36678,39986,25058,5916,49515,20852,44202,32241,30393,30767,15117,4367,37671,40483,7444,28859,42686,60472,27137,57226,11200,27203,5823,6250,61653,27659,5935,12125,49605,32932,37175,21958,19501,12536,20546,38207,21929,58869,29061,38789,55993,4917,35958,3359,5296,18865,13559,6237,53290,9769,46897,44184,38836,27929,44799,32075,29049,4713,64210,21835,16023,25439,42649,54447,5743,55571,21974,4502,53123,32210,63447,62849,37114,58218,25831,6785,10031,61259,12738,26196,6052,27415,15064,56075,60440,14936,1822,21301,44529,33310,11784,8624,63799,41472" secondaryAscendClassId="nil" treeVersion="3_24" classId="3">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABgMCgZuhCPTxbFnz322Fe6EjTIvAZiaVIvTviC9vVEfv66EvM2wEs1VLjDat8UlRXgPYw1Su18-VLr6Kf8Zmnho4gpsulFgHkFWPRpwy-tIXHMFrUXSsqn3xdrl4L33SppmTJ54jHRRwuxZv7DhqAd-KK8BqQxa_GGrw1WwLFy8fx8-DgKSRN1XGTC0w-FBClT9VqeX1cYWXhdq5EzWMdg0fFLBJsTT3kwnQKiYptzEHHpe0OliiABJprv99S2ZU99cRD2NfuF3BxTsNEZZV1tkT2wtk5-Nq9YGQ-mHiOtgagfk370sxwm0ZF6SsmHF5axfsGBhdpr5TNY4TL10nLyGwLYuCHgAH7qnYw4XCffE_V3a5TCeVP__gkwlv3rhduhovXQ==
+				https://www.pathofexile.com/passive-skill-tree/AAAABgMCgpuhCPTxbFnzEAnfbQB_hXuhI0yLwGYmlSL074gvb1RH7-uhLzNsBLOOE4w2uF1JUV4D2MNUrtfPlS6-in_GZp4s8Ro4gpsulFgHkFWPRpwyYeIXHMFrUXSsqn3xdrl4LzsNEQ-TJ54jHRRwu6a-7DhqAd-KK8BqQxa_GGrw1WwLFy8vXcHFgKSRN1XGTC0w-FBClT9VqeX1cYWXhdq5EzWMdg0fFLBJsTT3GF3QKiYptzGsmJe0bRmu_31LcXkSafrSVUtjX6aZFm_ZE1XWEZbPg33S99f1gZD642pk5xqBJy_vSzHCZlQXpGsXOtjbC-wYOlgHHlM1rfGCHi4IIbD5N6IAAAdv3rhd7qnYw150LPGFwn3x_-B2uboaL11MJ5U_
 			</URL>
 			<Sockets>
+				<Socket nodeId="26196" itemId="36"/>
 				<Socket nodeId="61419" itemId="37"/>
 				<Socket nodeId="41263" itemId="39"/>
+			</Sockets>
+			<Overrides/>
+		</Spec>
+		<Spec masteryEffects="{11505,24180},{38207,19495},{32241,34242},{55491,61097},{30393,16215},{12125,47642},{47197,28638}" title="End Game Bosses" ascendClassId="2" nodes="7388,39841,54447,61804,23027,36634,57197,11659,63447,19595,49254,9877,8948,61320,12143,21575,61419,13164,1203,36371,35894,47197,18769,24067,34098,60440,55247,38190,32710,26270,11505,6712,33435,11924,22535,13009,36949,36678,39986,25058,5916,49515,20852,32241,30393,30767,32210,42649,60398,37671,40483,29049,28859,42686,60472,57226,11200,27203,5823,6250,61653,27659,5935,8135,49605,32932,37175,21958,19501,12536,20546,38207,58869,29061,38789,55993,4917,35958,3359,5296,18865,13559,6237,53290,9769,46897,1822,27415,26196,27929,4713,55491,44799,15064,5743,4367,41251,53123,4502,25439,15117,16023,32075,44529,21974,55571,25831,32345,10031,62849,37114,33310,64210,6785,63799,61259,12738,14936,6052,12125,44184,17735,2292,34171,21678,21301,58218,21835,7444,8624,41472,56075" secondaryAscendClassId="nil" treeVersion="3_24" classId="3">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABgMCghzcm6HxbFnzjxrfbS2L99dMi8BmJpUi9O-IL29UR-_rM2wEs44TjDa4XUlRXgOFMuwY18-VLn_GZp4s8Ro4gpsulFgHMtGQVY9GnDJh4hccwWtRdH3xdrl4L33Sppnr7pMnniNxeXC7pr7sON-KK8BqQxa_GGrw1WwLFy8fx8HFgKSRN1XGTC0w-FBClT_l9XGFl4XauRM1jHYNHxSwSbE09xhd0ComKbcxBx5rF2ZUbRkSadjDrv862BZvEQ-hI8-DEZZjXzsNfUut8VXW2RNk535ZJy_1gZD6gh760hqB-TfvSzHCOlgXpC9drJhFRwj0hXtUrlM142pVSx0UIbCiANsLAAdv3rhdXnQs8YXCffE_V3a5TCeVP-6p2MO6Gi9d
+			</URL>
+			<Sockets>
+				<Socket nodeId="36634" itemId="54"/>
 				<Socket nodeId="26196" itemId="36"/>
+				<Socket nodeId="61419" itemId="56"/>
+				<Socket nodeId="41263" itemId="2"/>
 			</Sockets>
 			<Overrides/>
 		</Spec>
@@ -211,7 +224,7 @@ twitch.tv/tripolarbear
  Monsters are Hexproof 
  Unique Bosses are Possessed
 	</Notes>
-	<Skills sortGemsByDPSField="CombinedDPS" activeSkillSet="1" sortGemsByDPS="true" defaultGemQuality="20" defaultGemLevel="normalMaximum" showSupportGemTypes="ALL" showAltQualityGems="false">
+	<Skills sortGemsByDPSField="CombinedDPS" activeSkillSet="1" sortGemsByDPS="false" defaultGemQuality="20" defaultGemLevel="normalMaximum" showSupportGemTypes="ALL" showAltQualityGems="false">
 		<SkillSet title="Leveling" id="4">
 			<Skill mainActiveSkillCalcs="1" includeInFullDPS="false" label="Level 2: Rolling Magma - Surge" enabled="false" mainActiveSkill="1">
 				<Gem enableGlobal2="true" level="20" gemId="Metadata/Items/Gems/SkillGemMagmaOrb" variantId="MagmaOrb" skillId="MagmaOrb" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Rolling Magma"/>
@@ -384,7 +397,7 @@ twitch.tv/tripolarbear
 		</SkillSet>
 		<SkillSet title="1. Endgame Mapping" id="3">
 			<Skill mainActiveSkillCalcs="2" includeInFullDPS="false" label="Vaal DD 20% quality" enabled="true" slot="Body Armour" mainActiveSkill="2">
-				<Gem enableGlobal2="true" skillPartCalcs="1" level="20" gemId="Metadata/Items/Gems/SkillGemVaalDetonateDead" variantId="VaalDetonateDead" skillId="VaalDetonateDead" quality="20" skillPart="1" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Vaal Detonate Dead" skillMinion="AxisEliteSoldierHeraldOfLight"/>
+				<Gem enableGlobal2="true" skillPartCalcs="1" level="20" gemId="Metadata/Items/Gems/SkillGemVaalDetonateDead" variantId="VaalDetonateDead" skillId="VaalDetonateDead" quality="20" skillPart="2" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Vaal Detonate Dead" skillMinion="AxisEliteSoldierHeraldOfLight"/>
 				<Gem enableGlobal2="true" level="20" gemId="Metadata/Items/Gems/SupportGemIgniteProliferation" variantId="IgniteProliferationSupport" skillId="SupportIgniteProliferation" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Ignite Proliferation"/>
 				<Gem enableGlobal2="true" level="1" gemId="Metadata/Items/Gems/SupportGemUnboundAilmentsPlus" variantId="UnboundAilmentsPlusSupport" skillId="SupportUnboundAilmentsPlus" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Awakened Unbound Ailments"/>
 				<Gem enableGlobal2="true" level="5" gemId="Metadata/Items/Gems/SupportGemSwiftAfflictionPlus" variantId="SwiftAfflictionPlusSupport" skillId="SupportSwiftAfflictionPlus" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Awakened Swift Affliction"/>
@@ -411,8 +424,8 @@ twitch.tv/tripolarbear
 			</Skill>
 			<Skill mainActiveSkillCalcs="1" includeInFullDPS="false" label="Divine Blessing - Haste OR Malevolence - F Dash" enabled="true" slot="Weapon 1" mainActiveSkill="1">
 				<Gem enableGlobal2="true" level="1" gemId="Metadata/Items/Gems/SupportGemDivineBlessing" variantId="DivineBlessingSupport" skillId="SupportAuraDuration" quality="20" skillPart="1" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Divine Blessing"/>
-				<Gem enableGlobal2="true" level="20" gemId="Metadata/Items/Gems/SkillGemHaste" variantId="Haste" skillId="Haste" quality="20" qualityId="Default" enableGlobal1="true" enabled="false" count="1" nameSpec="Haste"/>
-				<Gem enableGlobal2="true" level="20" gemId="Metadata/Items/Gems/SkillGemDamageOverTimeAura" variantId="DamageOverTimeAura" skillId="DamageOverTimeAura" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Malevolence"/>
+				<Gem enableGlobal2="true" level="20" gemId="Metadata/Items/Gems/SkillGemHaste" variantId="Haste" skillId="Haste" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Haste"/>
+				<Gem enableGlobal2="true" level="20" gemId="Metadata/Items/Gems/SkillGemDamageOverTimeAura" variantId="DamageOverTimeAura" skillId="DamageOverTimeAura" quality="20" qualityId="Default" enableGlobal1="true" enabled="false" count="1" nameSpec="Malevolence"/>
 				<Gem enableGlobal2="true" level="20" gemId="Metadata/Items/Gems/SkillGemFlameDash" variantId="FlameDash" skillId="FlameDash" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Flame Dash"/>
 			</Skill>
 			<Skill mainActiveSkillCalcs="1" includeInFullDPS="false" label="Tempest - Shield Charge - Faster Attacks" enabled="true" slot="Weapon 2" mainActiveSkill="1">
@@ -423,20 +436,26 @@ twitch.tv/tripolarbear
 			<Skill mainActiveSkillCalcs="1" includeInFullDPS="false" label="" source="Tree:4917" enabled="true" mainActiveSkill="1">
 				<Gem enableGlobal2="false" level="20" skillId="PrimalAegis" quality="0" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Primal Aegis"/>
 			</Skill>
+			<Skill mainActiveSkillCalcs="nil" includeInFullDPS="nil" label="On Kill Monster Explosion" source="Explode" enabled="true" mainActiveSkill="nil">
+				<Gem enableGlobal2="nil" level="1" skillId="EnemyExplode" quality="0" skillPart="1" enableGlobal1="nil" enabled="true" count="nil" nameSpec=""/>
+			</Skill>
 		</SkillSet>
 		<SkillSet title="2. Endgame Bossing" id="5">
-			<Skill mainActiveSkillCalcs="2" includeInFullDPS="false" label="Vaal DD (Mapping = Ignite Prolif) Boss=Dead Ailmen" enabled="true" slot="Body Armour" mainActiveSkill="2">
-				<Gem enableGlobal2="true" skillPartCalcs="1" level="20" gemId="Metadata/Items/Gems/SkillGemVaalDetonateDead" variantId="VaalDetonateDead" skillId="VaalDetonateDead" quality="20" skillPart="1" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Vaal Detonate Dead" skillMinion="AxisEliteSoldierHeraldOfLight"/>
-				<Gem enableGlobal2="true" level="1" gemId="Metadata/Items/Gems/SupportGemUnboundAilmentsPlus" variantId="UnboundAilmentsPlusSupport" skillId="SupportUnboundAilmentsPlus" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Awakened Unbound Ailments"/>
+			<Skill mainActiveSkillCalcs="1" includeInFullDPS="false" label="Vaal DD (Mapping = Ignite Prolif) Boss=Dead Ailmen" enabled="true" slot="Body Armour" mainActiveSkill="2">
+				<Gem enableGlobal2="true" skillPartCalcs="2" level="20" gemId="Metadata/Items/Gems/SkillGemVaalDetonateDead" variantId="VaalDetonateDead" skillId="VaalDetonateDead" quality="20" skillPart="2" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Vaal Detonate Dead" skillMinion="SummonedPhantasm"/>
+				<Gem enableGlobal2="true" level="5" gemId="Metadata/Items/Gems/SupportGemUnboundAilmentsPlus" variantId="UnboundAilmentsPlusSupport" skillId="SupportUnboundAilmentsPlus" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Awakened Unbound Ailments"/>
 				<Gem enableGlobal2="true" level="5" gemId="Metadata/Items/Gems/SupportGemSwiftAfflictionPlus" variantId="SwiftAfflictionPlusSupport" skillId="SupportSwiftAfflictionPlus" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Awakened Swift Affliction"/>
 				<Gem enableGlobal2="true" level="5" gemId="Metadata/Items/Gems/SupportGemBurningDamagePlus" variantId="BurningDamagePlusSupport" skillId="SupportBurningDamagePlus" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Awakened Burning Damage"/>
 				<Gem enableGlobal2="true" level="20" gemId="Metadata/Items/Gems/SupportGemChanceToIgnite" variantId="ChanceToIgniteSupport" skillId="SupportChanceToIgnite" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Combustion"/>
 				<Gem enableGlobal2="true" level="5" gemId="Metadata/Items/Gems/SupportGemDeadlyAilmentsPlus" variantId="DeadlyAilmentsPlusSupport" skillId="SupportDeadlyAilmentsPlus" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Awakened Deadly Ailments"/>
 			</Skill>
-			<Skill mainActiveSkillCalcs="1" includeInFullDPS="false" label="CWDT - Molten Shell - Determ - Grace " enabled="true" slot="Helmet" mainActiveSkill="1">
+			<Skill mainActiveSkillCalcs="1" includeInFullDPS="false" label="CWDT - Molten Shell - Determ - Purity 4 boss" enabled="true" slot="Helmet" mainActiveSkill="1">
 				<Gem enableGlobal2="true" level="1" gemId="Metadata/Items/Gems/SupportGemCastOnDamageTaken" variantId="CastOnDamageTakenSupport" skillId="SupportCastOnDamageTaken" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Cast when Damage Taken"/>
-				<Gem enableGlobal2="true" level="1" gemId="Metadata/Items/Gems/SkillGemMoltenShell" variantId="MoltenShell" skillId="MoltenShell" quality="20" qualityId="Default" enableGlobal1="true" enabled="false" count="1" nameSpec="Molten Shell"/>
+				<Gem enableGlobal2="true" level="10" gemId="Metadata/Items/Gems/SkillGemMoltenShell" variantId="MoltenShell" skillId="MoltenShell" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Molten Shell"/>
 				<Gem enableGlobal2="true" level="21" gemId="Metadata/Items/Gems/SkillGemDetermination" variantId="Determination" skillId="Determination" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Determination"/>
+			</Skill>
+			<Skill mainActiveSkillCalcs="1" includeInFullDPS="false" label="NEW - Use Whatever Purity is Best for the Boss" enabled="true" mainActiveSkill="1">
+				<Gem enableGlobal2="true" level="20" gemId="Metadata/Items/Gems/SkillGemColdResistAura" variantId="ColdResistAura" skillId="ColdResistAura" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Purity of Ice"/>
 			</Skill>
 			<Skill mainActiveSkillCalcs="1" includeInFullDPS="false" label="Arcanist Brand - Flamm - Weakness - F Surge" enabled="true" slot="Gloves" mainActiveSkill="1">
 				<Gem enableGlobal2="true" level="20" gemId="Metadata/Items/Gems/SkillGemArcanistBrand" variantId="ArcanistBrand" skillId="BrandSupport" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Arcanist Brand"/>
@@ -463,14 +482,12 @@ twitch.tv/tripolarbear
 			<Skill mainActiveSkillCalcs="1" includeInFullDPS="false" label="" source="Tree:4917" enabled="true" mainActiveSkill="1">
 				<Gem enableGlobal2="false" level="20" skillId="PrimalAegis" quality="0" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Primal Aegis"/>
 			</Skill>
-			<Skill mainActiveSkillCalcs="1" includeInFullDPS="false" label="NEW - Use Whatever Purity is Best for the Boss" enabled="true" mainActiveSkill="1">
-				<Gem enableGlobal2="true" level="20" gemId="Metadata/Items/Gems/SkillGemColdResistAura" variantId="ColdResistAura" skillId="ColdResistAura" quality="20" qualityId="Default" enableGlobal1="true" enabled="true" count="1" nameSpec="Purity of Ice"/>
-			</Skill>
 		</SkillSet>
 	</Skills>
 	<Calcs>
-		<Input name="misc_buffMode" string="EFFECTIVE"/>
+		<Input name="showMinion" boolean="true"/>
 		<Input name="skill_number" number="1"/>
+		<Input name="misc_buffMode" string="EFFECTIVE"/>
 		<Section subsection="ViewSkillDetails" collapsed="false" id="SkillSelect"/>
 		<Section subsection="SkillHitDamage" collapsed="false" id="HitDamage"/>
 		<Section subsection="ExertingWarcries" collapsed="false" id="Warcries"/>
@@ -519,59 +536,8 @@ twitch.tv/tripolarbear
 		<Section subsection="DotsandDegens" collapsed="false" id="DamageTaken"/>
 		<Section subsection="RecoupandHitTakenOverTime" collapsed="true" id="DamageTaken"/>
 	</Calcs>
-	<TreeView searchStr="" zoomY="200.33450320823" zoomLevel="0" showStatDifferences="true" zoomX="-73.504206454338"/>
+	<TreeView searchStr="" zoomY="381.29497026748" zoomLevel="4" showStatDifferences="true" zoomX="48.254015614993"/>
 	<Items activeItemSet="2" useSecondWeaponSet="false">
-		<Item id="42">
-			Rarity: RARE
-Ele Overload + Misery Essence + Multi Mod
-Oscillating Sceptre
-Crafted: true
-Prefix: None
-Prefix: None
-Prefix: None
-Suffix: None
-Suffix: None
-Suffix: None
-Quality: 20
-Sockets: B-B-B
-LevelReq: 30
-Implicits: 1
-{tags:elemental_damage,damage,elemental,critical}Elemental Overload
-+22% to Damage over Time Multiplier
-26% increased Cast Speed
-{crafted}Can have up to 3 Crafted Modifiers
-{tags:elemental_damage,unveiled_mod,damage,elemental,fire,ailment}{crafted}{range:0.5}(51-60)% increased Fire Damage
-{tags:elemental_damage,unveiled_mod,damage,elemental,fire,ailment}{crafted}{range:0.5}(18-20)% chance to Ignite
-{tags:elemental_damage,chaos_damage,unveiled_mod,damage,elemental,fire,chaos}{crafted}{range:0.5}Gain (7-8)% of Fire Damage as Extra Chaos Damage
-			<ModRange range="0.5" id="1"/>
-			<ModRange range="0.5" id="2"/>
-			<ModRange range="0.5" id="3"/>
-			<ModRange range="0.5" id="5"/>
-			<ModRange range="0.5" id="6"/>
-			<ModRange range="0.5" id="7"/>
-		</Item>
-		<Item id="1">
-			Rarity: RARE
-Cast Speed + Craft
-Opal Sceptre
-Crafted: true
-Prefix: None
-Prefix: None
-Prefix: None
-Suffix: None
-Suffix: {range:0.5}IncreasedCastSpeed4
-Suffix: None
-Quality: 20
-Sockets: B-B-B
-LevelReq: 60
-Implicits: 1
-{tags:elemental_damage,damage,elemental}40% increased Elemental Damage
-19% increased Cast Speed
-{tags:elemental_damage,damage,elemental,fire}{crafted}{range:0.5}(45-54)% increased Fire Damage
-			<ModRange range="0.5" id="1"/>
-			<ModRange range="0.5" id="2"/>
-			<ModRange range="0.5" id="3"/>
-		</Item>
 		<Item variant="5" id="18">
 			Rarity: UNIQUE
 Obliteration
@@ -607,6 +573,115 @@ Enemies you Kill have a 20% chance to Explode, dealing a quarter of their maximu
 			<ModRange range="0.5" id="8"/>
 			<ModRange range="0.5" id="9"/>
 		</Item>
+		<Item id="1">
+			Rarity: RARE
+Cast Speed + Craft
+Opal Sceptre
+Crafted: true
+Prefix: None
+Prefix: None
+Prefix: None
+Suffix: None
+Suffix: {range:0.5}IncreasedCastSpeed4
+Suffix: None
+Quality: 20
+Sockets: B-B-B
+LevelReq: 60
+Implicits: 1
+{tags:elemental_damage,damage,elemental}40% increased Elemental Damage
+19% increased Cast Speed
+{tags:elemental_damage,damage,elemental,fire}{crafted}{range:0.5}(45-54)% increased Fire Damage
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+		</Item>
+		<Item id="42">
+			Rarity: RARE
+Ele Overload + Misery Essence + Multi Mod
+Oscillating Sceptre
+Crafted: true
+Prefix: None
+Prefix: None
+Prefix: None
+Suffix: None
+Suffix: None
+Suffix: None
+Quality: 20
+Sockets: B-B-B
+LevelReq: 30
+Implicits: 1
+{tags:elemental_damage,damage,elemental,critical}Elemental Overload
++22% to Damage over Time Multiplier
+26% increased Cast Speed
+{crafted}Can have up to 3 Crafted Modifiers
+{tags:elemental_damage,unveiled_mod,damage,elemental,fire,ailment}{crafted}{range:0.5}(51-60)% increased Fire Damage
+{tags:elemental_damage,unveiled_mod,damage,elemental,fire,ailment}{crafted}{range:0.5}(18-20)% chance to Ignite
+{tags:elemental_damage,chaos_damage,unveiled_mod,damage,elemental,fire,chaos}{crafted}{range:0.5}Gain (7-8)% of Fire Damage as Extra Chaos Damage
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.5" id="7"/>
+		</Item>
+		<Item id="20">
+			Rarity: RARE
+Suppress + It that Fled Unveil
+Supreme Spiked Shield
+Evasion: 334
+EvasionBasePercentile: 1
+Energy Shield: 68
+EnergyShieldBasePercentile: 0.9583
+Crafted: true
+Prefix: None
+Prefix: None
+Prefix: {range:0.243}IncreasedLife7
+Suffix: None
+Suffix: {range:0.056}ColdResist7
+Suffix: {range:0.433}ChanceToSuppressSpellsHigh4_
+Quality: 20
+Sockets: G-G-G
+LevelReq: 70
+Implicits: 1
++5% chance to Suppress Spell Damage
++18% chance to Suppress Spell Damage
++72 to maximum Life
++42% to Cold Resistance
+{tags:elemental_damage,chaos_damage,unveiled_mod,damage,elemental,fire,chaos}{crafted}{range:0.5}Gain (7-8)% of Fire Damage as Extra Chaos Damage
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+		</Item>
+		<Item id="7">
+			Rarity: RARE
+New Item
+Supreme Spiked Shield
+Evasion: 334
+EvasionBasePercentile: 1
+Energy Shield: 68
+EnergyShieldBasePercentile: 0.9583
+Crafted: true
+Prefix: {range:0.158}IncreasedLife6
+Prefix: None
+Prefix: None
+Suffix: None
+Suffix: {range:0.056}ColdResist7
+Suffix: None
+Quality: 20
+Sockets: G-G-G
+LevelReq: 70
+Implicits: 1
++5% chance to Suppress Spell Damage
++12% chance to Suppress Spell Damage
++29% to Lightning Resistance
+{tags:resource,life}{crafted}{range:0.5}+(56-70) to maximum Life
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+		</Item>
 		<Item id="29">
 			Rarity: RARE
 Fractured + Greed + It that Fled
@@ -640,63 +715,60 @@ Implicits: 1
 			<ModRange range="0.5" id="5"/>
 			<ModRange range="0.5" id="6"/>
 		</Item>
-		<Item id="7">
+		<Item id="9">
 			Rarity: RARE
-New Item
-Supreme Spiked Shield
-Evasion: 334
+Korrel Unveil + Implicits
+Pig-Faced Bascinet
+Armour: 316
+ArmourBasePercentile: 1
+Evasion: 220
 EvasionBasePercentile: 1
-Energy Shield: 68
-EnergyShieldBasePercentile: 0.9583
-Crafted: true
-Prefix: {range:0.158}IncreasedLife6
-Prefix: None
-Prefix: None
-Suffix: None
-Suffix: {range:0.056}ColdResist7
-Suffix: None
-Quality: 20
-Sockets: G-G-G
-LevelReq: 70
-Implicits: 1
-+5% chance to Suppress Spell Damage
-+12% chance to Suppress Spell Damage
-+29% to Lightning Resistance
-{tags:resource,life}{crafted}{range:0.5}+(56-70) to maximum Life
-			<ModRange range="0.5" id="1"/>
-			<ModRange range="0.5" id="2"/>
-			<ModRange range="0.5" id="3"/>
-			<ModRange range="0.5" id="4"/>
-		</Item>
-		<Item id="20">
-			Rarity: RARE
-Suppress + It that Fled Unveil
-Supreme Spiked Shield
-Evasion: 334
-EvasionBasePercentile: 1
-Energy Shield: 68
-EnergyShieldBasePercentile: 0.9583
+Searing Exarch Item
+Eater of Worlds Item
 Crafted: true
 Prefix: None
+Prefix: {range:0.796}IncreasedLife6
 Prefix: None
-Prefix: {range:0.243}IncreasedLife7
-Suffix: None
-Suffix: {range:0.056}ColdResist7
-Suffix: {range:0.433}ChanceToSuppressSpellsHigh4_
+Suffix: {range:1}ColdResist4
+Suffix: {range:0.88}ChaosResist2
+Suffix: {range:0.201}ChanceToSuppressSpells3
 Quality: 20
-Sockets: G-G-G
-LevelReq: 70
-Implicits: 1
-+5% chance to Suppress Spell Damage
-+18% chance to Suppress Spell Damage
-+72 to maximum Life
-+42% to Cold Resistance
-{tags:elemental_damage,chaos_damage,unveiled_mod,damage,elemental,fire,chaos}{crafted}{range:0.5}Gain (7-8)% of Fire Damage as Extra Chaos Damage
+Sockets: R-R-R-R
+LevelReq: 63
+Implicits: 2
+{tags:caster,speed}{exarch}8% increased Cast Speed
+{tags:physical,elemental,fire}{eater}6% of Physical Damage from Hits taken as Fire Damage
++9% chance to Suppress Spell Damage
++67 to maximum Life
++29% to Cold Resistance
++15% to Chaos Resistance
+{tags:unveiled_mod,physical,elemental,fire}{crafted}{range:0.5}(7-8)% of Physical Damage from Hits taken as Fire Damage
 			<ModRange range="0.5" id="1"/>
 			<ModRange range="0.5" id="2"/>
 			<ModRange range="0.5" id="3"/>
 			<ModRange range="0.5" id="4"/>
 			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.5" id="7"/>
+		</Item>
+		<Item id="15">
+			Rarity: UNIQUE
+Elevore
+Wolf Pelt
+Evasion: 344
+EvasionBasePercentile: 1
+Quality: 20
+Sockets: G-G-G-G
+LevelReq: 30
+Implicits: 0
+{range:0.5}+(20-25)% chance to Suppress Spell Damage
+{range:0.5}(60-100)% increased Evasion Rating
+{range:0.5}(20-25)% chance to Avoid Elemental Ailments
+{range:0.5}Recover (100-200) Life when you Suppress Spell Damage
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
 		</Item>
 		<Item id="30">
 			Rarity: RARE
@@ -736,61 +808,6 @@ Implicits: 2
 			<ModRange range="0.5" id="6"/>
 			<ModRange range="0.5" id="7"/>
 		</Item>
-		<Item id="15">
-			Rarity: UNIQUE
-Elevore
-Wolf Pelt
-Evasion: 344
-EvasionBasePercentile: 1
-Quality: 20
-Sockets: G-G-G-G
-LevelReq: 30
-Implicits: 0
-{range:0.5}+(20-25)% chance to Suppress Spell Damage
-{range:0.5}(60-100)% increased Evasion Rating
-{range:0.5}(20-25)% chance to Avoid Elemental Ailments
-{range:0.5}Recover (100-200) Life when you Suppress Spell Damage
-			<ModRange range="0.5" id="1"/>
-			<ModRange range="0.5" id="2"/>
-			<ModRange range="0.5" id="3"/>
-			<ModRange range="0.5" id="4"/>
-		</Item>
-		<Item id="9">
-			Rarity: RARE
-Korrel Unveil + Implicits
-Pig-Faced Bascinet
-Armour: 316
-ArmourBasePercentile: 1
-Evasion: 220
-EvasionBasePercentile: 1
-Searing Exarch Item
-Eater of Worlds Item
-Crafted: true
-Prefix: None
-Prefix: {range:0.796}IncreasedLife6
-Prefix: None
-Suffix: {range:1}ColdResist4
-Suffix: {range:0.88}ChaosResist2
-Suffix: {range:0.201}ChanceToSuppressSpells3
-Quality: 20
-Sockets: R-R-R-R
-LevelReq: 63
-Implicits: 2
-{tags:caster,speed}{exarch}8% increased Cast Speed
-{tags:physical,elemental,fire}{eater}6% of Physical Damage from Hits taken as Fire Damage
-+9% chance to Suppress Spell Damage
-+67 to maximum Life
-+29% to Cold Resistance
-+15% to Chaos Resistance
-{tags:unveiled_mod,physical,elemental,fire}{crafted}{range:0.5}(7-8)% of Physical Damage from Hits taken as Fire Damage
-			<ModRange range="0.5" id="1"/>
-			<ModRange range="0.5" id="2"/>
-			<ModRange range="0.5" id="3"/>
-			<ModRange range="0.5" id="4"/>
-			<ModRange range="0.5" id="5"/>
-			<ModRange range="0.5" id="6"/>
-			<ModRange range="0.5" id="7"/>
-		</Item>
 		<Item id="6">
 			Rarity: RARE
 New Item
@@ -814,6 +831,74 @@ Implicits: 0
 			<ModRange range="0.5" id="1"/>
 			<ModRange range="0.5" id="2"/>
 			<ModRange range="0.5" id="3"/>
+		</Item>
+		<Item id="21">
+			Rarity: RARE
+Grav Unveil + Suppression + Implicit
+Full Dragonscale
+Armour: 1306
+ArmourBasePercentile: 0
+Evasion: 1108
+EvasionBasePercentile: 0
+Searing Exarch Item
+Eater of Worlds Item
+Crafted: true
+Prefix: None
+Prefix: None
+Prefix: {range:1}LocalBaseArmourAndEvasionRating8
+Suffix: None
+Suffix: {range:1}ChanceToSuppressSpellsHigh5___
+Suffix: None
+Quality: 20
+Sockets: R-R-R-R-R-R
+LevelReq: 68
+Implicits: 2
+{tags:aura}{exarch}{range:0.5}(9-10)% increased effect of Non-Curse Auras from your Skills
+{tags:aura}{eater}{range:0.5}Determination has (19-21)% increased Aura Effect
++15% chance to Suppress Spell Damage
++170 to Armour
++170 to Evasion Rating
+84% increased Armour and Evasion
++37% to Cold Resistance
+{tags:unveiled_mod,physical,elemental,fire,lightning}{crafted}{range:0.5}(5-6)% of Physical Damage from Hits taken as Fire Damage
+{tags:unveiled_mod,physical,elemental,fire,lightning}{crafted}{range:0.5}(5-6)% of Physical Damage from Hits taken as Lightning Damage
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.5" id="7"/>
+			<ModRange range="0.5" id="8"/>
+			<ModRange range="0.5" id="9"/>
+		</Item>
+		<Item id="8">
+			Rarity: RARE
+----&gt; Gravicious Unveil
+Desert Brigandine
+Armour: 541
+ArmourBasePercentile: 1
+Evasion: 541
+EvasionBasePercentile: 1
+Crafted: true
+Prefix: None
+Prefix: None
+Prefix: None
+Suffix: None
+Suffix: {range:1}FireResist4
+Suffix: {range:0.5}ChanceToSuppressSpellsHigh3
+Quality: 20
+Sockets: G-G-G-G-G-G
+LevelReq: 60
+Implicits: 0
++15% chance to Suppress Spell Damage
++29% to Fire Resistance
+{tags:unveiled_mod,physical,elemental,fire,lightning}{crafted}{range:0.5}(5-6)% of Physical Damage from Hits taken as Fire Damage
+{tags:unveiled_mod,physical,elemental,fire,lightning}{crafted}{range:0.5}(5-6)% of Physical Damage from Hits taken as Lightning Damage
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
 		</Item>
 		<Item id="31">
 			Rarity: RARE
@@ -857,73 +942,88 @@ Implicits: 2
 			<ModRange range="0.817" id="9"/>
 			<ModRange range="1" id="10"/>
 		</Item>
-		<Item id="8">
-			Rarity: RARE
-----&gt; Gravicious Unveil
-Desert Brigandine
-Armour: 541
+		<Item id="55">
+			Rarity: UNIQUE
+The Fourth Vow
+Devout Chainmail
+Armour: 1162
 ArmourBasePercentile: 1
-Evasion: 541
-EvasionBasePercentile: 1
-Crafted: true
-Prefix: None
-Prefix: None
-Prefix: None
-Suffix: None
-Suffix: {range:1}FireResist4
-Suffix: {range:0.5}ChanceToSuppressSpellsHigh3
+Energy Shield: 237
+EnergyShieldBasePercentile: 1
 Quality: 20
-Sockets: G-G-G-G-G-G
-LevelReq: 60
+Sockets: B-B-B-B-B-B
+LevelReq: 55
 Implicits: 0
-+15% chance to Suppress Spell Damage
-+29% to Fire Resistance
-{tags:unveiled_mod,physical,elemental,fire,lightning}{crafted}{range:0.5}(5-6)% of Physical Damage from Hits taken as Fire Damage
-{tags:unveiled_mod,physical,elemental,fire,lightning}{crafted}{range:0.5}(5-6)% of Physical Damage from Hits taken as Lightning Damage
+Physical Damage taken bypasses Energy Shield
+{range:0.5}(150-250)% increased Armour and Energy Shield
+{range:0.5}+(17-29)% to Chaos Resistance
+Regenerate 3% of Life per second
+Armour also applies to Chaos Damage taken from Hits
 			<ModRange range="0.5" id="1"/>
 			<ModRange range="0.5" id="2"/>
 			<ModRange range="0.5" id="3"/>
 			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
 		</Item>
-		<Item id="21">
+		<Item id="22">
 			Rarity: RARE
-Grav Unveil + Suppression + Implicit
-Full Dragonscale
-Armour: 1306
-ArmourBasePercentile: 0
-Evasion: 1108
-EvasionBasePercentile: 0
+-&gt; MUST HAVE EXPOSURE
+Dragonscale Gauntlets
+Armour: 167
+ArmourBasePercentile: 1
+Evasion: 167
+EvasionBasePercentile: 1
 Searing Exarch Item
 Eater of Worlds Item
 Crafted: true
 Prefix: None
 Prefix: None
-Prefix: {range:1}LocalBaseArmourAndEvasionRating8
-Suffix: None
-Suffix: {range:1}ChanceToSuppressSpellsHigh5___
-Suffix: None
+Prefix: None
+Suffix: {range:0.141}ChaosResist5
+Suffix: {range:0.155}LightningResist6
+Suffix: {range:0.415}ChanceToSuppressSpells4
 Quality: 20
-Sockets: R-R-R-R-R-R
-LevelReq: 68
+Sockets: G-G-G-G
+LevelReq: 67
 Implicits: 2
-{tags:aura}{exarch}{range:0.5}(9-10)% increased effect of Non-Curse Auras from your Skills
-{tags:aura}{eater}{range:0.5}Determination has (19-21)% increased Aura Effect
-+15% chance to Suppress Spell Damage
-+170 to Armour
-+170 to Evasion Rating
-84% increased Armour and Evasion
-+37% to Cold Resistance
-{tags:unveiled_mod,physical,elemental,fire,lightning}{crafted}{range:0.5}(5-6)% of Physical Damage from Hits taken as Fire Damage
-{tags:unveiled_mod,physical,elemental,fire,lightning}{crafted}{range:0.5}(5-6)% of Physical Damage from Hits taken as Lightning Damage
+{tags:dot_multi,elemental_damage,damage,elemental,fire}{exarch}{range:0.5}+(5-7)% to Fire Damage over Time Multiplier
+{eater}Inflict Fire Exposure on Hit, applying -11% to Fire Resistance
++11% chance to Suppress Spell Damage
++37% to Lightning Resistance
++27% to Chaos Resistance
+{tags:resource,life}{crafted}{range:0.5}+(56-70) to maximum Life
 			<ModRange range="0.5" id="1"/>
 			<ModRange range="0.5" id="2"/>
 			<ModRange range="0.5" id="3"/>
 			<ModRange range="0.5" id="4"/>
 			<ModRange range="0.5" id="5"/>
 			<ModRange range="0.5" id="6"/>
-			<ModRange range="0.5" id="7"/>
-			<ModRange range="0.5" id="8"/>
-			<ModRange range="0.5" id="9"/>
+		</Item>
+		<Item id="40">
+			Rarity: RARE
+ENERGY SHIELD + LIFE
+Sorcerer Gloves
+Energy Shield: 109
+EnergyShieldBasePercentile: 1
+Crafted: true
+Prefix: None
+Prefix: None
+Prefix: {range:0.338}LocalIncreasedEnergyShieldPercent5
+Suffix: None
+Suffix: {range:1}ColdResist4
+Suffix: {range:1}LightningResist4
+Quality: 20
+Sockets: B-B-B-B
+LevelReq: 69
+Implicits: 0
+72% increased Energy Shield
++29% to Cold Resistance
++29% to Lightning Resistance
+{tags:resource,life}{crafted}{range:0.5}+(56-70) to maximum Life
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
 		</Item>
 		<Item id="32">
 			Rarity: RARE
@@ -963,66 +1063,6 @@ Implicits: 2
 			<ModRange range="0.5" id="7"/>
 			<ModRange range="1" id="8"/>
 		</Item>
-		<Item id="40">
-			Rarity: RARE
-ENERGY SHIELD + LIFE
-Sorcerer Gloves
-Energy Shield: 109
-EnergyShieldBasePercentile: 1
-Crafted: true
-Prefix: None
-Prefix: None
-Prefix: {range:0.338}LocalIncreasedEnergyShieldPercent5
-Suffix: None
-Suffix: {range:1}ColdResist4
-Suffix: {range:1}LightningResist4
-Quality: 20
-Sockets: B-B-B-B
-LevelReq: 69
-Implicits: 0
-72% increased Energy Shield
-+29% to Cold Resistance
-+29% to Lightning Resistance
-{tags:resource,life}{crafted}{range:0.5}+(56-70) to maximum Life
-			<ModRange range="0.5" id="1"/>
-			<ModRange range="0.5" id="2"/>
-			<ModRange range="0.5" id="3"/>
-			<ModRange range="0.5" id="4"/>
-		</Item>
-		<Item id="22">
-			Rarity: RARE
--&gt; MUST HAVE EXPOSURE
-Dragonscale Gauntlets
-Armour: 167
-ArmourBasePercentile: 1
-Evasion: 167
-EvasionBasePercentile: 1
-Searing Exarch Item
-Eater of Worlds Item
-Crafted: true
-Prefix: None
-Prefix: None
-Prefix: None
-Suffix: {range:0.141}ChaosResist5
-Suffix: {range:0.155}LightningResist6
-Suffix: {range:0.415}ChanceToSuppressSpells4
-Quality: 20
-Sockets: G-G-G-G
-LevelReq: 67
-Implicits: 2
-{tags:dot_multi,elemental_damage,damage,elemental,fire}{exarch}{range:0.5}+(5-7)% to Fire Damage over Time Multiplier
-{eater}Inflict Fire Exposure on Hit, applying -11% to Fire Resistance
-+11% chance to Suppress Spell Damage
-+37% to Lightning Resistance
-+27% to Chaos Resistance
-{tags:resource,life}{crafted}{range:0.5}+(56-70) to maximum Life
-			<ModRange range="0.5" id="1"/>
-			<ModRange range="0.5" id="2"/>
-			<ModRange range="0.5" id="3"/>
-			<ModRange range="0.5" id="4"/>
-			<ModRange range="0.5" id="5"/>
-			<ModRange range="0.5" id="6"/>
-		</Item>
 		<Item id="10">
 			Rarity: RARE
 New Item
@@ -1048,6 +1088,74 @@ Implicits: 0
 			<ModRange range="0.5" id="1"/>
 			<ModRange range="0.5" id="2"/>
 			<ModRange range="0.5" id="3"/>
+		</Item>
+		<Item id="24">
+			Rarity: RARE
+Scorch + Enchant
+Murder Boots
+Evasion: 256
+EvasionBasePercentile: 1
+Energy Shield: 25
+EnergyShieldBasePercentile: 1
+Searing Exarch Item
+Eater of Worlds Item
+Crafted: true
+Prefix: None
+Prefix: None
+Prefix: {range:0.655}IncreasedLife6
+Suffix: {range:0.588}ChanceToSuppressSpells3
+Suffix: {range:0.662}FireResist6
+Suffix: {range:0.859}LightningResist4
+Quality: 20
+Sockets: G-G-G-G
+LevelReq: 69
+Implicits: 2
+{exarch}While a Unique Enemy is in your Presence, Drops Scorched Ground while moving, lasting 5 seconds
+{tags:elemental_damage,damage,elemental,fire,ailment}{eater}Ignites you inflict deal Damage 5% faster
++10% chance to Suppress Spell Damage
++66 to maximum Life
++39% to Fire Resistance
++28% to Lightning Resistance
+{tags:unveiled_mod,elemental,cold,speed,ailment}{crafted}{range:0.5}(18-20)% increased Movement Speed
+{tags:unveiled_mod,elemental,cold,speed,ailment}{crafted}100% chance to Avoid being Chilled
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.5" id="7"/>
+			<ModRange range="0.5" id="8"/>
+		</Item>
+		<Item id="19">
+			Rarity: RARE
+New Item
+Assassin&apos;s Boots
+Evasion: 167
+EvasionBasePercentile: 1
+Energy Shield: 34
+EnergyShieldBasePercentile: 1
+Crafted: true
+Prefix: None
+Prefix: None
+Prefix: None
+Suffix: None
+Suffix: None
+Suffix: None
+Quality: 20
+Sockets: G-G-G-G
+LevelReq: 63
+Implicits: 0
++45 to maximum Life
++29% to Fire Resistance
++29% to Cold Resistance
+{tags:unveiled_mod,elemental,cold,speed,ailment}{crafted}{range:0.5}(15-17)% increased Movement Speed
+{tags:unveiled_mod,elemental,cold,speed,ailment}{crafted}100% chance to Avoid being Chilled
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
 		</Item>
 		<Item id="33">
 			Rarity: RARE
@@ -1086,76 +1194,6 @@ Implicits: 2
 			<ModRange range="0.683" id="6"/>
 			<ModRange range="0.5" id="7"/>
 			<ModRange range="0.5" id="8"/>
-		</Item>
-		<Item id="19">
-			Rarity: RARE
-New Item
-Assassin&apos;s Boots
-Evasion: 167
-EvasionBasePercentile: 1
-Energy Shield: 34
-EnergyShieldBasePercentile: 1
-Crafted: true
-Prefix: None
-Prefix: None
-Prefix: None
-Suffix: None
-Suffix: None
-Suffix: None
-Quality: 20
-Sockets: G-G-G-G
-LevelReq: 63
-Implicits: 0
-+45 to maximum Life
-+29% to Fire Resistance
-+29% to Cold Resistance
-{tags:unveiled_mod,elemental,cold,speed,ailment}{crafted}{range:0.5}(15-17)% increased Movement Speed
-{tags:unveiled_mod,elemental,cold,speed,ailment}{crafted}100% chance to Avoid being Chilled
-			<ModRange range="0.5" id="1"/>
-			<ModRange range="0.5" id="2"/>
-			<ModRange range="0.5" id="3"/>
-			<ModRange range="0.5" id="4"/>
-			<ModRange range="0.5" id="5"/>
-		</Item>
-		<Item id="24">
-			Rarity: RARE
-Scorch + Enchant
-Murder Boots
-Evasion: 256
-EvasionBasePercentile: 1
-Energy Shield: 25
-EnergyShieldBasePercentile: 1
-Searing Exarch Item
-Eater of Worlds Item
-Crafted: true
-Prefix: None
-Prefix: None
-Prefix: {range:0.655}IncreasedLife6
-Suffix: {range:0.588}ChanceToSuppressSpells3
-Suffix: {range:0.662}FireResist6
-Suffix: {range:0.859}LightningResist4
-Quality: 20
-Sockets: G-G-G-G
-LevelReq: 69
-Implicits: 3
-{crafted}120% increased Critical Strike Chance if you haven&apos;t Crit Recently
-{exarch}While a Unique Enemy is in your Presence, Drops Scorched Ground while moving, lasting 5 seconds
-{tags:elemental_damage,damage,elemental,fire,ailment}{eater}Ignites you inflict deal Damage 5% faster
-+10% chance to Suppress Spell Damage
-+66 to maximum Life
-+39% to Fire Resistance
-+28% to Lightning Resistance
-{tags:unveiled_mod,elemental,cold,speed,ailment}{crafted}{range:0.5}(18-20)% increased Movement Speed
-{tags:unveiled_mod,elemental,cold,speed,ailment}{crafted}100% chance to Avoid being Chilled
-			<ModRange range="0.5" id="1"/>
-			<ModRange range="0.5" id="2"/>
-			<ModRange range="0.5" id="3"/>
-			<ModRange range="0.5" id="4"/>
-			<ModRange range="0.5" id="5"/>
-			<ModRange range="0.5" id="6"/>
-			<ModRange range="0.5" id="7"/>
-			<ModRange range="0.5" id="8"/>
-			<ModRange range="0.5" id="9"/>
 		</Item>
 		<Item id="25">
 			Rarity: RARE
@@ -1232,50 +1270,28 @@ Implicits: 2
 			<ModRange range="0.5" id="4"/>
 			<ModRange range="0.5" id="5"/>
 		</Item>
-		<Item id="28">
+		<Item id="53">
 			Rarity: UNIQUE
-Replica Emberwake
-Ruby Ring
-League: Heist
-Catalyst: Turbulent
+Defiance of Destiny
+Paua Amulet
+Catalyst: Fertile
 CatalystQuality: 20
-LevelReq: 16
-Implicits: 1
-{tags:jewellery_resistance}{range:0.5}+(20-30)% to Fire Resistance
-{tags:jewellery_elemental}{range:0.5}(30-40)% increased Fire Damage
-{tags:caster,speed}{range:0.5}(5-10)% increased Cast Speed
-90% reduced Ignite Duration on Enemies
-10% chance to Ignite
-{tags:jewellery_elemental}{range:1}Ignites you inflict deal Damage (35-45)% faster
+LevelReq: 49
+Implicits: 2
+{crafted}Allocates Ash, Frost and Storm
+{tags:mana}{range:0.5}(20-30)% increased Mana Regeneration Rate
+{tags:life}{range:0.5}+(60-80) to maximum Life
+{tags:jewellery_resistance}{range:0.5}+(10-40)% to Fire Resistance
+{tags:jewellery_resistance}{range:0.5}+(10-40)% to Cold Resistance
+{tags:jewellery_resistance}{range:0.5}+(10-40)% to Lightning Resistance
+{tags:life}Gain 35% of Missing Unreserved Life before being Hit by an Enemy
 			<ModRange range="0.5" id="1"/>
 			<ModRange range="0.5" id="2"/>
 			<ModRange range="0.5" id="3"/>
 			<ModRange range="0.5" id="4"/>
 			<ModRange range="0.5" id="5"/>
-			<ModRange range="1" id="6"/>
-		</Item>
-		<Item id="4">
-			Rarity: RARE
-New Item
-Amethyst Ring
-Crafted: true
-Prefix: None
-Prefix: None
-Prefix: None
-Suffix: {range:1}LightningResist4
-Suffix: {range:1}ColdResist4
-Suffix: None
-Quality: 0
-LevelReq: 30
-Implicits: 1
-{tags:chaos,resistance}{range:0.5}+(17-23)% to Chaos Resistance
-+29% to Cold Resistance
-+29% to Lightning Resistance
-{tags:resource,life}{crafted}{range:0.5}+(41-55) to maximum Life
-			<ModRange range="0.5" id="1"/>
-			<ModRange range="0.5" id="2"/>
-			<ModRange range="0.5" id="3"/>
-			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.5" id="7"/>
 		</Item>
 		<Item variant="3" id="17">
 			Rarity: UNIQUE
@@ -1311,30 +1327,50 @@ Implicits: 1
 			<ModRange range="0.5" id="10"/>
 			<ModRange range="0.5" id="11"/>
 		</Item>
-		<Item id="34">
+		<Item id="4">
 			Rarity: RARE
-Fractured + Dex Essence + Shock
+New Item
 Amethyst Ring
 Crafted: true
 Prefix: None
 Prefix: None
-Prefix: {range:0.676}IncreasedLife6
-Suffix: {range:0.289}Dexterity8
-Suffix: {range:0.338}ChaosResist4
+Prefix: None
+Suffix: {range:1}LightningResist4
+Suffix: {range:1}ColdResist4
 Suffix: None
 Quality: 0
-LevelReq: 59
+LevelReq: 30
 Implicits: 1
-{tags:chaos,resistance}{range:1}+(17-23)% to Chaos Resistance
-+45 to Dexterity
-{fractured}+66 to maximum Life
-+22% to Chaos Resistance
-{tags:unveiled_mod,elemental,lightning,ailment}{crafted}Shock nearby Enemies for 4 Seconds when you Focus
-			<ModRange range="1" id="1"/>
+{tags:chaos,resistance}{range:0.5}+(17-23)% to Chaos Resistance
++29% to Cold Resistance
++29% to Lightning Resistance
+{tags:resource,life}{crafted}{range:0.5}+(41-55) to maximum Life
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+		</Item>
+		<Item id="28">
+			Rarity: UNIQUE
+Replica Emberwake
+Ruby Ring
+League: Heist
+Catalyst: Turbulent
+CatalystQuality: 20
+LevelReq: 16
+Implicits: 1
+{tags:jewellery_resistance}{range:0.5}+(20-30)% to Fire Resistance
+{tags:jewellery_elemental}{range:0.5}(30-40)% increased Fire Damage
+{tags:caster,speed}{range:0.5}(5-10)% increased Cast Speed
+90% reduced Ignite Duration on Enemies
+10% chance to Ignite
+{tags:jewellery_elemental}{range:1}Ignites you inflict deal Damage (35-45)% faster
+			<ModRange range="0.5" id="1"/>
 			<ModRange range="0.5" id="2"/>
 			<ModRange range="0.5" id="3"/>
 			<ModRange range="0.5" id="4"/>
 			<ModRange range="0.5" id="5"/>
+			<ModRange range="1" id="6"/>
 		</Item>
 		<Item id="26">
 			Rarity: RARE
@@ -1386,6 +1422,31 @@ Curse enemies with Flammability on hit
 			<ModRange range="0.5" id="4"/>
 			<ModRange range="0.5" id="5"/>
 		</Item>
+		<Item id="34">
+			Rarity: RARE
+Fractured + Dex Essence + Shock
+Amethyst Ring
+Crafted: true
+Prefix: None
+Prefix: None
+Prefix: {range:0.676}IncreasedLife6
+Suffix: {range:0.289}Dexterity8
+Suffix: {range:0.338}ChaosResist4
+Suffix: None
+Quality: 0
+LevelReq: 59
+Implicits: 1
+{tags:chaos,resistance}{range:1}+(17-23)% to Chaos Resistance
++45 to Dexterity
+{fractured}+66 to maximum Life
++22% to Chaos Resistance
+{tags:unveiled_mod,elemental,lightning,ailment}{crafted}Shock nearby Enemies for 4 Seconds when you Focus
+			<ModRange range="1" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+		</Item>
 		<Item variant="3" id="38">
 			Rarity: UNIQUE
 Death Rush
@@ -1420,6 +1481,80 @@ Implicits: 1
 			<ModRange range="0.5" id="10"/>
 			<ModRange range="0.5" id="11"/>
 		</Item>
+		<Item id="23">
+			Rarity: RARE
+ES Base + ES Regen
+Crystal Belt
+Crafted: true
+Prefix: {range:0.592}IncreasedLife8
+Prefix: None
+Prefix: None
+Suffix: {range:0.521}FireResist6
+Suffix: {range:0.606}LightningResist6
+Suffix: None
+Quality: 0
+LevelReq: 79
+Implicits: 1
+{tags:defences,energy_shield}{range:0.829}+(60-80) to maximum Energy Shield
++85 to maximum Life
++39% to Fire Resistance
++39% to Lightning Resistance
+{tags:unveiled_mod,defences,energy_shield}{crafted}Regenerate 150 Energy Shield per second while a Rare or Unique Enemy is Nearby
+			<ModRange range="0.829" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+		</Item>
+		<Item id="3">
+			Rarity: RARE
+---&gt; Unveiled ES Regen
+Heavy Belt
+Crafted: true
+Prefix: None
+Prefix: None
+Prefix: {range:1}IncreasedLife4
+Suffix: {range:1}FireResist4
+Suffix: None
+Suffix: None
+Quality: 0
+LevelReq: 28
+Implicits: 1
+{tags:attribute}{range:0.5}+(25-35) to Strength
++49 to maximum Life
++29% to Fire Resistance
+{tags:unveiled_mod,defences,energy_shield}{crafted}Regenerate 150 Energy Shield per second while a Rare or Unique Enemy is Nearby
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+		</Item>
+		<Item id="51">
+			Rarity: RARE
+New Item
+Stygian Vise
+Crafted: true
+Prefix: None
+Prefix: None
+Prefix: {range:0.268}IncreasedLife6
+Suffix: {range:1}LightningResist4
+Suffix: {range:1}FireResist4
+Suffix: None
+Quality: 0
+Sockets: A
+LevelReq: 29
+Implicits: 1
+Has 1 Abyssal Socket
++62 to maximum Life
++29% to Fire Resistance
++29% to Lightning Resistance
+{tags:unveiled_mod,defences,energy_shield}{crafted}Regenerate 150 Energy Shield per second while a Rare or Unique Enemy is Nearby
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+		</Item>
 		<Item id="49">
 			Rarity: RARE
 ES Base + ES Regen
@@ -1448,54 +1583,6 @@ Implicits: 1
 			<ModRange range="0.5" id="4"/>
 			<ModRange range="0.5" id="5"/>
 			<ModRange range="0.5" id="6"/>
-		</Item>
-		<Item id="3">
-			Rarity: RARE
----&gt; Unveiled ES Regen
-Heavy Belt
-Crafted: true
-Prefix: None
-Prefix: None
-Prefix: {range:1}IncreasedLife4
-Suffix: {range:1}FireResist4
-Suffix: None
-Suffix: None
-Quality: 0
-LevelReq: 28
-Implicits: 1
-{tags:attribute}{range:0.5}+(25-35) to Strength
-+49 to maximum Life
-+29% to Fire Resistance
-{tags:unveiled_mod,defences,energy_shield}{crafted}Regenerate 150 Energy Shield per second while a Rare or Unique Enemy is Nearby
-			<ModRange range="0.5" id="1"/>
-			<ModRange range="0.5" id="2"/>
-			<ModRange range="0.5" id="3"/>
-			<ModRange range="0.5" id="4"/>
-		</Item>
-		<Item id="23">
-			Rarity: RARE
-ES Base + ES Regen
-Crystal Belt
-Crafted: true
-Prefix: {range:0.592}IncreasedLife8
-Prefix: None
-Prefix: None
-Suffix: {range:0.521}FireResist6
-Suffix: {range:0.606}LightningResist6
-Suffix: None
-Quality: 0
-LevelReq: 79
-Implicits: 1
-{tags:defences,energy_shield}{range:0.829}+(60-80) to maximum Energy Shield
-+85 to maximum Life
-+39% to Fire Resistance
-+39% to Lightning Resistance
-{tags:unveiled_mod,defences,energy_shield}{crafted}Regenerate 150 Energy Shield per second while a Rare or Unique Enemy is Nearby
-			<ModRange range="0.829" id="1"/>
-			<ModRange range="0.5" id="2"/>
-			<ModRange range="0.5" id="3"/>
-			<ModRange range="0.5" id="4"/>
-			<ModRange range="0.5" id="5"/>
 		</Item>
 		<Item id="14">
 			Rarity: MAGIC
@@ -1617,6 +1704,337 @@ Increases and Reductions to Energy Shield in Radius are Transformed to apply to 
 			<ModRange range="0.5" id="1"/>
 			<ModRange range="0.5" id="2"/>
 		</Item>
+		<Item variant="2" id="54">
+			Rarity: UNIQUE
+Glorious Vanity
+Timeless Jewel
+League: Legion
+Variant: Doryani (Corrupted Soul)
+Variant: Xibaqua (Divine Flesh)
+Variant: Zerphi (Eternal Youth) (Pre 3.11.0)
+Variant: Ahuana (Immortal Ambition)
+Selected Variant: 2
+LevelReq: 20
+Radius: Large
+Limited to: 1
+Implicits: 0
+{variant:1}{range:0.5}Bathed in the blood of (100-8000) sacrificed in the name of Doryani
+{variant:2}{range:0.5}Bathed in the blood of (100-8000) sacrificed in the name of Xibaqua
+{variant:3}{range:0.5}Bathed in the blood of (100-8000) sacrificed in the name of Zerphi
+{variant:4}{range:0.5}Bathed in the blood of (100-8000) sacrificed in the name of Ahuana
+Passives in radius are Conquered by the Vaal
+Historic
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+		</Item>
+		<Item variant="46" variantAlt="46" id="56" variantAlt2="1">
+			Rarity: UNIQUE
+Watcher&apos;s Eye
+Prismatic Jewel
+Variant: None
+Variant: Anger: Fire Damage Life Leech
+Variant: Anger: Fire Penetration
+Variant: Anger: Inc Crit Strike Mult
+Variant: Anger: Inc Fire Damage
+Variant: Anger: Phys Added As Fire
+Variant: Anger: Phys Converted To Fire
+Variant: Clarity: Damage Taken From Mana Before Life
+Variant: Clarity: Damage Taken Gained As Mana
+Variant: Clarity: Mana Added As ES (Pre 3.12.0)
+Variant: Clarity: Mana Added As ES
+Variant: Clarity: Mana Recovery Rate (Pre 3.12.0)
+Variant: Clarity: Mana Recovery Rate
+Variant: Clarity: Recover Mana On Skill Use
+Variant: Clarity: Red. Mana Cost (Pre 3.8.0)
+Variant: Clarity: Red. Mana Cost Non Channelled
+Variant: Determination: Additional Armour
+Variant: Determination: Additional Block
+Variant: Determination: Phys Damage Reduction
+Variant: Determination: Red. Extra Damage From Crits
+Variant: Determination: Red. Reflected Phys Damage
+Variant: Determination: Unaffected By Vulnerability
+Variant: Discipline: Additional Spell Block
+Variant: Discipline: ES Per Hit
+Variant: Discipline: ES Recovery Rate (Pre 3.12.0)
+Variant: Discipline: ES Recovery Rate
+Variant: Discipline: ES Regen
+Variant: Discipline: Faster Start Of Recharge
+Variant: Grace: Additional Chance To Evade
+Variant: Grace: Blind Enemies When Hit
+Variant: Grace: Chance to Suppress Spells
+Variant: Grace: Inc Movement Speed
+Variant: Grace: Unaffected By Enfeeble
+Variant: Haste: Chance to Suppress Spells
+Variant: Haste: Cooldown Recovery For Movement Skills
+Variant: Haste: Debuffs Expire Faster
+Variant: Haste: Gain Onslaught On Kill
+Variant: Haste: Gain Phasing
+Variant: Haste: Unaffected By Temporal Chains
+Variant: Hatred: Added Cold Damage
+Variant: Hatred: Additional Crit Strike Chance
+Variant: Hatred: Cold Penetration
+Variant: Hatred: Inc Cold Damage
+Variant: Hatred: Phys Converted To Cold
+Variant: Malevolence: Damage Over Time Mult (Pre 3.8.0)
+Variant: Malevolence: Damage Over Time Mult
+Variant: Malevolence: Life And ES Recovery Rate (Pre 3.12.0)
+Variant: Malevolence: Life And ES Recovery Rate
+Variant: Malevolence: Unaffected By Bleeding
+Variant: Malevolence: Unaffected By Poison
+Variant: Malevolence: Your Ailments Deal Damage Faster
+Variant: Precision: Cannot Be Blinded
+Variant: Precision: Flask Charge On Crit
+Variant: Precision: Inc Attack Damage
+Variant: Precision: Inc Attack Speed
+Variant: Precision: Inc Crit Strike Mult (Pre 3.12.0)
+Variant: Precision: Inc Crit Strike Mult
+Variant: Pride: Chance For Double Damage
+Variant: Pride: Chance To Impale
+Variant: Pride: Impale Additional Hits
+Variant: Pride: Inc Phys Damage
+Variant: Pride: Intimidate On Hit
+Variant: Purity Of Elements: Chaos Resistance
+Variant: Purity Of Elements: Red. Reflected Ele Damage
+Variant: Purity Of Elements: Take Phys As Cold
+Variant: Purity Of Elements: Take Phys As Fire
+Variant: Purity Of Elements: Take Phys As Lightning
+Variant: Purity Of Elements: Unaffected By Ele Weakness
+Variant: Purity Of Fire: Immune To Ignite
+Variant: Purity Of Fire: Take Phys As Fire
+Variant: Purity Of Fire: Unaffected By Burning Ground
+Variant: Purity Of Fire: Unaffected By Flammability
+Variant: Purity Of Ice: Immune To Freeze
+Variant: Purity Of Ice: Take Phys As Ice
+Variant: Purity Of Ice: Unaffected By Chilled Ground
+Variant: Purity Of Ice: Unaffected By Frostbite
+Variant: Purity Of Lightning: Immune To Shock
+Variant: Purity Of Lightning: Take Phys As Lightning
+Variant: Purity Of Lightning: Unaffected By Conductivity
+Variant: Purity Of Lightning: Unaffected By Shocked Ground
+Variant: Vitality: Damage Life Leech (Pre 3.12.0)
+Variant: Vitality: Damage Life Leech
+Variant: Vitality: Flat Life Regen (Pre 3.12.0)
+Variant: Vitality: Life Gain Per Hit
+Variant: Vitality: Life Recovery From Flasks
+Variant: Vitality: Life Recovery Rate (Pre 3.12.0)
+Variant: Vitality: Life Recovery Rate
+Variant: Vitality: Percent Life Regen
+Variant: Wrath: Inc Crit Strike Chance
+Variant: Wrath: Inc Lightning Damage
+Variant: Wrath: Lightning Damage ES Leech
+Variant: Wrath: Lightning Damage Mana Leech (Pre 3.8.0)
+Variant: Wrath: Lightning Penetration
+Variant: Wrath: Phys Added As Lightning
+Variant: Wrath: Phys Converted To Lightning
+Variant: Zealotry: Cast Speed
+Variant: Zealotry: Consecrated Ground Effect Lingers For Ms After Leaving The Area
+Variant: Zealotry: Consecrated Ground Enemy Damage Taken
+Variant: Zealotry: Crit Strike Chance Against Enemies On Consecrated Ground
+Variant: Zealotry: Crit Strikes Penetrates Ele Resistances
+Variant: Zealotry: Gain Arcane Surge For 4 Seconds When You Create Consecrated Ground
+Variant: Zealotry: Maximum ES Per Second To Maximum ES Leech Rate
+Selected Variant: 46
+Has Alt Variant: true
+Selected Alt Variant: 46
+Has Alt Variant Two: true
+Selected Alt Variant Two: 1
+Limited to: 1
+Implicits: 0
+{range:0.5}(4-6)% increased maximum Energy Shield
+{range:0.5}(4-6)% increased maximum Life
+{range:0.5}(4-6)% increased maximum Mana
+{variant:2}{range:0.5}(1-1.5)% of Fire Damage Leeched as Life while affected by Anger
+{variant:3}{range:0.5}Damage Penetrates (10-15)% Fire Resistance while affected by Anger
+{variant:4}{range:0.5}+(30-50)% to Critical Strike Multiplier while affected by Anger
+{variant:5}{range:0.5}(40-60)% increased Fire Damage while affected by Anger
+{variant:6}{range:0.5}Gain (15-25)% of Physical Damage as Extra Fire Damage while affected by Anger
+{variant:7}{range:0.5}(25-40)% of Physical Damage Converted to Fire Damage while affected by Anger
+{variant:8}{range:0.5}(6-10)% of Damage taken from Mana before Life while affected by Clarity
+{variant:9}{range:0.5}(15-20)% of Damage taken while affected by Clarity Recouped as Mana
+{variant:10}{range:0.5}Gain (12-18)% of Maximum Mana as Extra Maximum Energy Shield while affected by Clarity
+{variant:11}{range:0.5}Gain (6-10)% of Maximum Mana as Extra Maximum Energy Shield while affected by Clarity
+{variant:12}{range:0.5}(20-30)% increased Mana Recovery Rate while affected by Clarity
+{variant:13}{range:0.5}(10-15)% increased Mana Recovery Rate while affected by Clarity
+{variant:14}{range:0.5}(10-15)% chance to Recover 10% of Mana when you use a Skill while affected by Clarity
+{variant:15}{range:0.5}-(10-5) to Total Mana Cost of Skills while affected by Clarity
+{variant:16}{range:0.5}Non-Channelling Skills have -(10-5) to Total Mana Cost while affected by Clarity
+{variant:17}{range:0.5}+(600-1000) to Armour while affected by Determination
+{variant:18}{range:0.5}+(5-8)% Chance to Block Attack Damage while affected by Determination
+{variant:19}{range:0.5}(5-8)% additional Physical Damage Reduction while affected by Determination
+{variant:20}{range:0.5}You take (40-60)% reduced Extra Damage from Critical Strikes while affected by Determination
+{variant:21}{range:0.5}(40-50)% reduced Reflected Physical Damage taken while affected by Determination
+{variant:22}Unaffected by Vulnerability while affected by Determination
+{variant:23}{range:0.5}+(5-8)% Chance to Block Spell Damage while affected by Discipline
+{variant:24}{range:0.5}Gain (20-30) Energy Shield per Enemy Hit while affected by Discipline
+{variant:25}{range:0.5}(20-30)% increased Energy Shield Recovery Rate while affected by Discipline
+{variant:26}{range:0.5}(10-15)% increased Energy Shield Recovery Rate while affected by Discipline
+{variant:27}{range:0.5}Regenerate (1.5-2.5)% of Energy Shield per Second while affected by Discipline
+{variant:28}{range:0.5}(30-40)% faster start of Energy Shield Recharge while affected by Discipline
+{variant:29}{range:0.5}+(5-8)% chance to Evade Attack Hits while affected by Grace
+{variant:30}{range:0.5}(30-50)% chance to Blind Enemies which Hit you while affected by Grace
+{variant:31}{range:0.5}+(12-15)% chance to Suppress Spell Damage while affected by Grace
+{variant:32}{range:0.5}(10-15)% increased Movement Speed while affected by Grace
+{variant:33}Unaffected by Enfeeble while affected by Grace
+{variant:34}{range:0.5}+(5-8)% chance to Suppress Spell Damage while affected by Haste
+{variant:35}{range:0.5}(30-50)% increased Cooldown Recovery Rate of Movement Skills used while affected by Haste
+{variant:36}Debuffs on you expire (15-20)% faster while affected by Haste
+{variant:37}You gain Onslaught for 4 seconds on Kill while affected by Haste
+{variant:38}You have Phasing while affected by Haste
+{variant:39}Unaffected by Temporal Chains while affected by Haste
+{variant:40}{range:0.5}Adds (58-70) to (88-104) Cold Damage while affected by Hatred
+{variant:41}{range:0.5}+(1.2-1.8)% to Critical Strike Chance while affected by Hatred
+{variant:42}{range:0.5}Damage Penetrates (10-15)% Cold Resistance while affected by Hatred
+{variant:43}{range:0.5}(40-60)% increased Cold Damage while affected by Hatred
+{variant:44}{range:0.5}(25-40)% of Physical Damage Converted to Cold Damage while affected by Hatred
+{variant:45}{range:0.5}+(36-44)% to Damage over Time Multiplier while affected by Malevolence
+{variant:46}{range:0.5}+(18-22)% to Damage over Time Multiplier while affected by Malevolence
+{variant:47}{range:0.5}(15-20)% increased Recovery rate of Life and Energy Shield while affected by Malevolence
+{variant:48}{range:0.5}(8-12)% increased Recovery rate of Life and Energy Shield while affected by Malevolence
+{variant:49}Unaffected by Bleeding while affected by Malevolence
+{variant:50}Unaffected by Poison while affected by Malevolence
+{variant:51}{range:0.5}Damaging Ailments you inflict deal Damage (10-15)% faster while affected by Malevolence
+{variant:52}Cannot be Blinded while affected by Precision
+{variant:53}Gain a Flask Charge when you deal a Critical Strike while affected by Precision
+{variant:54}{range:0.5}(40-60)% increased Attack Damage while affected by Precision
+{variant:55}{range:0.5}(10-15)% increased Attack Speed while affected by Precision
+{variant:56}{range:0.5}+(30-50)% to Critical Strike Multiplier while affected by Precision
+{variant:57}{range:0.5}+(20-30)% to Critical Strike Multiplier while affected by Precision
+{variant:58}{range:0.5}(8-12)% chance to deal Double Damage while using Pride
+{variant:59}25% chance to Impale Enemies on Hit with Attacks while using Pride
+{variant:60}Impales you inflict last 2 additional Hits while using Pride
+{variant:61}{range:0.5}(40-60)% increased Physical Damage while using Pride
+{variant:62}Your Hits Intimidate Enemies for 4 seconds while you are using Pride
+{variant:63}{range:0.5}+(30-50)% to Chaos Resistance while affected by Purity of Elements
+{variant:64}{range:0.5}(40-50)% reduced Reflected Elemental Damage taken while affected by Purity of Elements
+{variant:65}{range:0.5}(8-12)% of Physical Damage from Hits taken as Cold Damage while affected by Purity of Elements
+{variant:66}{range:0.5}(8-12)% of Physical Damage from Hits taken as Fire Damage while affected by Purity of Elements
+{variant:67}{range:0.5}(8-12)% of Physical Damage from Hits taken as Lightning Damage while affected by Purity of Elements
+{variant:68}Unaffected by Elemental Weakness while affected by Purity of Elements
+{variant:69}Immune to Ignite while affected by Purity of Fire
+{variant:70}{range:0.5}(6-10)% of Physical Damage from Hits taken as Fire Damage while affected by Purity of Fire
+{variant:71}Unaffected by Burning Ground while affected by Purity of Fire
+{variant:72}Unaffected by Flammability while affected by Purity of Fire
+{variant:73}Immune to Freeze while affected by Purity of Ice
+{variant:74}{range:0.5}(6-10)% of Physical Damage from Hits taken as Cold Damage while affected by Purity of Ice
+{variant:75}Unaffected by Chilled Ground while affected by Purity of Ice
+{variant:76}Unaffected by Frostbite while affected by Purity of Ice
+{variant:77}Immune to Shock while affected by Purity of Lightning
+{variant:78}{range:0.5}(6-10)% of Physical Damage from Hits taken as Lightning Damage while affected by Purity of Lightning
+{variant:79}Unaffected by Conductivity while affected by Purity of Lightning
+{variant:80}Unaffected by Shocked Ground while affected by Purity of Lightning
+{variant:81}{range:0.5}(1-1.5)% of Damage leeched as Life while affected by Vitality
+{variant:82}{range:0.5}(0.8-1.2)% of Damage leeched as Life while affected by Vitality
+{variant:83}{range:0.5}Regenerate (100-140) Life per Second while affected by Vitality
+{variant:84}{range:0.5}Gain (20-30) Life per Enemy Hit while affected by Vitality
+{variant:85}{range:0.5}(50-70)% increased Life Recovery from Flasks while affected by Vitality
+{variant:86}{range:0.5}(20-30)% increased Life Recovery Rate while affected by Vitality
+{variant:87}{range:0.5}(10-15)% increased Life Recovery Rate while affected by Vitality
+{variant:88}{range:0.5}Regenerate (1-1.5)% of Life per second while affected by Vitality
+{variant:89}{range:0.5}(70-100)% increased Critical Strike Chance while affected by Wrath
+{variant:90}{range:0.5}(40-60)% increased Lightning Damage while affected by Wrath
+{variant:91}{range:0.5}(1-1.5)% of Lightning Damage is Leeched as Energy Shield while affected by Wrath
+{variant:92}{range:0.5}(1-1.5)% of Lightning Damage is Leeched as Mana while affected by Wrath
+{variant:93}{range:0.5}Damage Penetrates (10-15)% Lightning Resistance while affected by Wrath
+{variant:94}{range:0.5}Gain (15-25)% of Physical Damage as Extra Lightning Damage while affected by Wrath
+{variant:95}{range:0.5}(25-40)% of Physical Damage Converted to Lightning Damage while affected by Wrath
+{variant:96}{range:0.5}(10-15)% increased Cast Speed while affected by Zealotry
+{variant:97}Effects of Consecrated Ground you create while affected by Zealotry Linger for 2 seconds
+{variant:98}{range:0.5}Consecrated Ground you create while affected by Zealotry causes enemies to take (8-10)% increased Damage
+{variant:99}{range:0.5}(100-120)% increased Critical Strike Chance against Enemies on Consecrated Ground while affected by Zealotry
+{variant:100}{range:0.5}Critical Strikes Penetrate (8-10)% of Enemy Elemental Resistances while affected by Zealotry
+{variant:101}Gain Arcane Surge for 4 seconds when you create Consecrated Ground while affected by Zealotry
+{variant:102}30% increased Maximum total Energy Shield Recovery per second from Leech while affected by Zealotry
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.5" id="7"/>
+			<ModRange range="0.5" id="8"/>
+			<ModRange range="0.5" id="9"/>
+			<ModRange range="0.5" id="10"/>
+			<ModRange range="0.5" id="11"/>
+			<ModRange range="0.5" id="12"/>
+			<ModRange range="0.5" id="13"/>
+			<ModRange range="0.5" id="14"/>
+			<ModRange range="0.5" id="15"/>
+			<ModRange range="0.5" id="16"/>
+			<ModRange range="0.5" id="17"/>
+			<ModRange range="0.5" id="18"/>
+			<ModRange range="0.5" id="19"/>
+			<ModRange range="0.5" id="20"/>
+			<ModRange range="0.5" id="21"/>
+			<ModRange range="0.5" id="22"/>
+			<ModRange range="0.5" id="23"/>
+			<ModRange range="0.5" id="25"/>
+			<ModRange range="0.5" id="26"/>
+			<ModRange range="0.5" id="27"/>
+			<ModRange range="0.5" id="28"/>
+			<ModRange range="0.5" id="29"/>
+			<ModRange range="0.5" id="30"/>
+			<ModRange range="0.5" id="31"/>
+			<ModRange range="0.5" id="32"/>
+			<ModRange range="0.5" id="33"/>
+			<ModRange range="0.5" id="34"/>
+			<ModRange range="0.5" id="36"/>
+			<ModRange range="0.5" id="37"/>
+			<ModRange range="0.5" id="39"/>
+			<ModRange range="0.5" id="40"/>
+			<ModRange range="0.5" id="41"/>
+			<ModRange range="0.5" id="42"/>
+			<ModRange range="0.5" id="43"/>
+			<ModRange range="0.5" id="44"/>
+			<ModRange range="0.5" id="45"/>
+			<ModRange range="0.5" id="46"/>
+			<ModRange range="0.5" id="47"/>
+			<ModRange range="0.5" id="48"/>
+			<ModRange range="0.5" id="49"/>
+			<ModRange range="0.5" id="50"/>
+			<ModRange range="0.5" id="53"/>
+			<ModRange range="0.5" id="55"/>
+			<ModRange range="0.5" id="56"/>
+			<ModRange range="0.5" id="57"/>
+			<ModRange range="0.5" id="58"/>
+			<ModRange range="0.5" id="59"/>
+			<ModRange range="0.5" id="60"/>
+			<ModRange range="0.5" id="61"/>
+			<ModRange range="0.5" id="62"/>
+			<ModRange range="0.5" id="63"/>
+			<ModRange range="0.5" id="65"/>
+			<ModRange range="0.5" id="66"/>
+			<ModRange range="0.5" id="67"/>
+			<ModRange range="0.5" id="68"/>
+			<ModRange range="0.5" id="69"/>
+			<ModRange range="0.5" id="72"/>
+			<ModRange range="0.5" id="76"/>
+			<ModRange range="0.5" id="80"/>
+			<ModRange range="0.5" id="83"/>
+			<ModRange range="0.5" id="84"/>
+			<ModRange range="0.5" id="85"/>
+			<ModRange range="0.5" id="86"/>
+			<ModRange range="0.5" id="87"/>
+			<ModRange range="0.5" id="88"/>
+			<ModRange range="0.5" id="89"/>
+			<ModRange range="0.5" id="90"/>
+			<ModRange range="0.5" id="91"/>
+			<ModRange range="0.5" id="92"/>
+			<ModRange range="0.5" id="93"/>
+			<ModRange range="0.5" id="94"/>
+			<ModRange range="0.5" id="95"/>
+			<ModRange range="0.5" id="96"/>
+			<ModRange range="0.5" id="97"/>
+			<ModRange range="0.5" id="98"/>
+			<ModRange range="0.5" id="100"/>
+			<ModRange range="0.5" id="101"/>
+			<ModRange range="0.5" id="102"/>
+			<ModRange range="0.5" id="103"/>
+			<ModRange range="0.5" id="104"/>
+		</Item>
 		<Item variant="1" id="39">
 			Rarity: UNIQUE
 Brutal Restraint [4329; 3; Pain Attunement]
@@ -1640,6 +2058,281 @@ Historic
 			<ModRange range="0.5" id="3"/>
 			<ModRange range="0.5" id="4"/>
 			<ModRange range="0.5" id="5"/>
+		</Item>
+		<Item variant="4" id="27">
+			Rarity: UNIQUE
+Brutal Restraint
+Timeless Jewel
+League: Legion
+Variant: Asenath (Dance with Death)
+Variant: Deshret (Wind Dancer) (Pre 3.11.0)
+Variant: Nasima (Second Sight)
+Variant: Balbala (The Traitor)
+Selected Variant: 4
+LevelReq: 20
+Radius: Large
+Limited to: 1
+Implicits: 0
+{variant:1}{range:0.5}Denoted service of (500-8000) dekhara in the akhara of Asenath
+{variant:2}{range:0.5}Denoted service of (500-8000) dekhara in the akhara of Deshret
+{variant:3}{range:0.5}Denoted service of (500-8000) dekhara in the akhara of Nasima
+{variant:4}{range:0.5}Denoted service of (500-8000) dekhara in the akhara of Balbala
+Passives in radius are Conquered by the Maraketh
+Historic
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+		</Item>
+		<Item variant="2" id="2">
+			Rarity: UNIQUE
+Careful Planning
+Viridian Jewel
+Variant: Pre 3.20.0
+Variant: Current
+Selected Variant: 2
+Radius: Large
+Implicits: 0
+{range:0.5}+(16-24) to Dexterity
+Intelligence from Passives in Radius is Transformed to Dexterity
+{variant:2}Corrupted
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+		</Item>
+		<Item id="52">
+			Rarity: RARE
+ENERGY SHIELD + PHASING ON KILL
+Hypnotic Eye Jewel
+Crafted: true
+Prefix: None
+Prefix: {range:0.225}AbyssFlatEnergyShieldJewel4
+Suffix: None
+Suffix: {range:1}AbyssChancetoGainPhasingOnKillJewel1
+Quality: 0
+LevelReq: 66
+Implicits: 0
++37 to maximum Energy Shield
+5% chance to gain Phasing for 4 seconds on Kill
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+		</Item>
+		<Item variant="2" id="46">
+			Rarity: UNIQUE
+Glorious Vanity [2996; 90; Pain Attunement]
+Timeless Jewel
+League: Legion
+Variant: Doryani (Corrupted Soul)
+Variant: Xibaqua (Divine Flesh)
+Variant: Ahuana (Immortal Ambition)
+Selected Variant: 2
+LevelReq: 20
+Radius: Large
+Limited to: 1
+Implicits: 0
+{variant:1}Bathed in the blood of 2996 sacrificed in the name of Doryani
+{variant:2}Bathed in the blood of 2996 sacrificed in the name of Xibaqua
+{variant:3}Bathed in the blood of 2996 sacrificed in the name of Ahuana
+Passives in radius are Conquered by the Vaal
+Historic
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+		</Item>
+		<Item variant="2" id="47">
+			Rarity: UNIQUE
+Glorious Vanity [3044; 108; Pain Attunement]
+Timeless Jewel
+League: Legion
+Variant: Doryani (Corrupted Soul)
+Variant: Xibaqua (Divine Flesh)
+Variant: Ahuana (Immortal Ambition)
+Selected Variant: 2
+LevelReq: 20
+Radius: Large
+Limited to: 1
+Implicits: 0
+{variant:1}Bathed in the blood of 3044 sacrificed in the name of Doryani
+{variant:2}Bathed in the blood of 3044 sacrificed in the name of Xibaqua
+{variant:3}Bathed in the blood of 3044 sacrificed in the name of Ahuana
+Passives in radius are Conquered by the Vaal
+Historic
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+		</Item>
+		<Item variant="2" id="48">
+			Rarity: UNIQUE
+Glorious Vanity [967; 110; The Agnostic]
+Timeless Jewel
+League: Legion
+Variant: Doryani (Corrupted Soul)
+Variant: Xibaqua (Divine Flesh)
+Variant: Ahuana (Immortal Ambition)
+Selected Variant: 2
+LevelReq: 20
+Radius: Large
+Limited to: 1
+Implicits: 0
+{variant:1}Bathed in the blood of 967 sacrificed in the name of Doryani
+{variant:2}Bathed in the blood of 967 sacrificed in the name of Xibaqua
+{variant:3}Bathed in the blood of 967 sacrificed in the name of Ahuana
+Passives in radius are Conquered by the Vaal
+Historic
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+		</Item>
+		<Item variant="4" id="45">
+			Rarity: UNIQUE
+Glorious Vanity
+Timeless Jewel
+League: Legion
+Variant: Doryani (Corrupted Soul)
+Variant: Xibaqua (Divine Flesh)
+Variant: Zerphi (Eternal Youth) (Pre 3.11.0)
+Variant: Ahuana (Immortal Ambition)
+Selected Variant: 4
+LevelReq: 20
+Radius: Large
+Limited to: 1
+Implicits: 0
+{variant:1}{range:0.5}Bathed in the blood of (100-8000) sacrificed in the name of Doryani
+{variant:2}{range:0.5}Bathed in the blood of (100-8000) sacrificed in the name of Xibaqua
+{variant:3}{range:0.5}Bathed in the blood of (100-8000) sacrificed in the name of Zerphi
+{variant:4}{range:0.5}Bathed in the blood of (100-8000) sacrificed in the name of Ahuana
+Passives in radius are Conquered by the Vaal
+Historic
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+		</Item>
+		<Item variant="1" variantAlt="11" id="35" variantAlt2="9">
+			Rarity: UNIQUE
+Militant Faith
+Timeless Jewel
+League: Legion
+Variant: Avarius (Power of Purpose)
+Variant: Dominus (Inner Conviction)
+Variant: Venarius (The Agnostic) (Pre 3.11.0)
+Variant: Maxarius (Transcendence)
+Variant: Totem Damage
+Variant: Brand Damage
+Variant: Channelling Damage
+Variant: Area Damage
+Variant: Elemental Damage
+Variant: Elemental Resistances
+Variant: Effect of non-Damaging Ailments
+Variant: Elemental Ailment Duration
+Variant: Duration of Curses
+Variant: Minion Attack and Cast Speed
+Variant: Minions Accuracy Rating
+Variant: Mana Regen
+Variant: Skill Cost
+Variant: Non-Curse Aura Effect
+Variant: Defences from Shield
+Selected Variant: 1
+Has Alt Variant: true
+Selected Alt Variant: 11
+Has Alt Variant Two: true
+Selected Alt Variant Two: 9
+LevelReq: 20
+Radius: Large
+Limited to: 1
+Implicits: 0
+{variant:1}{range:0.5}Carved to glorify (2000-10000) new faithful converted by High Templar Avarius
+{variant:2}{range:0.5}Carved to glorify (2000-10000) new faithful converted by High Templar Dominus
+{variant:3}{range:0.5}Carved to glorify (2000-10000) new faithful converted by High Templar Venarius
+{variant:4}{range:0.5}Carved to glorify (2000-10000) new faithful converted by High Templar Maxarius
+{variant:5}4% increased Totem Damage per 10 Devotion
+{variant:6}4% increased Brand Damage per 10 Devotion
+{variant:7}Channelling Skills deal 4% increased Damage per 10 Devotion
+{variant:8}4% increased Area Damage per 10 Devotion
+{variant:9}4% increased Elemental Damage per 10 Devotion
+{variant:10}+2% to all Elemental Resistances per 10 Devotion
+{variant:11}3% increased Effect of non-Damaging Ailments on Enemies per 10 Devotion
+{variant:12}4% reduced Elemental Ailment Duration on you per 10 Devotion
+{variant:13}4% reduced Duration of Curses on you per 10 Devotion
+{variant:14}1% increased Minion Attack and Cast Speed per 10 Devotion
+{variant:15}Minions have +60 to Accuracy Rating per 10 Devotion
+{variant:16}Regenerate 0.6 Mana per Second per 10 Devotion
+{variant:17}1% reduced Mana Cost of Skills per 10 Devotion
+{variant:18}1% increased effect of Non-Curse Auras per 10 Devotion
+{variant:19}3% increased Defences from Equipped Shield per 10 Devotion
+Passives in radius are Conquered by the Templars
+Historic
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.5" id="7"/>
+			<ModRange range="0.5" id="8"/>
+			<ModRange range="0.5" id="9"/>
+			<ModRange range="0.5" id="10"/>
+			<ModRange range="0.5" id="11"/>
+			<ModRange range="0.5" id="12"/>
+			<ModRange range="0.5" id="13"/>
+			<ModRange range="0.5" id="14"/>
+			<ModRange range="0.5" id="15"/>
+			<ModRange range="0.5" id="16"/>
+			<ModRange range="0.5" id="17"/>
+			<ModRange range="0.5" id="18"/>
+			<ModRange range="0.5" id="19"/>
+			<ModRange range="0.5" id="20"/>
+			<ModRange range="0.5" id="21"/>
+		</Item>
+		<Item id="57">
+			Rarity: RARE
+New Item
+Cobalt Jewel
+Crafted: true
+Prefix: None
+Prefix: {range:0.5}FireDamageJewel
+Suffix: {range:0.5}JewelFireDamageOverTimeMultiplier1
+Suffix: None
+Quality: 0
+LevelReq: 0
+Implicits: 0
++7% to Fire Damage over Time Multiplier
+15% increased Fire Damage
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+		</Item>
+		<Item variant="2" id="58">
+			Rarity: UNIQUE
+The Red Nightmare
+Crimson Jewel
+League: Breach
+Variant: Pre 3.21.0
+Variant: Current
+Selected Variant: 2
+Radius: Large
+Limited to: 1
+Implicits: 0
+{variant:1}Gain 5% of Fire Damage as Extra Chaos Damage
+{variant:2}{range:1}Gain (6-10)% of Fire Damage as Extra Chaos Damage
+{variant:1}Passives granting Fire Resistance or all Elemental Resistances in Radius
+also grant Chance to Block Attack Damage at 35% of its value
+{variant:2}Passives granting Fire Resistance or all Elemental Resistances in Radius
+also grant Chance to Block Attack Damage at 50% of its value
+{variant:1}Passives granting Fire Resistance or all Elemental Resistances in Radius
+{variant:1}also grant an equal chance to gain an Endurance Charge on Kill
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="1" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
 		</Item>
 		<Item variant="29" variantAlt="29" id="37" variantAlt2="1">
 			Rarity: UNIQUE
@@ -1944,266 +2637,6 @@ Implicits: 0
 			<ModRange range="0.5" id="102"/>
 			<ModRange range="0.5" id="103"/>
 			<ModRange range="0.5" id="104"/>
-		</Item>
-		<Item variant="4" id="27">
-			Rarity: UNIQUE
-Brutal Restraint
-Timeless Jewel
-League: Legion
-Variant: Asenath (Dance with Death)
-Variant: Deshret (Wind Dancer) (Pre 3.11.0)
-Variant: Nasima (Second Sight)
-Variant: Balbala (The Traitor)
-Selected Variant: 4
-LevelReq: 20
-Radius: Large
-Limited to: 1
-Implicits: 0
-{variant:1}{range:0.5}Denoted service of (500-8000) dekhara in the akhara of Asenath
-{variant:2}{range:0.5}Denoted service of (500-8000) dekhara in the akhara of Deshret
-{variant:3}{range:0.5}Denoted service of (500-8000) dekhara in the akhara of Nasima
-{variant:4}{range:0.5}Denoted service of (500-8000) dekhara in the akhara of Balbala
-Passives in radius are Conquered by the Maraketh
-Historic
-			<ModRange range="0.5" id="1"/>
-			<ModRange range="0.5" id="2"/>
-			<ModRange range="0.5" id="3"/>
-			<ModRange range="0.5" id="4"/>
-			<ModRange range="0.5" id="5"/>
-			<ModRange range="0.5" id="6"/>
-		</Item>
-		<Item variant="2" id="2">
-			Rarity: UNIQUE
-Careful Planning
-Viridian Jewel
-Variant: Pre 3.20.0
-Variant: Current
-Selected Variant: 2
-Radius: Large
-Implicits: 0
-{range:0.5}+(16-24) to Dexterity
-Intelligence from Passives in Radius is Transformed to Dexterity
-{variant:2}Corrupted
-			<ModRange range="0.5" id="1"/>
-			<ModRange range="0.5" id="2"/>
-		</Item>
-		<Item variant="2" id="46">
-			Rarity: UNIQUE
-Glorious Vanity [2996; 90; Pain Attunement]
-Timeless Jewel
-League: Legion
-Variant: Doryani (Corrupted Soul)
-Variant: Xibaqua (Divine Flesh)
-Variant: Ahuana (Immortal Ambition)
-Selected Variant: 2
-LevelReq: 20
-Radius: Large
-Limited to: 1
-Implicits: 0
-{variant:1}Bathed in the blood of 2996 sacrificed in the name of Doryani
-{variant:2}Bathed in the blood of 2996 sacrificed in the name of Xibaqua
-{variant:3}Bathed in the blood of 2996 sacrificed in the name of Ahuana
-Passives in radius are Conquered by the Vaal
-Historic
-			<ModRange range="0.5" id="1"/>
-			<ModRange range="0.5" id="2"/>
-			<ModRange range="0.5" id="3"/>
-			<ModRange range="0.5" id="4"/>
-			<ModRange range="0.5" id="5"/>
-		</Item>
-		<Item variant="2" id="47">
-			Rarity: UNIQUE
-Glorious Vanity [3044; 108; Pain Attunement]
-Timeless Jewel
-League: Legion
-Variant: Doryani (Corrupted Soul)
-Variant: Xibaqua (Divine Flesh)
-Variant: Ahuana (Immortal Ambition)
-Selected Variant: 2
-LevelReq: 20
-Radius: Large
-Limited to: 1
-Implicits: 0
-{variant:1}Bathed in the blood of 3044 sacrificed in the name of Doryani
-{variant:2}Bathed in the blood of 3044 sacrificed in the name of Xibaqua
-{variant:3}Bathed in the blood of 3044 sacrificed in the name of Ahuana
-Passives in radius are Conquered by the Vaal
-Historic
-			<ModRange range="0.5" id="1"/>
-			<ModRange range="0.5" id="2"/>
-			<ModRange range="0.5" id="3"/>
-			<ModRange range="0.5" id="4"/>
-			<ModRange range="0.5" id="5"/>
-		</Item>
-		<Item variant="2" id="48">
-			Rarity: UNIQUE
-Glorious Vanity [967; 110; The Agnostic]
-Timeless Jewel
-League: Legion
-Variant: Doryani (Corrupted Soul)
-Variant: Xibaqua (Divine Flesh)
-Variant: Ahuana (Immortal Ambition)
-Selected Variant: 2
-LevelReq: 20
-Radius: Large
-Limited to: 1
-Implicits: 0
-{variant:1}Bathed in the blood of 967 sacrificed in the name of Doryani
-{variant:2}Bathed in the blood of 967 sacrificed in the name of Xibaqua
-{variant:3}Bathed in the blood of 967 sacrificed in the name of Ahuana
-Passives in radius are Conquered by the Vaal
-Historic
-			<ModRange range="0.5" id="1"/>
-			<ModRange range="0.5" id="2"/>
-			<ModRange range="0.5" id="3"/>
-			<ModRange range="0.5" id="4"/>
-			<ModRange range="0.5" id="5"/>
-		</Item>
-		<Item variant="4" id="45">
-			Rarity: UNIQUE
-Glorious Vanity
-Timeless Jewel
-League: Legion
-Variant: Doryani (Corrupted Soul)
-Variant: Xibaqua (Divine Flesh)
-Variant: Zerphi (Eternal Youth) (Pre 3.11.0)
-Variant: Ahuana (Immortal Ambition)
-Selected Variant: 4
-LevelReq: 20
-Radius: Large
-Limited to: 1
-Implicits: 0
-{variant:1}{range:0.5}Bathed in the blood of (100-8000) sacrificed in the name of Doryani
-{variant:2}{range:0.5}Bathed in the blood of (100-8000) sacrificed in the name of Xibaqua
-{variant:3}{range:0.5}Bathed in the blood of (100-8000) sacrificed in the name of Zerphi
-{variant:4}{range:0.5}Bathed in the blood of (100-8000) sacrificed in the name of Ahuana
-Passives in radius are Conquered by the Vaal
-Historic
-			<ModRange range="0.5" id="1"/>
-			<ModRange range="0.5" id="2"/>
-			<ModRange range="0.5" id="3"/>
-			<ModRange range="0.5" id="4"/>
-			<ModRange range="0.5" id="5"/>
-			<ModRange range="0.5" id="6"/>
-		</Item>
-		<Item variant="1" variantAlt="11" id="35" variantAlt2="9">
-			Rarity: UNIQUE
-Militant Faith
-Timeless Jewel
-League: Legion
-Variant: Avarius (Power of Purpose)
-Variant: Dominus (Inner Conviction)
-Variant: Venarius (The Agnostic) (Pre 3.11.0)
-Variant: Maxarius (Transcendence)
-Variant: Totem Damage
-Variant: Brand Damage
-Variant: Channelling Damage
-Variant: Area Damage
-Variant: Elemental Damage
-Variant: Elemental Resistances
-Variant: Effect of non-Damaging Ailments
-Variant: Elemental Ailment Duration
-Variant: Duration of Curses
-Variant: Minion Attack and Cast Speed
-Variant: Minions Accuracy Rating
-Variant: Mana Regen
-Variant: Skill Cost
-Variant: Non-Curse Aura Effect
-Variant: Defences from Shield
-Selected Variant: 1
-Has Alt Variant: true
-Selected Alt Variant: 11
-Has Alt Variant Two: true
-Selected Alt Variant Two: 9
-LevelReq: 20
-Radius: Large
-Limited to: 1
-Implicits: 0
-{variant:1}{range:0.5}Carved to glorify (2000-10000) new faithful converted by High Templar Avarius
-{variant:2}{range:0.5}Carved to glorify (2000-10000) new faithful converted by High Templar Dominus
-{variant:3}{range:0.5}Carved to glorify (2000-10000) new faithful converted by High Templar Venarius
-{variant:4}{range:0.5}Carved to glorify (2000-10000) new faithful converted by High Templar Maxarius
-{variant:5}4% increased Totem Damage per 10 Devotion
-{variant:6}4% increased Brand Damage per 10 Devotion
-{variant:7}Channelling Skills deal 4% increased Damage per 10 Devotion
-{variant:8}4% increased Area Damage per 10 Devotion
-{variant:9}4% increased Elemental Damage per 10 Devotion
-{variant:10}+2% to all Elemental Resistances per 10 Devotion
-{variant:11}3% increased Effect of non-Damaging Ailments on Enemies per 10 Devotion
-{variant:12}4% reduced Elemental Ailment Duration on you per 10 Devotion
-{variant:13}4% reduced Duration of Curses on you per 10 Devotion
-{variant:14}1% increased Minion Attack and Cast Speed per 10 Devotion
-{variant:15}Minions have +60 to Accuracy Rating per 10 Devotion
-{variant:16}Regenerate 0.6 Mana per Second per 10 Devotion
-{variant:17}1% reduced Mana Cost of Skills per 10 Devotion
-{variant:18}1% increased effect of Non-Curse Auras per 10 Devotion
-{variant:19}3% increased Defences from Equipped Shield per 10 Devotion
-Passives in radius are Conquered by the Templars
-Historic
-			<ModRange range="0.5" id="1"/>
-			<ModRange range="0.5" id="2"/>
-			<ModRange range="0.5" id="3"/>
-			<ModRange range="0.5" id="4"/>
-			<ModRange range="0.5" id="5"/>
-			<ModRange range="0.5" id="6"/>
-			<ModRange range="0.5" id="7"/>
-			<ModRange range="0.5" id="8"/>
-			<ModRange range="0.5" id="9"/>
-			<ModRange range="0.5" id="10"/>
-			<ModRange range="0.5" id="11"/>
-			<ModRange range="0.5" id="12"/>
-			<ModRange range="0.5" id="13"/>
-			<ModRange range="0.5" id="14"/>
-			<ModRange range="0.5" id="15"/>
-			<ModRange range="0.5" id="16"/>
-			<ModRange range="0.5" id="17"/>
-			<ModRange range="0.5" id="18"/>
-			<ModRange range="0.5" id="19"/>
-			<ModRange range="0.5" id="20"/>
-			<ModRange range="0.5" id="21"/>
-		</Item>
-		<Item id="51">
-			Rarity: RARE
-New Item
-Stygian Vise
-Crafted: true
-Prefix: None
-Prefix: None
-Prefix: {range:0.268}IncreasedLife6
-Suffix: {range:1}LightningResist4
-Suffix: {range:1}FireResist4
-Suffix: None
-Quality: 0
-Sockets: A
-LevelReq: 29
-Implicits: 1
-Has 1 Abyssal Socket
-+62 to maximum Life
-+29% to Fire Resistance
-+29% to Lightning Resistance
-{tags:unveiled_mod,defences,energy_shield}{crafted}Regenerate 150 Energy Shield per second while a Rare or Unique Enemy is Nearby
-			<ModRange range="0.5" id="1"/>
-			<ModRange range="0.5" id="2"/>
-			<ModRange range="0.5" id="3"/>
-			<ModRange range="0.5" id="4"/>
-			<ModRange range="0.5" id="5"/>
-		</Item>
-		<Item id="52">
-			Rarity: RARE
-ENERGY SHIELD + PHASING ON KILL
-Hypnotic Eye Jewel
-Crafted: true
-Prefix: None
-Prefix: {range:0.225}AbyssFlatEnergyShieldJewel4
-Suffix: None
-Suffix: {range:1}AbyssChancetoGainPhasingOnKillJewel1
-Quality: 0
-LevelReq: 66
-Implicits: 0
-+37 to maximum Energy Shield
-5% chance to gain Phasing for 4 seconds on Kill
-			<ModRange range="0.5" id="1"/>
-			<ModRange range="0.5" id="2"/>
 		</Item>
 		<ItemSet useSecondWeaponSet="false" title="DD Swap" id="4">
 			<Slot itemPbURL="" name="Weapon 1" itemId="1"/>
@@ -2653,23 +3086,22 @@ Implicits: 0
 	</Items>
 	<Config>
 		<Input name="conditionEnemyChilled" boolean="true"/>
-		<Input name="conditionEnemyBurning" boolean="true"/>
-		<Input name="conditionSoulGainPrevention" boolean="true"/>
+		<Input name="highestDamageType" string="Fire"/>
 		<Input name="conditionFocused" boolean="true"/>
 		<Input name="enemyIsBoss" string="Pinnacle"/>
 		<Input name="conditionConsumedCorpseRecently" boolean="true"/>
 		<Input name="pantheonMajorGod" string="TheBrineKing"/>
 		<Input name="waveOfConvictionExposureType" string="Fire"/>
 		<Input name="conditionConvergence" boolean="true"/>
-		<Input name="detonateDeadCorpseLife" number="158000"/>
-		<Input name="conditionEnemyFireExposure" boolean="true"/>
+		<Input name="conditionKilledRecently" boolean="true"/>
 		<Input name="multiplierChilledByYouSeconds" number="5"/>
 		<Input name="lifeRegenMode" string="AVERAGE"/>
-		<Input name="highestDamageType" string="Fire"/>
+		<Input name="conditionEnemyBurning" boolean="true"/>
+		<Input name="detonateDeadCorpseLife" number="138000"/>
 		<Input name="pantheonMinorGod" string="Abberath"/>
 		<Input name="conditionEnemyIgnited" boolean="true"/>
 		<Input name="conditionEnemyOnScorchedGround" boolean="true"/>
-		<Input name="conditionKilledRecently" boolean="true"/>
+		<Input name="conditionEnemyFireExposure" boolean="true"/>
 		<Placeholder name="enemySpeed" number="700"/>
 		<Placeholder name="enemyChaosResist" number="30"/>
 		<Placeholder name="enemyLightningDamage" number="2241"/>
@@ -2684,12 +3116,12 @@ Implicits: 0
 		<Placeholder name="enemyLightningResist" number="50"/>
 		<Placeholder name="enemyChaosDamage" number="896"/>
 		<Placeholder name="enemyFireDamage" number="2241"/>
-		<Placeholder name="enemyFirePen" number="3"/>
-		<Placeholder name="enemyDamageRollRange" number="70"/>
-		<Placeholder name="enemyArmour" number="62891"/>
-		<Placeholder name="enemyCritDamage" number="30"/>
-		<Placeholder name="enemyPhysicalDamage" number="2241"/>
 		<Placeholder name="enemyEvasion" number="10143"/>
 		<Placeholder name="sigilOfPowerStages" number="1"/>
+		<Placeholder name="enemyArmour" number="62891"/>
+		<Placeholder name="enemyPhysicalDamage" number="2241"/>
+		<Placeholder name="enemyDamageRollRange" number="70"/>
+		<Placeholder name="enemyFirePen" number="3"/>
+		<Placeholder name="enemyCritDamage" number="30"/>
 	</Config>
 </PathOfBuilding>
